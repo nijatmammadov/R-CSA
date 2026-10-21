@@ -434,7 +434,7 @@ def main():
                          "research plan's P(TRUE | question, previous steps, step) from token logprobs")
     ap.add_argument('--judge-prompt', default='evaluate_qacct_v1_backup.md',
                     help="prompts/ file for the in-context step judge; evaluate_step_short.md is the "
-                         "short version for small models (the long one was tuned on Gemini)")
+                         "short version for small models")
     ap.add_argument('--shorten', action='store_true',
                     help="the research plan's statement conversion: the model first rewrites each step as "
                          "one sentence '<quantity> = <expression> = <value>' (prompts/step_shorten.md), kept "

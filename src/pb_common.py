@@ -10,7 +10,6 @@ _HERE = os.path.dirname(os.path.abspath(__file__))
 SUBSETS = ['gsm8k', 'math', 'olympiadbench', 'omnimath']
 
 APIS = {
-    'vertex': (None, None),
     'nim': ('https://integrate.api.nvidia.com/v1', 'NVIDIA_API_KEY'),
     'ollama': (None, None),
     'openrouter': ('https://openrouter.ai/api/v1', 'OPENROUTER_API_KEY'),
@@ -56,9 +55,6 @@ MODEL_IDS = {
     },
     'vllm': _HF_IDS,
     'hf': _HF_IDS,
-    'vertex': {
-        'Gemini-2.5-Flash': 'gemini-2.5-flash',
-    },
 }
 
 
@@ -229,86 +225,12 @@ def load_processbench(subsets, generator, from_json=None, limit=None, per_subset
     return rows
 
 
-class _NS:
-    def __init__(self, **kw):
-        self.__dict__.update(kw)
-
-
-class VertexError(Exception):
-    def __init__(self, msg, status_code=None):
-        super().__init__(msg)
-        self.status_code = status_code
-
-
-class VertexChat:
-    def __init__(self, gclient, thinking_budget, rpm=60):
-        self._g, self._budget = gclient, thinking_budget
-        self.chat = _NS(completions=_NS(create=self._create))
-        self.models = gclient.models
-        self._gap, self._next, self._lock = 60.0 / max(rpm, 1), 0.0, threading.Lock()
-
-    def _wait_turn(self):
-        with self._lock:
-            now = time.monotonic()
-            start = max(now, self._next)
-            self._next = start + self._gap
-        if start > now:
-            time.sleep(start - now)
-
-    def _create(self, model, messages, max_tokens, temperature, timeout=None, logprobs=False,
-                top_logprobs=None, extra_body=None):
-        from google.genai import types, errors
-        system = '\n\n'.join(m['content'] for m in messages if m['role'] == 'system') or None
-        user = '\n\n'.join(m['content'] for m in messages if m['role'] != 'system')
-        cfg = dict(temperature=temperature, max_output_tokens=max_tokens, system_instruction=system,
-                   thinking_config=types.ThinkingConfig(thinking_budget=self._budget))
-        if logprobs:
-            cfg.update(response_logprobs=True, logprobs=top_logprobs or 1)
-        self._wait_turn()
-        try:
-            r = self._g.models.generate_content(model=model, contents=user,
-                                                config=types.GenerateContentConfig(**cfg))
-        except errors.APIError as e:
-            raise VertexError(str(e)[:500], getattr(e, 'code', None))
-        cand = (r.candidates or [None])[0]
-        text = ''
-        if cand is not None and cand.content is not None:
-            text = ''.join(p.text or '' for p in (cand.content.parts or []) if not getattr(p, 'thought', False))
-        lp = None
-        lr = getattr(cand, 'logprobs_result', None) if cand is not None else None
-        if lr and lr.chosen_candidates:
-            content = []
-            for i, ch in enumerate(lr.chosen_candidates):
-                tops = lr.top_candidates[i].candidates if lr.top_candidates and i < len(lr.top_candidates) else []
-                content.append(_NS(token=ch.token, logprob=ch.log_probability,
-                                   top_logprobs=[_NS(token=c.token, logprob=c.log_probability) for c in tops]))
-            lp = _NS(content=content)
-        um = r.usage_metadata
-        usage = _NS(prompt_tokens=getattr(um, 'prompt_token_count', 0) or 0,
-                    completion_tokens=(getattr(um, 'candidates_token_count', 0) or 0)
-                    + (getattr(um, 'thoughts_token_count', 0) or 0)) if um else None
-        return _NS(choices=[_NS(message=_NS(content=text), logprobs=lp)], usage=usage, provider='vertex')
-
-
 def make_client(api):
     from dotenv import load_dotenv
     load_dotenv(os.path.join(os.path.dirname(_HERE), '.env'))
     load_dotenv()
     if api not in APIS:
         raise SystemExit('unknown --api %s; choose from %s' % (api, ', '.join(APIS)))
-    if api == 'vertex':
-        from google import genai
-        budget = int(os.getenv('VERTEX_THINKING_BUDGET', '0'))
-        rpm = int(os.getenv('VERTEX_RPM', '60'))
-        if os.getenv('VERTEX_API_KEY'):
-            return VertexChat(genai.Client(vertexai=True, api_key=os.getenv('VERTEX_API_KEY')), budget, rpm)
-        if os.getenv('GOOGLE_API_KEY') and not os.getenv('GOOGLE_CLOUD_PROJECT'):
-            return VertexChat(genai.Client(vertexai=True, api_key=os.getenv('GOOGLE_API_KEY')), budget, rpm)
-        if not os.getenv('GOOGLE_CLOUD_PROJECT'):
-            raise SystemExit('set VERTEX_API_KEY, GOOGLE_CLOUD_PROJECT (+ GOOGLE_APPLICATION_CREDENTIALS) '
-                             'or GOOGLE_API_KEY in .env')
-        return VertexChat(genai.Client(vertexai=True, project=os.getenv('GOOGLE_CLOUD_PROJECT'),
-                                       location=os.getenv('GOOGLE_CLOUD_LOCATION', 'us-central1')), budget, rpm)
     from openai import OpenAI
     base, env = APIS[api]
     if api == 'ollama':
