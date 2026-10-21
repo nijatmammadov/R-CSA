@@ -1,0 +1,13 @@
+.env
+.env.*
+!env.example
+*.env
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+/_*
+*.bak
+*.log

@@ -1,0 +1,242 @@
+{
+ "omni_1203": [
+  3,
+  "lists only 8-cycles and 3+5 as non-automorphisms; misses cycle types 2+3+3 (1120) and 4+4 (1260)"
+ ],
+ "omni_2110": [
+  13,
+  "claims 2w_{i+1} >= w_i + w_{i+2} holds for the Fibonacci weights, but 2*3 >= 2+5 is false"
+ ],
+ "omni_2541": [
+  12,
+  "\"known result\": 5 trips suffice for n >= 3; false, each student needs 3 trips, so at least 6"
+ ],
+ "omni_2386": [
+  6,
+  "gives every x in B 5-k choices, ignoring that f on {1,2,3} is already fixed by f(A)=B (so B must lie in {4,5})"
+ ],
+ "omni_0538": [
+  -1,
+  "chain is right: BDC' with B(1,0), D(0,1), C'(21,21) has area 20.5; the official 420 does not fit the problem as written"
+ ],
+ "omni_1674": [
+  19,
+  "assumes the jars that do not hold d coins hold 0, which loses the optimal configurations (2014 is reachable)"
+ ],
+ "omni_0695": [
+  5,
+  "divides the two relations wrongly (drops a factor 2) and gets x = my; the x = 5y family is lost"
+ ],
+ "omni_1681": [
+  5,
+  "a claw before 3 legs also happens with the first claw at position 3, not only at 1 or 2"
+ ],
+ "omni_3792": [
+  18,
+  "argues fewer than 2022 attempts cannot guarantee success; Turbo need not find the empty column (answer 3)"
+ ],
+ "omni_0999": [
+  6,
+  "\"known result\" 21 colourings for fixed empty cells; the true count is 6*36 = 216"
+ ],
+ "omni_0869": [
+  8,
+  "with 10 and 10 socks it stops immediately (p = 1); a sock is thrown away first, so p = 18/19"
+ ],
+ "omni_1778": [
+  17,
+  "brings in launch directions outside the 60 degree angle; m, n >= 0 already covers every launch, so 502 is the answer (it later multiplies by 3)"
+ ],
+ "omni_1192": [
+  7,
+  "only splits removals between layers 2 and 3; removals from layer 4 are never counted"
+ ],
+ "omni_2069": [
+  7,
+  "concludes k >= 2, dropping one-digit n = 1, 2, 3 (which work in any base > 3)"
+ ],
+ "omni_0383": [
+  2,
+  "computes 80/20 = 4 in base 10, ignoring the premise \"1/9 of 60 is 5\" (base 15)"
+ ],
+ "omni_2617": [
+  1,
+  "stops at the second Joker of a specific pair; Mario stops at the first complete Joker pair"
+ ],
+ "omni_2891": [
+  1,
+  "counts Robert on top of the three nurses; he is one of them, so there are 3 nurses"
+ ],
+ "omni_0449": [
+  -1,
+  "chain is right for the series as written (sum = pi^2/16 - 1/2); the official answer 1 belongs to a different series"
+ ],
+ "omni_2533": [
+  3,
+  "FDE is not a vertex angle of parallelogram BDEF; angle FDE = angle BAC = 37, not 85"
+ ],
+ "omni_1763": [
+  19,
+  "bounce count m+n-2 counts only two of the three line families; it is 2(m+n)-3"
+ ],
+ "omni_1801": [
+  4,
+  "there are 14 scalene triangles (both orientations of gaps 1,2,4), not 7"
+ ],
+ "omni_2135": [
+  2,
+  "a value used three times is a constant AP; AP-free value sets are not enough"
+ ],
+ "omni_0830": [
+  11,
+  "\"literature\" value 168 sublattices of B3; the count asked for is 74"
+ ],
+ "omni_1560": [
+  16,
+  "assumes p lies in X1 (and in step 19 in X2); p can be in only one of them"
+ ],
+ "omni_1412": [
+  4,
+  "subtracts half the integer boundary points; the correct correction uses the boundary half-integer points (step 3 had it right)"
+ ],
+ "omni_2498": [
+  2,
+  "takes perimeter/14 as the maximal minimum distance; distance is Euclidean, so this is not the answer"
+ ],
+ "omni_2853": [
+  4,
+  "e = 2a+b gives n(2a+b), not n(a+b); the product should be n(a)^2 n(b)^2 n(a+b)^2 n(2a+b)^2 (N = 3073)"
+ ],
+ "omni_1905": [
+  29,
+  "arithmetic: 255 - 85 = 170, not 172"
+ ],
+ "omni_2517": [
+  9,
+  "angle MBA is not alpha; only angles MBC and MCB equal alpha (step 14 itself writes alpha + B)"
+ ],
+ "omni_1880": [
+  5,
+  "counts the two 3-edge stars as traceable (each has four odd vertices) and finds 12 paths instead of 14; the total 14 is right by luck"
+ ],
+ "omni_2218": [
+  2,
+  "once the ball triangles are fixed, the stick groups go to a specific triangle: 20 ways, not 10"
+ ],
+ "omni_1490": [
+  4,
+  "always keeps 2 in the set, which makes the remaining number even; it never tries sets without 2 (3,...,31 and 139)"
+ ],
+ "omni_0161": [
+  0,
+  "the cell two to the right need not repeat; the two shared-column cells can swap, so periodicity holds in rows or in columns, not both"
+ ],
+ "omni_1851": [
+  -1,
+  "chain is right: brute force gives 2030981 (only 1, 2, 8, 128 are not expressible); the official 2029906 is an arithmetic slip"
+ ],
+ "omni_2404": [
+  8,
+  "claims only 2 layouts of 1/2 x 1/4 rectangles; there are 36"
+ ],
+ "omni_1183": [
+  10,
+  "11 of the 15 diagonals have length >= 3, not 9"
+ ],
+ "omni_2553": [
+  5,
+  "counts 2 positions for every row, ignoring the board edge; per k there are (8-k)(8-2k) placements per orientation"
+ ],
+ "omni_0046": [
+  12,
+  "claims at most 8 edges for any 4 visible faces; 4 faces not around one vertex show 9"
+ ],
+ "omni_1083": [
+  9,
+  "concludes zeros must form a permutation pattern; rows of different types can mix (216 in total)"
+ ],
+ "omni_0181": [
+  12,
+  "claims the maximum is reached with MN perpendicular to OP; it is not (max = 1 + sqrt3 - sqrt(2 sqrt3) = 0.871; the official 2 is also wrong)"
+ ],
+ "omni_0980": [
+  11,
+  "if A, B are frenemies, any C is a frenemy of both; \"same relationship\" is wrong, so classes are not independent"
+ ],
+ "omni_3870": [
+  -1,
+  "chain is right: there are exactly 336 squares mod 2004 (checked), so n = 337; the official 1003 is wrong"
+ ],
+ "omni_2157": [
+  3,
+  "counts all crossing pairs as separate points (general position); the least number needs triple concurrency (1009 triples)"
+ ],
+ "omni_3879": [
+  16,
+  "S cannot be written in u and v alone; a/b is not u/v"
+ ],
+ "omni_3936": [
+  6,
+  "the integral is a lower bound for the sum, so P < e^2.43 does not follow (P = 12.45)"
+ ],
+ "omni_1151": [
+  3,
+  "from fgh = g it concludes fh = id, cancelling as if the permutations commute"
+ ],
+ "omni_2399": [
+  -1,
+  "chain is right for children in a row (C(9,4) = 126); the official 105 assumes a circle, which the text never says"
+ ],
+ "omni_1949": [
+  4,
+  "C(127,k) is not congruent to C(-1,k) mod 128; the divisions by k break it (r_k = 3 or 5 for k >= 32)"
+ ],
+ "omni_2113": [
+  9,
+  "from (3,5) the front token can also move to 6; f(3,5) = 3, not 2"
+ ],
+ "omni_3863": [
+  14,
+  "claims 60 rooks can be removed; leaving a 2x2 square is not reachable (59)"
+ ],
+ "omni_1933": [
+  0,
+  "P(x) includes a 1-x^100 factor, but Pretty Penny has no dollar coins"
+ ],
+ "omni_1104": [
+  9,
+  "reduces the exponent mod 5 instead of mod phi(5) = 4: 2^16 = 1 mod 5, so 2^^4 = 1, not 2"
+ ],
+ "omni_0090": [
+  6,
+  "m <= 35 is only an upper bound; it is not attainable (32)"
+ ],
+ "omni_2235": [
+  1,
+  "wrong octagon vertices: after (1+r2/2, r2/2) comes (1+r2/2, 1+r2/2), not (1, 1+r2); the chain then loops"
+ ],
+ "omni_3808": [
+  15,
+  "x >= 500 is not tight: friend pairs also use up pairs, so one-way invitations <= C(2000,2) - x, giving 1000"
+ ],
+ "omni_2818": [
+  7,
+  "assumes the factor 900 must come from one multiple of 900; for 8978 that gives 23, and 8975..8979 (N = 5) is never checked"
+ ],
+ "omni_0693": [
+  28,
+  "69 * 519 = 11 - 2 = 9 mod 100, not 29; the claimed 6-term cycle is wrong (the multipliers repeat every 10)"
+ ],
+ "omni_4039": [
+  -1,
+  "chain is right for the text as written (15 students in total, so 6 boys: 2^6 = 64); the official 512 needs 15 boys (\"15 young men\" in the original)"
+ ],
+ "omni_1410": [
+  6,
+  "M(4, 30) = 60/2 = 30, not 60"
+ ],
+ "omni_3689": [
+  6,
+  "B'C' is not the rotation of AB + DC; the claimed identity is false"
+ ]
+}

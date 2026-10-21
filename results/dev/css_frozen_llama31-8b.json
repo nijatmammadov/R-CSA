@@ -1,0 +1,57 @@
+{
+ "Simple Confidence": {
+  "t": 0.0,
+  "param": null
+ },
+ "Feng (2025)": {
+  "t": 0.0,
+  "param": 0.0
+ },
+ "P(TRUE) alone (baseline)": {
+  "t": -1.3079252740163836,
+  "param": null
+ },
+ "Regeneration agreement (baseline)": {
+  "t": 0.0,
+  "param": null
+ },
+ "Ablation: CSS without the counterfactual question test": {
+  "t": -1.0885880854865002,
+  "param": [
+   4.0,
+   0.5,
+   0.0,
+   0.0
+  ]
+ },
+ "Ablation: CSS without regeneration agreement": {
+  "t": -2.096634240718488,
+  "param": [
+   0.0,
+   1.0,
+   0.0
+  ]
+ },
+ "Ablation: css.py v2 score (lettered judge, short steps)": {
+  "t": -0.9978533509621916,
+  "param": [
+   "raw",
+   "logodds",
+   1.0,
+   0.0
+  ]
+ },
+ "**R-CSA (ours)**": {
+  "t": -2.634610435732803,
+  "param": [
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ]
+ },
+ "SelfCheckGPT (Manakul et al. 2023)": {
+  "t": 0.35,
+  "param": null
+ }
+}

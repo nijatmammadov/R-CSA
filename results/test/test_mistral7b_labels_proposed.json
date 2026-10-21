@@ -1,0 +1,714 @@
+{
+ "plat_0509": [
+  8,
+  "arithmetic: (3/16)*400 = 75, so the total is 400+100+75 = 575; the step computes (3/16)*400 as 225 and gets 725"
+ ],
+ "plat_0175": [
+  3,
+  "misreading: driving speed is given as 50 mph so hiking speed is 50/2 - 5 = 20; step 3 treats D as unknown and writes a bogus equation 1.5 = (6 - 4.5)*((D/2) - 5) (later solved to D = 60, hiking 25 mph)"
+ ],
+ "plat_0304": [
+  2,
+  "UNSURE: misreading: the question gives 90 geraniums (petunias 90 - 40 = 50); step 2 replaces the known 90 with an unknown G, which leads to the 'no exact number' conclusion; alternative is step 7, which explicitly (and falsely) claims the number of geraniums is unknown"
+ ],
+ "plat_0462": [
+  0,
+  "misreading: labor is charged per hour or part thereof, so 2.25 h bills as 3 h = $105; step 0 uses 35 * 2.25 = $78.75"
+ ],
+ "plat_0367": [
+  3,
+  "misreading: the spending cash is $50 and the card sales must cover 100+50 = 150; the step sets spending money = card sales + $50"
+ ],
+ "plat_0534": [
+  7,
+  "arithmetic: weekly time is 72 min + 2 h + 1.5 h = 282 min (4.7 h); step 7 sums 72 minutes + 2 hours + 1.5 hours to 75.5 hours"
+ ],
+ "plat_0622": [
+  0,
+  "misreading: the sauce is half the original volume, so 32 * 2 = 64 oz = 4 cans = 12 tomatoes; step 0 divides the 32 oz of sauce by 3 tomatoes per can to get 10.67 oz per tomato, which is meaningless"
+ ],
+ "plat_0740": [
+  5,
+  "misreading: open 2 days a week, so weekly = 90 * 2 = $180 (step 4 is right); step 5 multiplies $180 by 3.5 to get $630"
+ ],
+ "plat_0100": [
+  1,
+  "arithmetic: each sheep needs 2*5-3 = 7 lb; the step writes 2*5-3 = 8-3 = 5-3 = 2, gets -1, then assumes 5 lb"
+ ],
+ "plat_0558": [
+  0,
+  "UNSURE: false statement: each restaurant receives 2 pounds (total needed 2*40 = 80); step 0 labels 80 pounds as the amount per restaurant, which step 1 then multiplies by 40 again (3200). Alternative: step 1 (80*40 = 3200) if step 0's mislabel is read as just the correct total 80"
+ ],
+ "plat_0020": [
+  1,
+  "misreading: the living room is 5 times one bedroom = 5 * 240 = 1200 sq ft; step 1 multiplies by 4 bedrooms as well, giving 4800"
+ ],
+ "plat_0753": [
+  1,
+  "misreading: Jimmy = 2 * E + 2 = 18; step 1 writes 2 * (2 * E) + 2"
+ ],
+ "plat_0519": [
+  4,
+  "UNSURE: algebra: total days to walk = 240 / minutes per day, and he walks 3*4 = 12 days; the step rewrites it as 240/(minutes per day * 4) and keeps the 21 calendar days from step 2. Alternative: step 2 (3*7 = 21 days is true, but the relevant count is 3*4 = 12 walking days)"
+ ],
+ "plat_0104": [
+  4,
+  "UNSURE: arithmetic: (16 - 2)/2 = 7; step 4 says 7.5 and rounds down to 7 (value ends up right). Alternative: step 5, misreading: two years passed so Vince is 7 + 2 = 9; step 5 adds only 1 (gives 8)"
+ ],
+ "plat_0065": [
+  3,
+  "algebra: with x = two-hole buttons, holes = 2x + 4(21 - x); step 3 swaps them to (21 - x) * 2 + x * 4"
+ ],
+ "plat_0111": [
+  2,
+  "omission: leftover = 600 - 500 - 20 = 80; step 2 computes 600 - 500 = 100, leaving out Mr. George's 20"
+ ],
+ "plat_0465": [
+  0,
+  "misreading: $500 buys 100 books, so a book costs $5 and $27000 buys 5400 books; the step divides 27000/500 = 54 and calls it the number of books"
+ ],
+ "plat_0765": [
+  3,
+  "false statement: monthly total 50,000 is given, so week 4 = 50,000 - (8,000 + 4,000 + 24,000) = 14,000; step 3 declares the fourth week cannot be determined"
+ ],
+ "plat_0187": [
+  2,
+  "misreading: the $30 tripled to $90 in total; step 2 adds the original $30 again to get $120"
+ ],
+ "plat_0276": [
+  1,
+  "UNSURE: false statement: the two known pizzas cost $30 together and x was defined as the price of the OTHER pizzas; step 1 sets 2x = 30 for the known pizzas. Alternative step 2: misreading, it uses 64 - 2*30 = 4 (treats $30 as each) instead of 64 - 30 = 34"
+ ],
+ "plat_0125": [
+  4,
+  "false statement: steps 0-3 correctly reach 30-19 = 11 minutes; the step invents a 5-minute early-arrival buffer that the question does not state"
+ ],
+ "plat_0053": [
+  3,
+  "false statement: there are 10 boys and 10 girls, each girl brings 60 + 4*60 = 300; step 3 invents 'four girls who didn't participate' and sets boys' total equal to girls' total minus them"
+ ],
+ "plat_0135": [
+  1,
+  "misreading: the zoo has 20 sheep, so the farm has 20 / 2 = 10; step 1 uses 60 zoo sheep (the zoo's cow count) and gets 30"
+ ],
+ "plat_0345": [
+  3,
+  "algebra: he had 100 to sell, sold 150 (deficit 50), then ordered 100, so 100 - 150 + 100 = 50 left; step 3 adds sold candies: 100 + 150 + 100 = 350"
+ ],
+ "plat_0060": [
+  0,
+  "UNSURE: misreading: he did not sell all 13 sets (he earned 160+5 = 165, i.e. 11 sets); the step takes the revenue as 13*15 = 195. Alternative: step 2 (money he had = 160 + 5 = 165; the step computes 160 - 5 = 155)"
+ ],
+ "plat_0123": [
+  4,
+  "misreading: bacon costs $10 total, so total is 10 + 24 + 12 + 14 = $60; step 4 uses the per-pack $2 for bacon and gets $52"
+ ],
+ "plat_0704": [
+  0,
+  "misreading: two parents are adults, so adult tickets are 2 * 12 = $24; step 0 concludes there are 0 adults"
+ ],
+ "plat_0298": [
+  4,
+  "UNSURE: false statement: after Mark ate 4, remaining sandwiches = 7 - 4 + 3 = 6 (24 meatballs); step 4 calls all 10 ordered sandwiches 'the remaining 10' (40 meatballs). Alternative step 3 (adds 7 + 3 = 10 ignoring Mark's 4, though 'ordered a total of 10' is literally true) or step 6 (40 - 12 instead of 40 - 16)"
+ ],
+ "plat_0455": [
+  0,
+  "misreading: Monday is given as 12 problems; the step writes Monday = 100 - (Tuesday + Wednesday) as if Monday were unknown"
+ ],
+ "plat_0216": [
+  4,
+  "false statement: Jenny ate 2 slices (given); step 4 claims Jenny ate 12 - 7 = 5 slices (this is actually the number left before she eats)"
+ ],
+ "plat_0399": [
+  2,
+  "arithmetic: 44 * 5/11 = 20; step 2 says 22"
+ ],
+ "plat_0469": [
+  4,
+  "arithmetic: left = 300 - 280 = 20; step 4 computes 280 - 300 = -20 and says he ran out"
+ ],
+ "plat_0686": [
+  0,
+  "misreading: dinner uses 2 adult bowls + 2 child bowls = 4+2 = 6 child bowls (3 adult bowls); the step counts the family's dinner as 4 adult bowls"
+ ],
+ "plat_0323": [
+  4,
+  "false statement: triplets share one age, so the other two triplets sum to 2*Trio (all three = 3*Trio); step 4 sets Trio2 + Trio3 = 3*Trio (and the chain never uses that the twins are the same age)"
+ ],
+ "plat_0319": [
+  0,
+  "misreading: 1 pound makes 10 candles, so 20 candles need 2 pounds; step 0 uses 1 pound per candle = 20 pounds"
+ ],
+ "plat_0166": [
+  0,
+  "UNSURE: false statement: the case costs $576; step 0 'cost of the case' = 576/48 = $12 (per-pair cost), later used as the total cost in step 9. Alternative step 1: nonsense formula flash sale = 48 - (dept store) - 17 (dept store should be 48 - 17 = 31)"
+ ],
+ "plat_0652": [
+  2,
+  "false statement: 4750 remaining seats are split among 950 graduates (4750/950 = 5); the step invents the assumption that each graduate invites one guest so total guests = number of graduates"
+ ],
+ "plat_0305": [
+  5,
+  "algebra: (y + 4) + y + y/2 = 2y + 4 + y/2; step 5 simplifies to 3y + 4 + y/2 (correct y = 6, first set 10)"
+ ],
+ "plat_0598": [
+  3,
+  "omission: the total of four birds is 8 + 8 + 16 + 19 = 51; step 3 leaves out Sally Thirtytwo (8) and sums only three birds = 43"
+ ],
+ "plat_0458": [
+  2,
+  "misreading: increase is 5% of the ORIGINAL price each year, so +6 per year = 138; step 2 compounds (126 * 0.05 = 6.3, etc.) reaching 138.915"
+ ],
+ "plat_0271": [
+  0,
+  "arithmetic: 3 + 1.5*2 = 6 hours; the step writes 5 hours"
+ ],
+ "plat_0445": [
+  0,
+  "UNSURE: false statement: nothing says one story equals Mattison's height; step 0 sets height of one story = 60 inches, then step 1 makes the house 2*60 = 120 instead of 7*60 = 420. Alternative: step 1 (house height 120 instead of 420)"
+ ],
+ "plat_0599": [
+  1,
+  "misreading: medium removes 2 * 1 = 2 L/day, so 3 days = 6 L; step 1 computes 2 * 3 = 6 L per day and 18 L for 3 days"
+ ],
+ "plat_0436": [
+  4,
+  "omission: question asks combined total 100 + 125 + 175 = 400; step 4 gives only Daisy's $175 as the answer"
+ ],
+ "plat_0574": [
+  -1,
+  "UNITS ONLY: steps 0-3 correctly get 350 inches (gold 350); step 4 converts to 350/12 = 29.17 feet, a correct conversion the question did not ask for"
+ ],
+ "plat_0025": [
+  0,
+  "misreading: each of the 9 tall cheerleaders is 64 in; step 0 computes their 'average height' as 64*9/10 = 57.6 in"
+ ],
+ "plat_0641": [
+  1,
+  "false statement: the total water is 24 L, so the girls got 24 * 1/3 = 8 L; step 1 claims total water = (1/3) * 3 = 1"
+ ],
+ "plat_0796": [
+  0,
+  "misreading: buy one get one 50% off means $8 + $4 = $12 for the T-shirts; step 0 discounts both: 2 * $4 = $8"
+ ],
+ "plat_0571": [
+  1,
+  "misreading: each roll is broken into 8 pieces, so 6 rolls give 6*8 = 48 pieces; the step says each roll gives 1/8 piece"
+ ],
+ "plat_0288": [
+  2,
+  "misreading: the tank is emptied at 500 gallons per day; step 2 sets water used per day = 5000/6 gallons"
+ ],
+ "plat_0343": [
+  4,
+  "algebra: warming raises the temperature, so final = start - 18 + 4 = start - 14; step 4 subtracts the warming too (start - (18 + 4)), then step 5 wrongly declares it undeterminable"
+ ],
+ "plat_0037": [
+  4,
+  "algebra: M + M/2 = 3M/2 = 30; step 4 turns M/2 into 2*M/2 = M"
+ ],
+ "plat_0511": [
+  0,
+  "misreading: the factors are ratios (Saskay 12*1 in = 1 ft, Kagiyami 4 ft, Naruto 40 ft); the step multiplies each ratio by 12 and calls them 120, 48, 144 feet"
+ ],
+ "plat_0567": [
+  2,
+  "omission: 200 beds already occupied, so unoccupied = 1000 - 200 - 700 = 100; step 2 computes 1000 - 700 = 300, leaving out the 200 initial patients"
+ ],
+ "plat_0303": [
+  2,
+  "misreading: every second glass (8 of 16) costs $3 and the rest $5, total $64; step 2 claims each glass costs 60% of the previous one (geometric chain)"
+ ],
+ "plat_0683": [
+  4,
+  "algebra: sum should be A + B + S + M = 87; step 4 writes (B - 3) + (S + 2) + M, i.e. A + A + M, leaving out the brother and sister ages (step 6 also mis-simplifies -3+2-1 as -1)"
+ ],
+ "plat_0789": [
+  1,
+  "misreading: there are 8*5 = 40 bars, so children get 40-24 = 16; the step uses 8 (packets) as the total bars and gets 8-24 = -16"
+ ],
+ "plat_0292": [
+  0,
+  "UNSURE: misreading: 'the number' is the starting value 20, so half is 10 and the result is (20 + 10)/5 * 8 = 48; step 0 introduces a separate unknown number n. Alternative: step 1, which first uses n/2 instead of 10 in a computed value"
+ ],
+ "plat_0714": [
+  4,
+  "false statement: 2000 / 1000 = exactly 2 weeks, no rounding needed; step 4 rounds up to 3"
+ ],
+ "plat_0692": [
+  5,
+  "omission: Sophie's size S = 5 is given, so average = 3 * 5 = 15; step 5 stops at 3S and gives '3S' as the answer"
+ ],
+ "plat_0370": [
+  6,
+  "algebra: multiplying S + S/2 + S = 250 by 2 gives 2S + S + 2S = 500 (5S = 500, S = 100); the step writes 2S + S/2 = 500"
+ ],
+ "plat_0051": [
+  3,
+  "false statement: the 2 middle shelves hold 10 each and the bottom holds 20, so these three hold 40; step 3 says each of the 3 holds 20 and gets 3*20 = 60 (and treats the top shelf as a separate container instead of one bookcase = 55 books)"
+ ],
+ "plat_0759": [
+  3,
+  "arithmetic: 70 + 420 + 210 = 700; step 3 says 680"
+ ],
+ "plat_0214": [
+  2,
+  "UNSURE: false statement: Bill's two sightings are 75 years apart (second at 90, first at 15); step 2 invents 'number of orbits = D/75'. Alternative step 4: sets the time difference between Bill's sightings to D (30) instead of 75"
+ ],
+ "plat_0390": [
+  4,
+  "false statement: total = 104000 + 5200 + 5000 = 114200; the step adds 10200 (which already includes the $5000 award) and then the $5000 again, giving 119200"
+ ],
+ "plat_0737": [
+  5,
+  "UNSURE: omission: the question asks for glasses and plates together, 86 + 42 = 128; step 5 ends with separate counts '86 glasses and 42 plates' (parser took 42). Alternative: null excluded if 'how many glasses and plates' is read as asking for the two counts separately (both counts are correct)"
+ ],
+ "plat_0093": [
+  2,
+  "misreading: the farmer makes bales (30) and the truck removes them (18), left = 30 - 18 = 12; step 2 treats the farmer's 30 bales as removed and adds them to the truck's 18 = 48"
+ ],
+ "plat_0206": [
+  0,
+  "misreading: rate is 5 questions per hour (40 + 30 completed); step 0 computes time per question as 8 h / 75 questions = 0.1067 h, ignoring the given rate"
+ ],
+ "plat_0117": [
+  4,
+  "false statement: chairs needed = 42+15 = 57, so 57-48 = 9; the step invents special 2-person seats and computes 42 + 15*2 = 72 chairs needed"
+ ],
+ "plat_0283": [
+  0,
+  "misreading: he spends $70/7 = $10 per day, so 4*10/5 = 8 wooden figures; step 0 divides the whole $70 by $5 per day (14/day) and gets 56 wooden figures"
+ ],
+ "plat_0484": [
+  3,
+  "UNSURE: false statement: second year = 15000 / 3 = 5000, total 20000; step 3 multiplies the second year's spending by 3 ('third year spending' = 15000) as a supposed simplification; alternative is step 5, which adds that 15000 instead of 5000 to get the total"
+ ],
+ "plat_0389": [
+  3,
+  "UNSURE: misreading: question asks the kg given away, 7 * 25 = 175 (step 2 has it); step 3 answers the kg left, 500 - 175 = 325. Alternative step 0: starts by computing sacks remaining (13), true but off-target"
+ ],
+ "plat_0608": [
+  2,
+  "misreading: the first plane makes 2*44 = 88 flights, France = (F - 3F/4)/2 = 11; the step subtracts the second plane's 44 trips from the first plane's remaining flights"
+ ],
+ "plat_0112": [
+  1,
+  "UNSURE: false statement: Adam's age is not needed and cannot be derived; step 1 invents 'current age' = 3.33 feet / 144 inches = 0.0232 years. Alternative: step 7, misreading: growth is 2 in/year, so needs 8/2 = 4 years; step 7 divides by 12 inches per year (0.503 years)"
+ ],
+ "plat_0019": [
+  2,
+  "UNSURE: misreading: Jeff = 20 + 10 = 30; step 2 treats 30 as the age gap and adds 20 + 30 = 50; alternative is step 1, which already mislabels Jeff's age 30 as 'Jeff's age relative to Martha'"
+ ],
+ "plat_0342": [
+  0,
+  "arithmetic: working days = 50 * 0.8 = 40 (50 * 0.2 = 10 days off); step 0 writes (31 + 19) * 0.2 = 39.2 and uses 39 working days"
+ ],
+ "plat_0761": [
+  3,
+  "misreading: she sold 2 at the red house (V_r = 2); the step sets V_r = X/3 + 2"
+ ],
+ "plat_0565": [
+  1,
+  "algebra: 0.4 * Total = 240 (Total = 600, girls 360); step 1 sets up Total = Boys + Total * 0.4, double counting the boys"
+ ],
+ "plat_0344": [
+  2,
+  "arithmetic: (5/4) * 64 = 80 feet; step 2 says 40 feet"
+ ],
+ "plat_0551": [
+  3,
+  "false statement: she made 15 vlogs in week 3 and still needs 72 - 54 = 18 (step 1/2 right); step 3 claims she already made 18 in week 3 and answers 0"
+ ],
+ "plat_0700": [
+  0,
+  "misreading: 80 are Japanese and 240-80 = 160 are Chinese; the step calls 240-80 = 160 the number of Japanese"
+ ],
+ "plat_0493": [
+  2,
+  "false statement: total = with computers + without = (3/4)x + 20; step 2 writes total = (3/4)x - 20"
+ ],
+ "plat_0662": [
+  0,
+  "algebra: Jean is two years older than Mark, so Jean = M + 2; step 0 writes Jean = J + 2 using Jan's age J"
+ ],
+ "plat_0603": [
+  5,
+  "misreading: she added only 75% of 8 = 6 blue balloons; step 5 counts blue = 8 + 6 = 14 (total should be 15 + 7 + 6 + 6 = 34)"
+ ],
+ "plat_0482": [
+  1,
+  "misreading: the rest of the week is 4 days (Thu-Sun) at 6+1 = 7 hours each = 28; the step uses only Thursday (7) and Friday (7+1 = 8) and drops Saturday and Sunday"
+ ],
+ "plat_0077": [
+  3,
+  "algebra: purse = 400 - 50 - 230 = 120; step 3 computes purse = 230 - 50 = 180, ignoring the $400 price"
+ ],
+ "plat_0792": [
+  1,
+  "misreading: the pool company says multiply the volume by 5.9, so 1400 * 5.9 = 8260 gallons; step 1 uses 7.48 gallons per cubic foot instead"
+ ],
+ "plat_0324": [
+  4,
+  "arithmetic: 7.50 + 0.50 + 12 + 10 = 30; step 4 gets $29.50"
+ ],
+ "plat_0560": [
+  1,
+  "omission: babies per year = 30 females * 4 * 12 = 1440; the step computes 4*12 = 48, leaving out the 30 females"
+ ],
+ "plat_0034": [
+  3,
+  "omission: weekend days still have 3 glasses each (6 total), so week = 20 + 6 = 26; step 3 computes 20 + (-2) = 18, leaving out the 6 weekend glasses"
+ ],
+ "plat_0044": [
+  4,
+  "false statement: revenue is the $40000 from patients; step 4 adds the doctors' cost to it to get 'total revenue' = $70000"
+ ],
+ "plat_0281": [
+  2,
+  "misreading: the bonus is paid once (half a month's salary), year = 21000 * 12 + 10500 = 262500; step 2 adds the bonus to every month (31500/month)"
+ ],
+ "plat_0591": [
+  0,
+  "UNSURE: false statement: she has 3 children; the step says 'there are 3 grandchildren' (step 1 then correctly gets 9 grandchildren). Alternative: step 2 (each grandchild has 3 babies; the step says 3*3 = 9 per grandchild), which is the error that changes the answer"
+ ],
+ "plat_0425": [
+  4,
+  "omission: she tripled 5 to 15 before eating, so 15 - 2 = 13; step 4 computes 5 - 2 = 3, skipping the tripling"
+ ],
+ "plat_0169": [
+  1,
+  "arithmetic: 40 nickels = 40 * 5 / 100 = $2; step 1 writes 40/5 = $8"
+ ],
+ "plat_0623": [
+  0,
+  "misreading: 16 is the TOP level, levels below double (32, 64, 128; average 60); step 0 halves 16 to 8 for the next level"
+ ],
+ "plat_0595": [
+  3,
+  "algebra: Q + 2Q + 2(2Q) = Q + 2Q + 4Q = 7Q; the step writes Q + 4Q + 4Q = 9Q"
+ ],
+ "plat_0638": [
+  4,
+  "misreading: $125 is the money John brought; step 4 sets the heartworm check cost = $125 (0.6T = 125). Correct: vaccines $40 = 40% of bill, bill $100, leaves with $25"
+ ],
+ "plat_0388": [
+  0,
+  "false statement: 9300 pennies = 9300 cents; step 0 multiplies by 100 to get 930,000 cents"
+ ],
+ "plat_0633": [
+  1,
+  "misreading: rate is 2 pages per 1.5 min, so 105 min -> 140 pages; step 1 treats it as 1 page per 1.5 min -> 70 pages"
+ ],
+ "plat_0178": [
+  3,
+  "false statement: step 2 already gives 14 cups * 3 = 42 g per week; the step calls 42 g a daily amount and multiplies by 7 to get 294"
+ ],
+ "plat_0071": [
+  1,
+  "misreading: 15 cinnamon cups is the total across rows, leaving 27 - 15 = 12 chamomile+mint (2 mint per row); step 1 subtracts 15 from one row's 9 cups (-6) and declares the problem flawed"
+ ],
+ "plat_0299": [
+  3,
+  "arithmetic: tires = 5 * 2 + 3 * 3 + 1 = 20; step 3 computes 5 * 4 + 3 + 1 = 24 (wrong per-bike count and tricycles not multiplied by 3)"
+ ],
+ "plat_0317": [
+  3,
+  "UNSURE: false statement: the 10 called friends do not invite friends; 8 of them bring spouses, so 10 + 8 = 18 (total 100 + 200 + 18 + Alex = 319); step 3 says the called friends 'invite their friends'. Alternative step 4: computes 10 * 3 = 30 for the called friends (also the final sum omits the 100 invitees and Alex)"
+ ],
+ "plat_0432": [
+  2,
+  "misreading: she takes 2 trips a day on 5 days (10 trips, $22/week); the step treats it as 5 trips a day (2.5 * $4.40 = $11) and step 3 then uses 7 days"
+ ],
+ "plat_0543": [
+  2,
+  "omission: pears = 200 + 90 = 290, total fruits = 290 + 200 = 490; step 2 sets total fruits = bananas + additional pears = 200 + 90 (counts only the pears)"
+ ],
+ "plat_0168": [
+  0,
+  "misreading: 99% guaranteed not to explode means 1% are dangerous (explode), so 50000 * 0.01 * 0.05 = 25; step 0 claims the dangerous percentage is not given and introduces an unknown D"
+ ],
+ "plat_0529": [
+  5,
+  "misreading: $20 is the total spent, pie = 20 - 13 = 7; step 5 adds 13 + 20 = $33 as the total"
+ ],
+ "plat_0002": [
+  3,
+  "UNSURE: false statement: 310/125 = 2.48 hikes a day means 2 hikes (250 miles) are not enough, she needs 310-250 = 60 more miles; the step rounds 2.48 down to 2 as if 2 hikes suffice. Alternative: step 2 (compares 310 with one hike of 125, ignoring that she hikes twice a day = 250)"
+ ],
+ "plat_0663": [
+  3,
+  "arithmetic: ($20 * 0.20) * 18 = 4 * 18 = $72; step 3 says $360 (and also counts 18 periods after the first, which should be 17 if added to the $24)"
+ ],
+ "plat_0153": [
+  6,
+  "false statement: after tripling he has 13 * 3 = $39; step 6 adds the initial $6 share again to get $45"
+ ],
+ "plat_0733": [
+  5,
+  "omission: after donating 1250, he has 2500 - 1250 = 1250, then 1250 - 900 = 350; step 5 subtracts 900 from 2500, leaving out the donation"
+ ],
+ "plat_0654": [
+  0,
+  "misreading: the comb fell 4000 ft to a ledge at 10000-4000 = 6000 ft; the step calls 6000 the distance the comb fell and treats 4000 as the ledge elevation"
+ ],
+ "plat_0007": [
+  0,
+  "misreading: 3 potatoes make 2 scoops, i.e. 1.5 potatoes per scoop; step 0 writes 6 - 3 = x - 1 and gets x = 4 potatoes per scoop"
+ ],
+ "plat_0252": [
+  2,
+  "misreading: remaining plants = 20 - 4 - 8 = 8; step 2 subtracts 2 (the cups) instead of 4 plants and gets 10"
+ ],
+ "plat_0380": [
+  7,
+  "arithmetic: F = 2*15 + 8 = 38 and M = 2*15 + 4 = 34; step 7 gets 33 and 31"
+ ],
+ "plat_0384": [
+  2,
+  "misreading: at the second stop 21/3 = 7 get on (3 times fewer than the 21 who got off); the step uses 40/3 (a third of the first stop's boarders). Later steps also drop the initial 48"
+ ],
+ "plat_0735": [
+  8,
+  "arithmetic: 4*6 + 10 = 24 + 10 = 34; step 8 writes 4*6 = 26 and gets 36"
+ ],
+ "plat_0087": [
+  0,
+  "UNSURE: misreading: in the first month she collected 3 * 20 = 60; step 0, titled 'cards collected in the first month', gives 20; alternative is step 1, which first uses first month = 20 in a calculation (20 - 20 = 0)"
+ ],
+ "plat_0517": [
+  2,
+  "omission: total = 4 kids * 1 + 2 adults * 2 = 8 slices (each adult 2/8 = 25%); step 2 counts 1 + 2 = 3 slices (one kid, one adult)"
+ ],
+ "plat_0131": [
+  4,
+  "UNSURE: misreading: he does this 3 times a week, so 3*3 = 9 hours a week; the step uses 7 days and gets 3*7 = 21. Alternative: step 3 (states days in a week = 7, true but the wrong quantity)"
+ ],
+ "plat_0784": [
+  3,
+  "arithmetic: 4 checks per year is 4/12 = 1/3 per month (4 per year total); step 3 divides 4 by 3 (1.33/month) and rounds to 2 per month"
+ ],
+ "plat_0690": [
+  2,
+  "algebra: remaining = 80 + P - 220 = 23, so P = 163; step 2 subtracts the 220 used notes a second time (80 + P - 220 - 220)"
+ ],
+ "plat_0405": [
+  0,
+  "misreading: 180 is heads and 304 humps (camels = 304 - 180 = 124); step 0 divides 180 'humps' by 2 to get 90 camels"
+ ],
+ "plat_0564": [
+  4,
+  "omission: he has the 25 bought pens + 5 made + 1 made from those 5 = 31; the step counts only the 5 new pens as the total"
+ ],
+ "plat_0758": [
+  2,
+  "misreading: in 8 years the cousin is 2*30 - 5 = 55; step 2 sets cousin's age in 8 years = Jame's age in 8 years - 5"
+ ],
+ "plat_0787": [
+  1,
+  "arithmetic: 2 * 36 / 12 = 6 cups; step 1 says 18"
+ ],
+ "plat_0708": [
+  3,
+  "misreading: total spent is 48 + 18 = $66 (step 2); step 3 subtracts the $200 start and answers a loss of $134"
+ ],
+ "plat_0394": [
+  4,
+  "false statement: steps 0-3 correctly get 550 cups = 5 bags for the whole year; the step claims the 5 bags cover only the first 180 days and adds more bags (6)"
+ ],
+ "plat_0610": [
+  1,
+  "arithmetic: 10 * (x/2) = 5x (= 20 with x = 4); step 1 writes 5x/2"
+ ],
+ "plat_0593": [
+  0,
+  "misreading: 72 / 8 = 9 pictures per album, so 5 albums = 45; step 0 subtracts 3*selfies and 2*portraits from 72 and never uses the 8 equal albums"
+ ],
+ "plat_0269": [
+  4,
+  "misreading: they already have 64, so they need 100 - 64 = 36; step 4 treats all 100 as still needed (100/21 per day)"
+ ],
+ "plat_0313": [
+  6,
+  "algebra: (2/5 L)(5/2) = 12.8*(5/2) gives L = 32; the step writes L = 12.8*(5/2)*(2/5), multiplying the right side by 2/5 again"
+ ],
+ "plat_0580": [
+  5,
+  "UNSURE: omission: the question asks how many red and blue boxes are left, 4 + 6 = 10; step 5 ends with separate counts '4 blue and 6 red' (parser took 6). Alternative: null excluded if the question is read as asking for the two counts separately (both counts are correct)"
+ ],
+ "plat_0798": [
+  0,
+  "omission: the first period is 5 * 25 * 4 = 500 km; step 0 gives the weekly 125 km as the 'first four weeks distance', leaving out the 4 weeks"
+ ],
+ "plat_0790": [
+  2,
+  "arithmetic: 170 * 65 = 11050; step 2 gets $10,900"
+ ],
+ "plat_0163": [
+  3,
+  "omission: after day 1 there are 24, then Gunther adds 25 (49) before Arnold steals 12 (37); the step computes 24-12 = 12, leaving out the 25 added bananas"
+ ],
+ "plat_0267": [
+  6,
+  "misreading: 3 people showed up plus Fred = 4 sharing, 8/4 = 2; step 6 says 3 people at the party"
+ ],
+ "plat_0217": [
+  1,
+  "misreading: the 40% extension applies only if the normal teacher comes (50%), so P = 0.5 * 0.4 = 0.2; step 1 gives 0.4 for 'normal teacher comes and gives extension'"
+ ],
+ "plat_0752": [
+  1,
+  "misreading: she receives 2 rubies for 3 sapphires (2 * 1200 = 2400); step 1 computes 3/2 = 1.5 rubies, rounds to 1 ($1200)"
+ ],
+ "plat_0096": [
+  4,
+  "omission: with arms raised each foot taps 200/min, so 2 min = 2*200*2 = 800 taps for both feet; the step computes 200*2 = 400 (one foot only)"
+ ],
+ "plat_0779": [
+  3,
+  "false statement: 140 is what Amora and Lainey got together, total is 140 + 85 = 225; step 3 says there were 140 corn chips in total"
+ ],
+ "plat_0285": [
+  0,
+  "false statement: no conversion is needed (32 + 5 * 10 = 82 degrees), and 32 degrees = 32 * pi/180 rad, not 32 * 180/pi; step 0 converts wrongly"
+ ],
+ "plat_0047": [
+  2,
+  "arithmetic: remaining months = 24 - 6 - 8 = 10 (10 * 14 = 140); step 2 uses 14 months ($196)"
+ ],
+ "plat_0189": [
+  1,
+  "misreading: of the 25 cars that drove through, 20 went in the last 15 minutes, so 25-20 = 5 in the first; the step adds 25+20 = 45 'remaining cars'"
+ ],
+ "plat_0645": [
+  4,
+  "false statement: savings = 30 - 18 = 12; step 4 adds parents' money to the cost, 'total amount spent' = 18 + 30 = 48"
+ ],
+ "plat_0658": [
+  3,
+  "misreading: if he fixes it he avoids the $450 damage and pays 120 + 75 = $195, saving 450 - 195 = 255; step 3 adds the $450 damage to the cost of fixing (645)"
+ ],
+ "plat_0072": [
+  1,
+  "misreading: first 8 days good, so 12 - 8 = 4 good days remain after day 24, then 4 - 2 = 2; step 1 says 12 good days in the first eight days (and 'first 24 days' counts)"
+ ],
+ "plat_0373": [
+  2,
+  "algebra: the pile now has 30 after Jennie added x = 20, so the start was z = 30 - x = 10; the step writes z = 30 + x"
+ ],
+ "plat_0120": [
+  3,
+  "arithmetic: 50 - 25 - 5 = 20; step 3 says 15"
+ ],
+ "plat_0478": [
+  2,
+  "arithmetic: footballs = 2 * 20 = 40; step 2 doubles twice, 2 * (2 * 20) = 80"
+ ],
+ "plat_0046": [
+  7,
+  "algebra: the expanded sum equals exactly T (identity); step 7 inserts an extra -(2/15)T term, and step 8 then gets (1/15)T = 1200 (Skyler should be 1200 - 480 - 480 = 240)"
+ ],
+ "plat_0260": [
+  2,
+  "false statement: profit is the increase, $125 for jewelry; the step defines profit = increase + current value = 125 + 5000 = 5125"
+ ],
+ "plat_0341": [
+  0,
+  "misreading: one small mask takes 2/4 = 0.5 yards; step 0 says 2 yards per small mask (step 1 likewise 2.25 instead of 0.75 per large mask)"
+ ],
+ "plat_0783": [
+  2,
+  "misreading: 35 miles is already Brian's 7-day total; step 2 treats it as daily and multiplies by 7 = 245"
+ ],
+ "plat_0334": [
+  3,
+  "arithmetic: 60 intervals * 30 = 1800 is already the total (step 2); step 3 multiplies again by 60 to get 108,000"
+ ],
+ "plat_0220": [
+  2,
+  "false statement: total students = 60+120 = 180 and teachers = 180/5 = 36; the step defines total students as (girls + boys)/5, so 36 is called students and then divided by 5 again"
+ ],
+ "plat_0770": [
+  2,
+  "arithmetic: 18/450 = 0.04 = 4%; step 2 says 0.0396 = 3.96% (correct setting 520/1.04 = 500; later steps also add the error instead of dividing)"
+ ],
+ "plat_0613": [
+  8,
+  "arithmetic: B = 5 * 20 - 4 = 100 - 4 = 96; step 8 writes 5 * 20 - 4 = 96 - 4 = 92"
+ ],
+ "plat_0223": [
+  0,
+  "misreading: 6 lemons yield 1 cup, so 6 lemons per cup (6 cups -> 36 lemons); step 0 inverts it to 1 cup = 1/6 lemon"
+ ],
+ "plat_0429": [
+  5,
+  "UNSURE: algebra: from A_sunday = (A_sunday - D) + 4 it follows that D = 4, not A_sunday = 4 + D; the given values (10 gingerbread Saturday, 15 apple pie Sunday) are never used. Alternative: step 10 (declares the values missing, although all are given), or step 4 (solves for apple pies with the gingerbread equation)"
+ ],
+ "plat_0777": [
+  1,
+  "misreading: he loses 10 bills, leaving 40; step 1 treats it as 10% and loses 50*10/100 = 5 bills"
+ ],
+ "plat_0729": [
+  6,
+  "algebra: J + 2 = 400 gives J = 398; step 6 turns it into 5J + 2 = 80 * 5 by 'distributing the 5' onto J"
+ ],
+ "plat_0742": [
+  2,
+  "misreading: Royce = 2 * 120 + 40 = 280 min; step 2 computes 120 + 40 = 160, dropping the doubling"
+ ],
+ "plat_0027": [
+  0,
+  "misreading: he works 6 days a week, so 6*4 = 24 days/month and 288 days/year; the step uses 7 days a week (28/month, 336/year)"
+ ],
+ "plat_0627": [
+  1,
+  "misreading: the father is five times Shawna's age (Shawna = 3*3 = 9, father 45); step 1 writes Shawna = 5 * Aliya"
+ ],
+ "plat_0536": [
+  5,
+  "algebra: x/4 - 270 = 0 gives x = 1080; step 5 says x = 540"
+ ],
+ "plat_0235": [
+  1,
+  "UNSURE: misreading: .75 bags per INVITED guest already accounts for no-shows, so 16 * .75 = 12 bags ($24); step 1 applies .75 again to the 12 attendees (9 bags). Alternative step 0: reduces invitees to 16 * 3/4 = 12 attendees, true but sets up the double discount"
+ ],
+ "plat_0222": [
+  4,
+  "arithmetic: 6 + 8 + 16 = 30 ounces; the step writes 20"
+ ],
+ "plat_0089": [
+  2,
+  "misreading: doll costs as much as 3 action figures = $15 ('one red car cost $4' is a separate clause); step 2 prices the doll at 3 action figures plus one red car = $19 (wording is awkward, but the chain's parse reuses the car clause twice)"
+ ],
+ "plat_0032": [
+  3,
+  "misreading: buy one get one half off means each 2 pounds cost 4 + 2 = $6 (25% off), total $18; step 3 treats it as 50% off the whole $24"
+ ],
+ "plat_0433": [
+  0,
+  "arithmetic: average + difficult = 60 - 24 = 36 (18 each); step 0 computes 40 - 24 = 16 (8 each)"
+ ],
+ "plat_0614": [
+  4,
+  "false statement: 20+40+60 = 120 seconds = 2 minutes; the step adds the seconds and calls the sum 120 minutes, without dividing by 60 as step 3 said to"
+ ],
+ "plat_0794": [
+  1,
+  "misreading: goats must be 30% of the new total, x/(14 + x) = 0.3 so x = 6; step 1 takes 30% of the current 14 animals = 4.2"
+ ],
+ "plat_0705": [
+  0,
+  "false statement: the number of candy bars is unknown (spent 5 - 0.05 = 4.95, candy = 3.75 = 5 bars); step 0 assumes one candy bar and sets total cost = 1.20 + 0.75 = $1.95"
+ ],
+ "plat_0133": [
+  1,
+  "misreading: equation is 4x + 8 = 40 (x = 8); step 1 writes 4x = 40 + 8"
+ ],
+ "plat_0273": [
+  0,
+  "misreading: 2/5 times more than 5 means 5 + (2/5)*5 = 7 articles on Tuesday; the step uses 5*(2/5) = 2, fewer than Monday, which contradicts 'more'"
+ ],
+ "plat_0026": [
+  11,
+  "false statement: substituting L = B/2 + 7 into B + B/2 + L = 43 gives 2B + 7 = 43, B = 18, L = 16; step 11 declares more information about Bodhi is needed and that L cannot be determined"
+ ]
+}

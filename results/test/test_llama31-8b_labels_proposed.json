@@ -1,0 +1,274 @@
+{
+"plat_0175": [
+1,
+"misreading: they drove 6 - 1.5 = 4.5 hours; the step uses 5 hours"
+],
+"plat_0318": [
+1,
+"misreading: the second train arrives half an hour (30 min) after the first leaves; the step adds 20"
+],
+"plat_0462": [
+0,
+"misreading: labour is billed per hour or part thereof, so 2.25 h is charged as 3 h"
+],
+"plat_0367": [
+2,
+"misreading: the card money pays the $100 ticket AND leaves $50, so 150; the step takes 100 - 50"
+],
+"plat_0558": [
+1,
+"double counting: 80 pounds is already the total for 40 restaurants; the step multiplies by 40 again"
+],
+"plat_0519": [
+1,
+"misreading: 240 minutes is the total to break in the shoes, not per day (step 1: 21 days is a true fact)"
+],
+"plat_0465": [
+0,
+"wrong claim: 27000 / 500 = 54 is the number of 100-book lots, not books (5,400 books)"
+],
+"plat_0276": [
+0,
+"misreading: the two pizzas cost 30 dollars together; the step uses 30 each. The wording is ambiguous (\"two of the pizzas cost 30 dollars\"); the gold reads it as 30 together"
+],
+"plat_0165": [
+2,
+"algebra: D + 2D + D/2 = 3.5D, the step writes 2.5D"
+],
+"plat_0053": [
+2,
+"misreading: the girls' total is the boys' 600 plus four times 600; the step uses 4 x 60. The wording is ambiguous (\"four times as many as the boys\" could mean each boy); the gold uses the boys' total"
+],
+"plat_0160": [
+0,
+"misreading: 5 of EACH of 4 vanilla scents = 20; the step says 5"
+],
+"plat_0141": [
+3,
+"misreading: the question asks for the volume on the third day (14000); the step adds day 2 and day 3. Wording is ambiguous. Step 4 also writes 8000 + 14000 = 20000 (it is 22000)"
+],
+"plat_0686": [
+0,
+"nonsense: counts 3 adults and multiplies 4 x 3 = 12 bowls"
+],
+"plat_0323": [
+1,
+"equation: combined ages are 2 twins + 3 triplets, 2(x+7) + 3x; the step adds one twin and two triplets"
+],
+"plat_0721": [
+2,
+"misreading: she buys 5 crayons; steps 1-2 compute true but irrelevant facts (she CAN buy 10), step 3 says she buys 10"
+],
+"plat_0754": [
+2,
+"bread for 10 sandwiches is one loaf ($3.00); the step adds the per-sandwich $0.30"
+],
+"plat_0458": [
+2,
+"misreading: the increase is 5% of the ORIGINAL price each year; step 3 takes 5% of $126 (compounding)"
+],
+"plat_0271": [
+0,
+"nonsense: divides miles by hours wrongly and calls 33.33 an hour total"
+],
+"plat_0436": [
+2,
+"arithmetic: 100 + 125 + 175 = 400, written as 300"
+],
+"plat_0025": [
+0,
+"misreading: the pyramid's height is one girl per layer; the step adds all 10 girls' heights for the bottom row"
+],
+"plat_0655": [
+3,
+"uses the money NOT set aside: she has $1,500 a month left over, but the shoe fund is $500 a month. Step 2 (1500 left) is a true but irrelevant fact; arguably step 5"
+],
+"plat_0234": [
+2,
+"omission: two north/south walls and two east/west walls, 2 x 80 + 2 x 40 = 240; the step adds one of each"
+],
+"plat_0683": [
+5,
+"algebra: x + x + 3 + x - 2 + 3x + 9 - 1 = 6x + 9; the step writes 5x + 9"
+],
+"plat_0093": [
+2,
+"misreading: the farmer adds bales and the truck removes them; the step adds both as removed"
+],
+"plat_0283": [
+0,
+"misreading: Sunday-Wednesday is 4 days at $10 a day (70 / 7); the step uses 5 days and $5"
+],
+"plat_0608": [
+1,
+"the remaining quarter is split between France and Germany, so France is x/8; the step says x/4"
+],
+"plat_0159": [
+0,
+"misreading: $0.5 buys 2 balloons, so 12 balloons cost $3; the step charges $0.5 each"
+],
+"plat_0767": [
+2,
+"wrong claim: 306 is the total owed, not the twelfth payment (306 - 275 = 31)"
+],
+"plat_0035": [
+2,
+"misreading: the other pair costs TWICE as much (66); the step takes half (16.50). Steps 1-2 are generic and true"
+],
+"plat_0077": [
+2,
+"she has 400 - 50 = 350 in total; the step adds the missing 50 to the job and mom money (280)"
+],
+"plat_0792": [
+1,
+"arithmetic: 1400 x 5.9 = 8260, written as 8230"
+],
+"plat_0034": [
+0,
+"misreading: 4 glasses each weekday (with the bedtime glass); the step uses 3"
+],
+"plat_0041": [
+2,
+"misreading: another third of ALL 36 go inside (12); the step takes a third of the remaining 24"
+],
+"plat_0281": [
+2,
+"the bonus is half the NEW monthly salary (10500); the step uses the old 20000. Step 4 then also adds the bonus every month"
+],
+"plat_0623": [
+1,
+"misreading: each level is half the level BELOW, so going down from the top the levels double; the step halves"
+],
+"plat_0638": [
+2,
+"misreading: the heartworm check is 60% of the TOTAL bill; the step takes 60% of the vaccines. Step 2 ($40 + $0) is odd but not false"
+],
+"plat_0388": [
+0,
+"the step computes one third (3100) and calls it two thirds"
+],
+"plat_0073": [
+5,
+"adds the 4 college years to the 4 years of earning. Note: the GSM8K reference computes 6 but the Platinum gold is 4; steps 1-5 match the gold"
+],
+"plat_0071": [
+1,
+"with 9 cups a row and 5 cinnamon a row, mint is 2 a row; the step says all 9 are mint"
+],
+"plat_0317": [
+2,
+"misreading: 8 of the 10 friends bring a spouse (8 spouses); the step uses 10 x 2 = 20"
+],
+"plat_0168": [
+1,
+"misreading: 5% of the DANGEROUS (exploding, 1%) candles smell; the step takes 5% of all candles"
+],
+"plat_0663": [
+2,
+"misreading: the increase is 20% of the ORIGINAL price every two months ($4); step 3 compounds (24 x 0.2)"
+],
+"plat_0797": [
+5,
+"Adam's current age is A + 4 = 30; the step treats A (his age four years ago) as his current age"
+],
+"plat_0007": [
+1,
+"misreading: 3 potatoes make 2 scoops (1 less than 3); the step says 3 potatoes per scoop"
+],
+"plat_0384": [
+4,
+"misreading: 3 times fewer than 21 is 21 / 3 = 7; the step takes 21 - 3"
+],
+"plat_0145": [
+2,
+"misreading: 5 hours is already the additional time; the step subtracts the first 3 hours"
+],
+"plat_0107": [
+1,
+"wrong claim: the second stop is 15 miles from the end; the step says 25"
+],
+"plat_0517": [
+5,
+"divides the adults' 4 slices by 10 although the slices add up to 8. Arguably step 2: assuming 10 slices conflicts with the 2:1 split"
+],
+"plat_0131": [
+0,
+"misreading: he reads for HALF as long (1 hour); the step uses 2 hours"
+],
+"plat_0564": [
+2,
+"wrong rule: 5 empty pens make ONE new pen; the step says each set of 5 makes 5"
+],
+"plat_0758": [
+2,
+"arithmetic: 30 x 2 - 5 = 55; the step subtracts 5 twice (50)"
+],
+"plat_0610": [
+0,
+"wrong claim: the daily recommendation IS given (4 cups); the step says it is not specified and the chain then loops"
+],
+"plat_0068": [
+0,
+"misreading: 3 boxes, not 3 + 2 = 5 boxes (the 2 are loose pencils)"
+],
+"plat_0217": [
+1,
+"probability: the normal teacher comes with 0.5, so 'comes in and extends' is 0.5 x 0.4 = 0.2; the step says 0.4 (step 3 repeats it with 0.6)"
+],
+"plat_0096": [
+0,
+"omission: both feet tap; without raised arms it is 300 + 250 per minute; the step counts only 300"
+],
+"plat_0230": [
+2,
+"arithmetic: 175 + 140 + 280 = 595, written as 495"
+],
+"plat_0047": [
+2,
+"2 years is 24 months, so the $14 rate runs 24 - 6 - 8 = 10 months; the step uses 6"
+],
+"plat_0072": [
+0,
+"nonsense: adds 12 good + 8 bad + 8 neutral = 28 days as the first 11 days"
+],
+"plat_0629": [
+1,
+"omission: the 3 coaches also eat (39 people); the step counts 36"
+],
+"plat_0348": [
+5,
+"x = 4 is already Sophia's total (steps 1-5 are right); the step adds 4 + 4"
+],
+"plat_0783": [
+-1,
+"NO ERROR: the chain reaches 35 (correct); there is no Answer line, so the solver took 7 from '7 days' as the answer"
+],
+"plat_0770": [
+2,
+"the setting X must satisfy 1.04X = 520 (X = 500); the step subtracts 4% of 520 instead"
+],
+"plat_0275": [
+0,
+"misreading: 3 daughters, the step uses 12"
+],
+"plat_0223": [
+1,
+"omission: Allen's gallon is twice as tart, so it needs 2 cups (6 cups total); the step uses 5"
+],
+"plat_0235": [
+1,
+"double discount: 0.75 bags per INVITED guest already covers no-shows (16 x 0.75 = 12); the step applies 0.75 to the 12 who come"
+],
+"plat_0705": [
+2,
+"misreading: he bought 3 bags of chips; the step says all $4.95 went on chips"
+],
+"plat_0763": [
+2,
+"omission: the 10 hours of sleep are not free time; the step counts only work and the dog"
+],
+"plat_0026": [
+1,
+"equation: the total is Bodhi + David + Lily = B + B/2 + B/2 + 7; the step leaves Bodhi out"
+]
+}
