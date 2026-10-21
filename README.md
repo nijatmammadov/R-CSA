@@ -17,6 +17,10 @@ score falls below a threshold is reported as the error.
 | GSM8K | 200 questions from the GSM8K train split | 400 questions from GSM8K-Platinum | Llama-3.1-8B-Instruct, Mistral-7B-Instruct-v0.3 |
 | MATH Level 5 | 200 Level 5 questions from the MATH train split | 400 Level 5 questions from the MATH test split, excluding MATH-500 | Qwen2.5-7B-Instruct |
 
+Early method choices (step shortening, probe types) were made on two code-generated sets of 100
+word problems each, built from templates with known answers and reference steps
+(`src/make_synthetic.py`, `data/synthetic`). They were used only for development, not for testing.
+
 Each model solves the questions itself and judges its own steps. First-error labels were proposed
 by a script and an LLM assistant, then confirmed by hand. The question files are in `data/dev` and
 `data/test`, the solved and labelled chains in `data/dev` and `results/test`.

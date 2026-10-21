@@ -1,0 +1,2382 @@
+[
+ {
+  "id": "syn_0000",
+  "template": "times_as_many",
+  "question": "Rosa has 4 times as many stamps as Ava. Ava has 7 stamps. Lena has 12 fewer stamps than Rosa. How many stamps do the three of them have together?",
+  "reference": [
+   {
+    "step": "Rosa: 4 x 7",
+    "value": 28
+   },
+   {
+    "step": "Lena: 28 - 12",
+    "value": 16
+   },
+   {
+    "step": "total: 28 + 7 + 16",
+    "value": 51
+   }
+  ],
+  "gsm8k_answer": "Rosa: 4 x 7 = 28\nLena: 28 - 12 = 16\ntotal: 28 + 7 + 16 = 51\n#### 51",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0001",
+  "template": "times_as_many",
+  "question": "Ivo has 3 times as many shells as Dmitri. Dmitri has 17 shells. Hana has 14 fewer shells than Ivo. How many shells do the three of them have together?",
+  "reference": [
+   {
+    "step": "Ivo: 3 x 17",
+    "value": 51
+   },
+   {
+    "step": "Hana: 51 - 14",
+    "value": 37
+   },
+   {
+    "step": "total: 51 + 17 + 37",
+    "value": 105
+   }
+  ],
+  "gsm8k_answer": "Ivo: 3 x 17 = 51\nHana: 51 - 14 = 37\ntotal: 51 + 17 + 37 = 105\n#### 105",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0002",
+  "template": "times_as_many",
+  "question": "Quinn has 2 times as many shells as Farah. Farah has 7 shells. Omar has 11 fewer shells than Quinn. How many shells do the three of them have together?",
+  "reference": [
+   {
+    "step": "Quinn: 2 x 7",
+    "value": 14
+   },
+   {
+    "step": "Omar: 14 - 11",
+    "value": 3
+   },
+   {
+    "step": "total: 14 + 7 + 3",
+    "value": 24
+   }
+  ],
+  "gsm8k_answer": "Quinn: 2 x 7 = 14\nOmar: 14 - 11 = 3\ntotal: 14 + 7 + 3 = 24\n#### 24",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0003",
+  "template": "times_as_many",
+  "question": "Ben has 3 times as many marbles as Hana. Hana has 7 marbles. Kemal has 4 fewer marbles than Ben. How many marbles do the three of them have together?",
+  "reference": [
+   {
+    "step": "Ben: 3 x 7",
+    "value": 21
+   },
+   {
+    "step": "Kemal: 21 - 4",
+    "value": 17
+   },
+   {
+    "step": "total: 21 + 7 + 17",
+    "value": 45
+   }
+  ],
+  "gsm8k_answer": "Ben: 3 x 7 = 21\nKemal: 21 - 4 = 17\ntotal: 21 + 7 + 17 = 45\n#### 45",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0004",
+  "template": "times_as_many",
+  "question": "Sami has 3 times as many stickers as Petra. Petra has 19 stickers. Jonas has 3 fewer stickers than Sami. How many stickers do the three of them have together?",
+  "reference": [
+   {
+    "step": "Sami: 3 x 19",
+    "value": 57
+   },
+   {
+    "step": "Jonas: 57 - 3",
+    "value": 54
+   },
+   {
+    "step": "total: 57 + 19 + 54",
+    "value": 130
+   }
+  ],
+  "gsm8k_answer": "Sami: 3 x 19 = 57\nJonas: 57 - 3 = 54\ntotal: 57 + 19 + 54 = 130\n#### 130",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0005",
+  "template": "times_as_many",
+  "question": "Mateo has 4 times as many cards as Goran. Goran has 11 cards. Ivo has 33 fewer cards than Mateo. How many cards do the three of them have together?",
+  "reference": [
+   {
+    "step": "Mateo: 4 x 11",
+    "value": 44
+   },
+   {
+    "step": "Ivo: 44 - 33",
+    "value": 11
+   },
+   {
+    "step": "total: 44 + 11 + 11",
+    "value": 66
+   }
+  ],
+  "gsm8k_answer": "Mateo: 4 x 11 = 44\nIvo: 44 - 33 = 11\ntotal: 44 + 11 + 11 = 66\n#### 66",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0006",
+  "template": "times_as_many",
+  "question": "Ava has 3 times as many shells as Rosa. Rosa has 23 shells. Omar has 16 fewer shells than Ava. How many shells do the three of them have together?",
+  "reference": [
+   {
+    "step": "Ava: 3 x 23",
+    "value": 69
+   },
+   {
+    "step": "Omar: 69 - 16",
+    "value": 53
+   },
+   {
+    "step": "total: 69 + 23 + 53",
+    "value": 145
+   }
+  ],
+  "gsm8k_answer": "Ava: 3 x 23 = 69\nOmar: 69 - 16 = 53\ntotal: 69 + 23 + 53 = 145\n#### 145",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0007",
+  "template": "times_as_many",
+  "question": "Mateo has 3 times as many stickers as Dmitri. Dmitri has 13 stickers. Ben has 18 fewer stickers than Mateo. How many stickers do the three of them have together?",
+  "reference": [
+   {
+    "step": "Mateo: 3 x 13",
+    "value": 39
+   },
+   {
+    "step": "Ben: 39 - 18",
+    "value": 21
+   },
+   {
+    "step": "total: 39 + 13 + 21",
+    "value": 73
+   }
+  ],
+  "gsm8k_answer": "Mateo: 3 x 13 = 39\nBen: 39 - 18 = 21\ntotal: 39 + 13 + 21 = 73\n#### 73",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0008",
+  "template": "times_as_many",
+  "question": "Lena has 2 times as many stamps as Mateo. Mateo has 14 stamps. Goran has 18 fewer stamps than Lena. How many stamps do the three of them have together?",
+  "reference": [
+   {
+    "step": "Lena: 2 x 14",
+    "value": 28
+   },
+   {
+    "step": "Goran: 28 - 18",
+    "value": 10
+   },
+   {
+    "step": "total: 28 + 14 + 10",
+    "value": 52
+   }
+  ],
+  "gsm8k_answer": "Lena: 2 x 14 = 28\nGoran: 28 - 18 = 10\ntotal: 28 + 14 + 10 = 52\n#### 52",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0009",
+  "template": "times_as_many",
+  "question": "Omar has 4 times as many cards as Goran. Goran has 22 cards. Nora has 18 fewer cards than Omar. How many cards do the three of them have together?",
+  "reference": [
+   {
+    "step": "Omar: 4 x 22",
+    "value": 88
+   },
+   {
+    "step": "Nora: 88 - 18",
+    "value": 70
+   },
+   {
+    "step": "total: 88 + 22 + 70",
+    "value": 180
+   }
+  ],
+  "gsm8k_answer": "Omar: 4 x 22 = 88\nNora: 88 - 18 = 70\ntotal: 88 + 22 + 70 = 180\n#### 180",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0100",
+  "template": "fraction_of_remaining",
+  "question": "A bakery had 18 rolls. On Monday it sold 1/3 of them. On Tuesday it sold 1/2 of the remaining rolls. On Wednesday it received 22 new rolls. How many rolls does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 18 / 3",
+    "value": 6
+   },
+   {
+    "step": "left 18 - 6",
+    "value": 12
+   },
+   {
+    "step": "Tuesday sold 12 / 2",
+    "value": 6
+   },
+   {
+    "step": "left 12 - 6",
+    "value": 6
+   },
+   {
+    "step": "now 6 + 22",
+    "value": 28
+   }
+  ],
+  "gsm8k_answer": "Monday sold 18 / 3 = 6\nleft 18 - 6 = 12\nTuesday sold 12 / 2 = 6\nleft 12 - 6 = 6\nnow 6 + 22 = 28\n#### 28",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0101",
+  "template": "fraction_of_remaining",
+  "question": "A bookstore had 88 notebooks. On Monday it sold 1/4 of them. On Tuesday it sold 1/2 of the remaining notebooks. On Wednesday it received 22 new notebooks. How many notebooks does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 88 / 4",
+    "value": 22
+   },
+   {
+    "step": "left 88 - 22",
+    "value": 66
+   },
+   {
+    "step": "Tuesday sold 66 / 2",
+    "value": 33
+   },
+   {
+    "step": "left 66 - 33",
+    "value": 33
+   },
+   {
+    "step": "now 33 + 22",
+    "value": 55
+   }
+  ],
+  "gsm8k_answer": "Monday sold 88 / 4 = 22\nleft 88 - 22 = 66\nTuesday sold 66 / 2 = 33\nleft 66 - 33 = 33\nnow 33 + 22 = 55\n#### 55",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0102",
+  "template": "fraction_of_remaining",
+  "question": "A toy store had 60 yo-yos. On Monday it sold 1/5 of them. On Tuesday it sold 1/3 of the remaining yo-yos. On Wednesday it received 31 new yo-yos. How many yo-yos does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 60 / 5",
+    "value": 12
+   },
+   {
+    "step": "left 60 - 12",
+    "value": 48
+   },
+   {
+    "step": "Tuesday sold 48 / 3",
+    "value": 16
+   },
+   {
+    "step": "left 48 - 16",
+    "value": 32
+   },
+   {
+    "step": "now 32 + 31",
+    "value": 63
+   }
+  ],
+  "gsm8k_answer": "Monday sold 60 / 5 = 12\nleft 60 - 12 = 48\nTuesday sold 48 / 3 = 16\nleft 48 - 16 = 32\nnow 32 + 31 = 63\n#### 63",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0103",
+  "template": "fraction_of_remaining",
+  "question": "A garden shop had 81 pots. On Monday it sold 1/3 of them. On Tuesday it sold 1/3 of the remaining pots. On Wednesday it received 20 new pots. How many pots does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 81 / 3",
+    "value": 27
+   },
+   {
+    "step": "left 81 - 27",
+    "value": 54
+   },
+   {
+    "step": "Tuesday sold 54 / 3",
+    "value": 18
+   },
+   {
+    "step": "left 54 - 18",
+    "value": 36
+   },
+   {
+    "step": "now 36 + 20",
+    "value": 56
+   }
+  ],
+  "gsm8k_answer": "Monday sold 81 / 3 = 27\nleft 81 - 27 = 54\nTuesday sold 54 / 3 = 18\nleft 54 - 18 = 36\nnow 36 + 20 = 56\n#### 56",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0104",
+  "template": "fraction_of_remaining",
+  "question": "A bakery had 144 rolls. On Monday it sold 1/4 of them. On Tuesday it sold 1/4 of the remaining rolls. On Wednesday it received 18 new rolls. How many rolls does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 144 / 4",
+    "value": 36
+   },
+   {
+    "step": "left 144 - 36",
+    "value": 108
+   },
+   {
+    "step": "Tuesday sold 108 / 4",
+    "value": 27
+   },
+   {
+    "step": "left 108 - 27",
+    "value": 81
+   },
+   {
+    "step": "now 81 + 18",
+    "value": 99
+   }
+  ],
+  "gsm8k_answer": "Monday sold 144 / 4 = 36\nleft 144 - 36 = 108\nTuesday sold 108 / 4 = 27\nleft 108 - 27 = 81\nnow 81 + 18 = 99\n#### 99",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0105",
+  "template": "fraction_of_remaining",
+  "question": "A garden shop had 88 pots. On Monday it sold 1/4 of them. On Tuesday it sold 1/2 of the remaining pots. On Wednesday it received 32 new pots. How many pots does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 88 / 4",
+    "value": 22
+   },
+   {
+    "step": "left 88 - 22",
+    "value": 66
+   },
+   {
+    "step": "Tuesday sold 66 / 2",
+    "value": 33
+   },
+   {
+    "step": "left 66 - 33",
+    "value": 33
+   },
+   {
+    "step": "now 33 + 32",
+    "value": 65
+   }
+  ],
+  "gsm8k_answer": "Monday sold 88 / 4 = 22\nleft 88 - 22 = 66\nTuesday sold 66 / 2 = 33\nleft 66 - 33 = 33\nnow 33 + 32 = 65\n#### 65",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0106",
+  "template": "fraction_of_remaining",
+  "question": "A garden shop had 64 pots. On Monday it sold 1/4 of them. On Tuesday it sold 1/2 of the remaining pots. On Wednesday it received 36 new pots. How many pots does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 64 / 4",
+    "value": 16
+   },
+   {
+    "step": "left 64 - 16",
+    "value": 48
+   },
+   {
+    "step": "Tuesday sold 48 / 2",
+    "value": 24
+   },
+   {
+    "step": "left 48 - 24",
+    "value": 24
+   },
+   {
+    "step": "now 24 + 36",
+    "value": 60
+   }
+  ],
+  "gsm8k_answer": "Monday sold 64 / 4 = 16\nleft 64 - 16 = 48\nTuesday sold 48 / 2 = 24\nleft 48 - 24 = 24\nnow 24 + 36 = 60\n#### 60",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0107",
+  "template": "fraction_of_remaining",
+  "question": "A bakery had 54 rolls. On Monday it sold 1/3 of them. On Tuesday it sold 1/3 of the remaining rolls. On Wednesday it received 21 new rolls. How many rolls does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 54 / 3",
+    "value": 18
+   },
+   {
+    "step": "left 54 - 18",
+    "value": 36
+   },
+   {
+    "step": "Tuesday sold 36 / 3",
+    "value": 12
+   },
+   {
+    "step": "left 36 - 12",
+    "value": 24
+   },
+   {
+    "step": "now 24 + 21",
+    "value": 45
+   }
+  ],
+  "gsm8k_answer": "Monday sold 54 / 3 = 18\nleft 54 - 18 = 36\nTuesday sold 36 / 3 = 12\nleft 36 - 12 = 24\nnow 24 + 21 = 45\n#### 45",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0108",
+  "template": "fraction_of_remaining",
+  "question": "A garden shop had 75 pots. On Monday it sold 1/5 of them. On Tuesday it sold 1/3 of the remaining pots. On Wednesday it received 37 new pots. How many pots does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 75 / 5",
+    "value": 15
+   },
+   {
+    "step": "left 75 - 15",
+    "value": 60
+   },
+   {
+    "step": "Tuesday sold 60 / 3",
+    "value": 20
+   },
+   {
+    "step": "left 60 - 20",
+    "value": 40
+   },
+   {
+    "step": "now 40 + 37",
+    "value": 77
+   }
+  ],
+  "gsm8k_answer": "Monday sold 75 / 5 = 15\nleft 75 - 15 = 60\nTuesday sold 60 / 3 = 20\nleft 60 - 20 = 40\nnow 40 + 37 = 77\n#### 77",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0109",
+  "template": "fraction_of_remaining",
+  "question": "A bakery had 40 rolls. On Monday it sold 1/4 of them. On Tuesday it sold 1/2 of the remaining rolls. On Wednesday it received 23 new rolls. How many rolls does it have now?",
+  "reference": [
+   {
+    "step": "Monday sold 40 / 4",
+    "value": 10
+   },
+   {
+    "step": "left 40 - 10",
+    "value": 30
+   },
+   {
+    "step": "Tuesday sold 30 / 2",
+    "value": 15
+   },
+   {
+    "step": "left 30 - 15",
+    "value": 15
+   },
+   {
+    "step": "now 15 + 23",
+    "value": 38
+   }
+  ],
+  "gsm8k_answer": "Monday sold 40 / 4 = 10\nleft 40 - 10 = 30\nTuesday sold 30 / 2 = 15\nleft 30 - 15 = 15\nnow 15 + 23 = 38\n#### 38",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0200",
+  "template": "paid_from_change",
+  "question": "Jonas bought 2 pens at $9 each and 2 candles at $6 each. The cashier gave Jonas $4 in change. How much money did Jonas give the cashier?",
+  "reference": [
+   {
+    "step": "pens: 2 x 9",
+    "value": 18
+   },
+   {
+    "step": "candles: 2 x 6",
+    "value": 12
+   },
+   {
+    "step": "cost 18 + 12",
+    "value": 30
+   },
+   {
+    "step": "given = cost + change 30 + 4",
+    "value": 34
+   }
+  ],
+  "gsm8k_answer": "pens: 2 x 9 = 18\ncandles: 2 x 6 = 12\ncost 18 + 12 = 30\ngiven = cost + change 30 + 4 = 34\n#### 34",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0201",
+  "template": "paid_from_change",
+  "question": "Petra bought 6 notebooks at $14 each and 2 mugs at $15 each. The cashier gave Petra $3 in change. How much money did Petra give the cashier?",
+  "reference": [
+   {
+    "step": "notebooks: 6 x 14",
+    "value": 84
+   },
+   {
+    "step": "mugs: 2 x 15",
+    "value": 30
+   },
+   {
+    "step": "cost 84 + 30",
+    "value": 114
+   },
+   {
+    "step": "given = cost + change 114 + 3",
+    "value": 117
+   }
+  ],
+  "gsm8k_answer": "notebooks: 6 x 14 = 84\nmugs: 2 x 15 = 30\ncost 84 + 30 = 114\ngiven = cost + change 114 + 3 = 117\n#### 117",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0202",
+  "template": "paid_from_change",
+  "question": "Lena bought 4 mugs at $10 each and 3 scarves at $20 each. The cashier gave Lena $13 in change. How much money did Lena give the cashier?",
+  "reference": [
+   {
+    "step": "mugs: 4 x 10",
+    "value": 40
+   },
+   {
+    "step": "scarves: 3 x 20",
+    "value": 60
+   },
+   {
+    "step": "cost 40 + 60",
+    "value": 100
+   },
+   {
+    "step": "given = cost + change 100 + 13",
+    "value": 113
+   }
+  ],
+  "gsm8k_answer": "mugs: 4 x 10 = 40\nscarves: 3 x 20 = 60\ncost 40 + 60 = 100\ngiven = cost + change 100 + 13 = 113\n#### 113",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0203",
+  "template": "paid_from_change",
+  "question": "Ava bought 6 plants at $12 each and 2 candles at $18 each. The cashier gave Ava $10 in change. How much money did Ava give the cashier?",
+  "reference": [
+   {
+    "step": "plants: 6 x 12",
+    "value": 72
+   },
+   {
+    "step": "candles: 2 x 18",
+    "value": 36
+   },
+   {
+    "step": "cost 72 + 36",
+    "value": 108
+   },
+   {
+    "step": "given = cost + change 108 + 10",
+    "value": 118
+   }
+  ],
+  "gsm8k_answer": "plants: 6 x 12 = 72\ncandles: 2 x 18 = 36\ncost 72 + 36 = 108\ngiven = cost + change 108 + 10 = 118\n#### 118",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0204",
+  "template": "paid_from_change",
+  "question": "Goran bought 5 pens at $7 each and 1 mugs at $14 each. The cashier gave Goran $16 in change. How much money did Goran give the cashier?",
+  "reference": [
+   {
+    "step": "pens: 5 x 7",
+    "value": 35
+   },
+   {
+    "step": "mugs: 1 x 14",
+    "value": 14
+   },
+   {
+    "step": "cost 35 + 14",
+    "value": 49
+   },
+   {
+    "step": "given = cost + change 49 + 16",
+    "value": 65
+   }
+  ],
+  "gsm8k_answer": "pens: 5 x 7 = 35\nmugs: 1 x 14 = 14\ncost 35 + 14 = 49\ngiven = cost + change 49 + 16 = 65\n#### 65",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0205",
+  "template": "paid_from_change",
+  "question": "Sami bought 2 pens at $5 each and 1 mugs at $14 each. The cashier gave Sami $7 in change. How much money did Sami give the cashier?",
+  "reference": [
+   {
+    "step": "pens: 2 x 5",
+    "value": 10
+   },
+   {
+    "step": "mugs: 1 x 14",
+    "value": 14
+   },
+   {
+    "step": "cost 10 + 14",
+    "value": 24
+   },
+   {
+    "step": "given = cost + change 24 + 7",
+    "value": 31
+   }
+  ],
+  "gsm8k_answer": "pens: 2 x 5 = 10\nmugs: 1 x 14 = 14\ncost 10 + 14 = 24\ngiven = cost + change 24 + 7 = 31\n#### 31",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0206",
+  "template": "paid_from_change",
+  "question": "Omar bought 6 candles at $5 each and 2 pens at $18 each. The cashier gave Omar $3 in change. How much money did Omar give the cashier?",
+  "reference": [
+   {
+    "step": "candles: 6 x 5",
+    "value": 30
+   },
+   {
+    "step": "pens: 2 x 18",
+    "value": 36
+   },
+   {
+    "step": "cost 30 + 36",
+    "value": 66
+   },
+   {
+    "step": "given = cost + change 66 + 3",
+    "value": 69
+   }
+  ],
+  "gsm8k_answer": "candles: 6 x 5 = 30\npens: 2 x 18 = 36\ncost 30 + 36 = 66\ngiven = cost + change 66 + 3 = 69\n#### 69",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0207",
+  "template": "paid_from_change",
+  "question": "Lena bought 6 plants at $15 each and 4 pens at $16 each. The cashier gave Lena $4 in change. How much money did Lena give the cashier?",
+  "reference": [
+   {
+    "step": "plants: 6 x 15",
+    "value": 90
+   },
+   {
+    "step": "pens: 4 x 16",
+    "value": 64
+   },
+   {
+    "step": "cost 90 + 64",
+    "value": 154
+   },
+   {
+    "step": "given = cost + change 154 + 4",
+    "value": 158
+   }
+  ],
+  "gsm8k_answer": "plants: 6 x 15 = 90\npens: 4 x 16 = 64\ncost 90 + 64 = 154\ngiven = cost + change 154 + 4 = 158\n#### 158",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0208",
+  "template": "paid_from_change",
+  "question": "Carla bought 4 plants at $5 each and 4 notebooks at $22 each. The cashier gave Carla $14 in change. How much money did Carla give the cashier?",
+  "reference": [
+   {
+    "step": "plants: 4 x 5",
+    "value": 20
+   },
+   {
+    "step": "notebooks: 4 x 22",
+    "value": 88
+   },
+   {
+    "step": "cost 20 + 88",
+    "value": 108
+   },
+   {
+    "step": "given = cost + change 108 + 14",
+    "value": 122
+   }
+  ],
+  "gsm8k_answer": "plants: 4 x 5 = 20\nnotebooks: 4 x 22 = 88\ncost 20 + 88 = 108\ngiven = cost + change 108 + 14 = 122\n#### 122",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0209",
+  "template": "paid_from_change",
+  "question": "Nora bought 2 candles at $7 each and 2 plants at $5 each. The cashier gave Nora $5 in change. How much money did Nora give the cashier?",
+  "reference": [
+   {
+    "step": "candles: 2 x 7",
+    "value": 14
+   },
+   {
+    "step": "plants: 2 x 5",
+    "value": 10
+   },
+   {
+    "step": "cost 14 + 10",
+    "value": 24
+   },
+   {
+    "step": "given = cost + change 24 + 5",
+    "value": 29
+   }
+  ],
+  "gsm8k_answer": "candles: 2 x 7 = 14\nplants: 2 x 5 = 10\ncost 14 + 10 = 24\ngiven = cost + change 24 + 5 = 29\n#### 29",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0300",
+  "template": "rate_units",
+  "question": "A machine fills 7 bottles every 6 minutes. Each hour it stops for 6 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 3 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 6",
+    "value": 54
+   },
+   {
+    "step": "batches per hour 54 / 6",
+    "value": 9
+   },
+   {
+    "step": "bottles per hour 9 x 7",
+    "value": 63
+   },
+   {
+    "step": "total 63 x 3",
+    "value": 189
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 6 = 54\nbatches per hour 54 / 6 = 9\nbottles per hour 9 x 7 = 63\ntotal 63 x 3 = 189\n#### 189",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0301",
+  "template": "rate_units",
+  "question": "A machine fills 7 bottles every 5 minutes. Each hour it stops for 15 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 7 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 15",
+    "value": 45
+   },
+   {
+    "step": "batches per hour 45 / 5",
+    "value": 9
+   },
+   {
+    "step": "bottles per hour 9 x 7",
+    "value": 63
+   },
+   {
+    "step": "total 63 x 7",
+    "value": 441
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 15 = 45\nbatches per hour 45 / 5 = 9\nbottles per hour 9 x 7 = 63\ntotal 63 x 7 = 441\n#### 441",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0302",
+  "template": "rate_units",
+  "question": "A machine fills 9 bottles every 5 minutes. Each hour it stops for 10 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 8 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 10",
+    "value": 50
+   },
+   {
+    "step": "batches per hour 50 / 5",
+    "value": 10
+   },
+   {
+    "step": "bottles per hour 10 x 9",
+    "value": 90
+   },
+   {
+    "step": "total 90 x 8",
+    "value": 720
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 10 = 50\nbatches per hour 50 / 5 = 10\nbottles per hour 10 x 9 = 90\ntotal 90 x 8 = 720\n#### 720",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0303",
+  "template": "rate_units",
+  "question": "A machine fills 4 bottles every 6 minutes. Each hour it stops for 12 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 7 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 12",
+    "value": 48
+   },
+   {
+    "step": "batches per hour 48 / 6",
+    "value": 8
+   },
+   {
+    "step": "bottles per hour 8 x 4",
+    "value": 32
+   },
+   {
+    "step": "total 32 x 7",
+    "value": 224
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 12 = 48\nbatches per hour 48 / 6 = 8\nbottles per hour 8 x 4 = 32\ntotal 32 x 7 = 224\n#### 224",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0304",
+  "template": "rate_units",
+  "question": "A machine fills 7 bottles every 4 minutes. Each hour it stops for 12 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 2 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 12",
+    "value": 48
+   },
+   {
+    "step": "batches per hour 48 / 4",
+    "value": 12
+   },
+   {
+    "step": "bottles per hour 12 x 7",
+    "value": 84
+   },
+   {
+    "step": "total 84 x 2",
+    "value": 168
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 12 = 48\nbatches per hour 48 / 4 = 12\nbottles per hour 12 x 7 = 84\ntotal 84 x 2 = 168\n#### 168",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0305",
+  "template": "rate_units",
+  "question": "A machine fills 5 bottles every 3 minutes. Each hour it stops for 6 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 4 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 6",
+    "value": 54
+   },
+   {
+    "step": "batches per hour 54 / 3",
+    "value": 18
+   },
+   {
+    "step": "bottles per hour 18 x 5",
+    "value": 90
+   },
+   {
+    "step": "total 90 x 4",
+    "value": 360
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 6 = 54\nbatches per hour 54 / 3 = 18\nbottles per hour 18 x 5 = 90\ntotal 90 x 4 = 360\n#### 360",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0306",
+  "template": "rate_units",
+  "question": "A machine fills 3 bottles every 3 minutes. Each hour it stops for 9 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 2 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 9",
+    "value": 51
+   },
+   {
+    "step": "batches per hour 51 / 3",
+    "value": 17
+   },
+   {
+    "step": "bottles per hour 17 x 3",
+    "value": 51
+   },
+   {
+    "step": "total 51 x 2",
+    "value": 102
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 9 = 51\nbatches per hour 51 / 3 = 17\nbottles per hour 17 x 3 = 51\ntotal 51 x 2 = 102\n#### 102",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0307",
+  "template": "rate_units",
+  "question": "A machine fills 8 bottles every 2 minutes. Each hour it stops for 6 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 4 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 6",
+    "value": 54
+   },
+   {
+    "step": "batches per hour 54 / 2",
+    "value": 27
+   },
+   {
+    "step": "bottles per hour 27 x 8",
+    "value": 216
+   },
+   {
+    "step": "total 216 x 4",
+    "value": 864
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 6 = 54\nbatches per hour 54 / 2 = 27\nbottles per hour 27 x 8 = 216\ntotal 216 x 4 = 864\n#### 864",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0308",
+  "template": "rate_units",
+  "question": "A machine fills 2 bottles every 6 minutes. Each hour it stops for 12 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 7 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 12",
+    "value": 48
+   },
+   {
+    "step": "batches per hour 48 / 6",
+    "value": 8
+   },
+   {
+    "step": "bottles per hour 8 x 2",
+    "value": 16
+   },
+   {
+    "step": "total 16 x 7",
+    "value": 112
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 12 = 48\nbatches per hour 48 / 6 = 8\nbottles per hour 8 x 2 = 16\ntotal 16 x 7 = 112\n#### 112",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0309",
+  "template": "rate_units",
+  "question": "A machine fills 6 bottles every 4 minutes. Each hour it stops for 8 minutes of cleaning and fills nothing during that time. How many bottles does it fill in 8 hours?",
+  "reference": [
+   {
+    "step": "working minutes per hour 60 - 8",
+    "value": 52
+   },
+   {
+    "step": "batches per hour 52 / 4",
+    "value": 13
+   },
+   {
+    "step": "bottles per hour 13 x 6",
+    "value": 78
+   },
+   {
+    "step": "total 78 x 8",
+    "value": 624
+   }
+  ],
+  "gsm8k_answer": "working minutes per hour 60 - 8 = 52\nbatches per hour 52 / 4 = 13\nbottles per hour 13 x 6 = 78\ntotal 78 x 8 = 624\n#### 624",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0400",
+  "template": "percent_new_price",
+  "question": "A backpack cost $100. The store raised the price by 10%, and a month later put it on sale at 20% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 100 x 10%",
+    "value": 10
+   },
+   {
+    "step": "new price",
+    "value": 110
+   },
+   {
+    "step": "discount 20% of 110",
+    "value": 22
+   },
+   {
+    "step": "sale price",
+    "value": 88
+   }
+  ],
+  "gsm8k_answer": "raise 100 x 10% = 10\nnew price = 110\ndiscount 20% of 110 = 22\nsale price = 88\n#### 88",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0401",
+  "template": "percent_new_price",
+  "question": "A backpack cost $400. The store raised the price by 50%, and a month later put it on sale at 50% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 400 x 50%",
+    "value": 200
+   },
+   {
+    "step": "new price",
+    "value": 600
+   },
+   {
+    "step": "discount 50% of 600",
+    "value": 300
+   },
+   {
+    "step": "sale price",
+    "value": 300
+   }
+  ],
+  "gsm8k_answer": "raise 400 x 50% = 200\nnew price = 600\ndiscount 50% of 600 = 300\nsale price = 300\n#### 300",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0402",
+  "template": "percent_new_price",
+  "question": "A backpack cost $280. The store raised the price by 50%, and a month later put it on sale at 25% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 280 x 50%",
+    "value": 140
+   },
+   {
+    "step": "new price",
+    "value": 420
+   },
+   {
+    "step": "discount 25% of 420",
+    "value": 105
+   },
+   {
+    "step": "sale price",
+    "value": 315
+   }
+  ],
+  "gsm8k_answer": "raise 280 x 50% = 140\nnew price = 420\ndiscount 25% of 420 = 105\nsale price = 315\n#### 315",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0403",
+  "template": "percent_new_price",
+  "question": "A lamp cost $60. The store raised the price by 10%, and a month later put it on sale at 50% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 60 x 10%",
+    "value": 6
+   },
+   {
+    "step": "new price",
+    "value": 66
+   },
+   {
+    "step": "discount 50% of 66",
+    "value": 33
+   },
+   {
+    "step": "sale price",
+    "value": 33
+   }
+  ],
+  "gsm8k_answer": "raise 60 x 10% = 6\nnew price = 66\ndiscount 50% of 66 = 33\nsale price = 33\n#### 33",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0404",
+  "template": "percent_new_price",
+  "question": "A backpack cost $80. The store raised the price by 10%, and a month later put it on sale at 50% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 80 x 10%",
+    "value": 8
+   },
+   {
+    "step": "new price",
+    "value": 88
+   },
+   {
+    "step": "discount 50% of 88",
+    "value": 44
+   },
+   {
+    "step": "sale price",
+    "value": 44
+   }
+  ],
+  "gsm8k_answer": "raise 80 x 10% = 8\nnew price = 88\ndiscount 50% of 88 = 44\nsale price = 44\n#### 44",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0405",
+  "template": "percent_new_price",
+  "question": "A jacket cost $400. The store raised the price by 20%, and a month later put it on sale at 10% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 400 x 20%",
+    "value": 80
+   },
+   {
+    "step": "new price",
+    "value": 480
+   },
+   {
+    "step": "discount 10% of 480",
+    "value": 48
+   },
+   {
+    "step": "sale price",
+    "value": 432
+   }
+  ],
+  "gsm8k_answer": "raise 400 x 20% = 80\nnew price = 480\ndiscount 10% of 480 = 48\nsale price = 432\n#### 432",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0406",
+  "template": "percent_new_price",
+  "question": "A backpack cost $200. The store raised the price by 50%, and a month later put it on sale at 50% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 200 x 50%",
+    "value": 100
+   },
+   {
+    "step": "new price",
+    "value": 300
+   },
+   {
+    "step": "discount 50% of 300",
+    "value": 150
+   },
+   {
+    "step": "sale price",
+    "value": 150
+   }
+  ],
+  "gsm8k_answer": "raise 200 x 50% = 100\nnew price = 300\ndiscount 50% of 300 = 150\nsale price = 150\n#### 150",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0407",
+  "template": "percent_new_price",
+  "question": "A jacket cost $400. The store raised the price by 10%, and a month later put it on sale at 50% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 400 x 10%",
+    "value": 40
+   },
+   {
+    "step": "new price",
+    "value": 440
+   },
+   {
+    "step": "discount 50% of 440",
+    "value": 220
+   },
+   {
+    "step": "sale price",
+    "value": 220
+   }
+  ],
+  "gsm8k_answer": "raise 400 x 10% = 40\nnew price = 440\ndiscount 50% of 440 = 220\nsale price = 220\n#### 220",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0408",
+  "template": "percent_new_price",
+  "question": "A backpack cost $260. The store raised the price by 50%, and a month later put it on sale at 10% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 260 x 50%",
+    "value": 130
+   },
+   {
+    "step": "new price",
+    "value": 390
+   },
+   {
+    "step": "discount 10% of 390",
+    "value": 39
+   },
+   {
+    "step": "sale price",
+    "value": 351
+   }
+  ],
+  "gsm8k_answer": "raise 260 x 50% = 130\nnew price = 390\ndiscount 10% of 390 = 39\nsale price = 351\n#### 351",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0409",
+  "template": "percent_new_price",
+  "question": "A lamp cost $40. The store raised the price by 25%, and a month later put it on sale at 20% off the new price. What is the sale price?",
+  "reference": [
+   {
+    "step": "raise 40 x 25%",
+    "value": 10
+   },
+   {
+    "step": "new price",
+    "value": 50
+   },
+   {
+    "step": "discount 20% of 50",
+    "value": 10
+   },
+   {
+    "step": "sale price",
+    "value": 40
+   }
+  ],
+  "gsm8k_answer": "raise 40 x 25% = 10\nnew price = 50\ndiscount 20% of 50 = 10\nsale price = 40\n#### 40",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0500",
+  "template": "round_up_packs",
+  "question": "Kemal is having 8 guests, and each guest will get 3 cupcakes. Kemal already has 6 cupcakes left over. Cupcakes come in packs of 8 that cost $3 per pack. How much will Kemal spend?",
+  "reference": [
+   {
+    "step": "needed 8 x 3",
+    "value": 24
+   },
+   {
+    "step": "to buy 24 - 6",
+    "value": 18
+   },
+   {
+    "step": "packs ceil(18 / 8)",
+    "value": 3
+   },
+   {
+    "step": "cost 3 x 3",
+    "value": 9
+   }
+  ],
+  "gsm8k_answer": "needed 8 x 3 = 24\nto buy 24 - 6 = 18\npacks ceil(18 / 8) = 3\ncost 3 x 3 = 9\n#### 9",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0501",
+  "template": "round_up_packs",
+  "question": "Kemal is having 20 guests, and each guest will get 3 cupcakes. Kemal already has 1 cupcakes left over. Cupcakes come in packs of 10 that cost $6 per pack. How much will Kemal spend?",
+  "reference": [
+   {
+    "step": "needed 20 x 3",
+    "value": 60
+   },
+   {
+    "step": "to buy 60 - 1",
+    "value": 59
+   },
+   {
+    "step": "packs ceil(59 / 10)",
+    "value": 6
+   },
+   {
+    "step": "cost 6 x 6",
+    "value": 36
+   }
+  ],
+  "gsm8k_answer": "needed 20 x 3 = 60\nto buy 60 - 1 = 59\npacks ceil(59 / 10) = 6\ncost 6 x 6 = 36\n#### 36",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0502",
+  "template": "round_up_packs",
+  "question": "Carla is having 22 guests, and each guest will get 4 balloons. Carla already has 3 balloons left over. Balloons come in packs of 6 that cost $4 per pack. How much will Carla spend?",
+  "reference": [
+   {
+    "step": "needed 22 x 4",
+    "value": 88
+   },
+   {
+    "step": "to buy 88 - 3",
+    "value": 85
+   },
+   {
+    "step": "packs ceil(85 / 6)",
+    "value": 15
+   },
+   {
+    "step": "cost 15 x 4",
+    "value": 60
+   }
+  ],
+  "gsm8k_answer": "needed 22 x 4 = 88\nto buy 88 - 3 = 85\npacks ceil(85 / 6) = 15\ncost 15 x 4 = 60\n#### 60",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0503",
+  "template": "round_up_packs",
+  "question": "Quinn is having 29 guests, and each guest will get 2 balloons. Quinn already has 8 balloons left over. Balloons come in packs of 12 that cost $6 per pack. How much will Quinn spend?",
+  "reference": [
+   {
+    "step": "needed 29 x 2",
+    "value": 58
+   },
+   {
+    "step": "to buy 58 - 8",
+    "value": 50
+   },
+   {
+    "step": "packs ceil(50 / 12)",
+    "value": 5
+   },
+   {
+    "step": "cost 5 x 6",
+    "value": 30
+   }
+  ],
+  "gsm8k_answer": "needed 29 x 2 = 58\nto buy 58 - 8 = 50\npacks ceil(50 / 12) = 5\ncost 5 x 6 = 30\n#### 30",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0504",
+  "template": "round_up_packs",
+  "question": "Carla is having 11 guests, and each guest will get 3 party hats. Carla already has 6 party hats left over. Party hats come in packs of 8 that cost $4 per pack. How much will Carla spend?",
+  "reference": [
+   {
+    "step": "needed 11 x 3",
+    "value": 33
+   },
+   {
+    "step": "to buy 33 - 6",
+    "value": 27
+   },
+   {
+    "step": "packs ceil(27 / 8)",
+    "value": 4
+   },
+   {
+    "step": "cost 4 x 4",
+    "value": 16
+   }
+  ],
+  "gsm8k_answer": "needed 11 x 3 = 33\nto buy 33 - 6 = 27\npacks ceil(27 / 8) = 4\ncost 4 x 4 = 16\n#### 16",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0505",
+  "template": "round_up_packs",
+  "question": "Carla is having 9 guests, and each guest will get 3 balloons. Carla already has 8 balloons left over. Balloons come in packs of 12 that cost $6 per pack. How much will Carla spend?",
+  "reference": [
+   {
+    "step": "needed 9 x 3",
+    "value": 27
+   },
+   {
+    "step": "to buy 27 - 8",
+    "value": 19
+   },
+   {
+    "step": "packs ceil(19 / 12)",
+    "value": 2
+   },
+   {
+    "step": "cost 2 x 6",
+    "value": 12
+   }
+  ],
+  "gsm8k_answer": "needed 9 x 3 = 27\nto buy 27 - 8 = 19\npacks ceil(19 / 12) = 2\ncost 2 x 6 = 12\n#### 12",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0506",
+  "template": "round_up_packs",
+  "question": "Farah is having 30 guests, and each guest will get 2 juice boxes. Farah already has 1 juice boxes left over. Juice boxes come in packs of 10 that cost $6 per pack. How much will Farah spend?",
+  "reference": [
+   {
+    "step": "needed 30 x 2",
+    "value": 60
+   },
+   {
+    "step": "to buy 60 - 1",
+    "value": 59
+   },
+   {
+    "step": "packs ceil(59 / 10)",
+    "value": 6
+   },
+   {
+    "step": "cost 6 x 6",
+    "value": 36
+   }
+  ],
+  "gsm8k_answer": "needed 30 x 2 = 60\nto buy 60 - 1 = 59\npacks ceil(59 / 10) = 6\ncost 6 x 6 = 36\n#### 36",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0507",
+  "template": "round_up_packs",
+  "question": "Omar is having 15 guests, and each guest will get 3 party hats. Omar already has 3 party hats left over. Party hats come in packs of 10 that cost $3 per pack. How much will Omar spend?",
+  "reference": [
+   {
+    "step": "needed 15 x 3",
+    "value": 45
+   },
+   {
+    "step": "to buy 45 - 3",
+    "value": 42
+   },
+   {
+    "step": "packs ceil(42 / 10)",
+    "value": 5
+   },
+   {
+    "step": "cost 5 x 3",
+    "value": 15
+   }
+  ],
+  "gsm8k_answer": "needed 15 x 3 = 45\nto buy 45 - 3 = 42\npacks ceil(42 / 10) = 5\ncost 5 x 3 = 15\n#### 15",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0508",
+  "template": "round_up_packs",
+  "question": "Nora is having 12 guests, and each guest will get 2 balloons. Nora already has 2 balloons left over. Balloons come in packs of 8 that cost $3 per pack. How much will Nora spend?",
+  "reference": [
+   {
+    "step": "needed 12 x 2",
+    "value": 24
+   },
+   {
+    "step": "to buy 24 - 2",
+    "value": 22
+   },
+   {
+    "step": "packs ceil(22 / 8)",
+    "value": 3
+   },
+   {
+    "step": "cost 3 x 3",
+    "value": 9
+   }
+  ],
+  "gsm8k_answer": "needed 12 x 2 = 24\nto buy 24 - 2 = 22\npacks ceil(22 / 8) = 3\ncost 3 x 3 = 9\n#### 9",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0509",
+  "template": "round_up_packs",
+  "question": "Goran is having 28 guests, and each guest will get 4 balloons. Goran already has 2 balloons left over. Balloons come in packs of 6 that cost $5 per pack. How much will Goran spend?",
+  "reference": [
+   {
+    "step": "needed 28 x 4",
+    "value": 112
+   },
+   {
+    "step": "to buy 112 - 2",
+    "value": 110
+   },
+   {
+    "step": "packs ceil(110 / 6)",
+    "value": 19
+   },
+   {
+    "step": "cost 19 x 5",
+    "value": 95
+   }
+  ],
+  "gsm8k_answer": "needed 28 x 4 = 112\nto buy 112 - 2 = 110\npacks ceil(110 / 6) = 19\ncost 19 x 5 = 95\n#### 95",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0600",
+  "template": "grouped_days",
+  "question": "Ava is reading a long book. On days one and two Ava read a total of 32 pages. On day three Ava read nothing. On days four and five Ava read 57 pages in total, and on day six Ava read 13 pages. On average, how many pages did Ava read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 32 + 0 + 57 + 13",
+    "value": 102
+   },
+   {
+    "step": "average 102 / 6",
+    "value": 17
+   }
+  ],
+  "gsm8k_answer": "total 32 + 0 + 57 + 13 = 102\naverage 102 / 6 = 17\n#### 17",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0601",
+  "template": "grouped_days",
+  "question": "Nora is reading a long book. On days one and two Nora read a total of 23 pages. On day three Nora read nothing. On days four and five Nora read 73 pages in total, and on day six Nora read 60 pages. On average, how many pages did Nora read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 23 + 0 + 73 + 60",
+    "value": 156
+   },
+   {
+    "step": "average 156 / 6",
+    "value": 26
+   }
+  ],
+  "gsm8k_answer": "total 23 + 0 + 73 + 60 = 156\naverage 156 / 6 = 26\n#### 26",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0602",
+  "template": "grouped_days",
+  "question": "Carla is reading a long book. On days one and two Carla read a total of 85 pages. On day three Carla read nothing. On days four and five Carla read 95 pages in total, and on day six Carla read 36 pages. On average, how many pages did Carla read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 85 + 0 + 95 + 36",
+    "value": 216
+   },
+   {
+    "step": "average 216 / 6",
+    "value": 36
+   }
+  ],
+  "gsm8k_answer": "total 85 + 0 + 95 + 36 = 216\naverage 216 / 6 = 36\n#### 36",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0603",
+  "template": "grouped_days",
+  "question": "Sami is reading a long book. On days one and two Sami read a total of 81 pages. On day three Sami read nothing. On days four and five Sami read 76 pages in total, and on day six Sami read 35 pages. On average, how many pages did Sami read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 81 + 0 + 76 + 35",
+    "value": 192
+   },
+   {
+    "step": "average 192 / 6",
+    "value": 32
+   }
+  ],
+  "gsm8k_answer": "total 81 + 0 + 76 + 35 = 192\naverage 192 / 6 = 32\n#### 32",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0604",
+  "template": "grouped_days",
+  "question": "Ivo is reading a long book. On days one and two Ivo read a total of 58 pages. On day three Ivo read nothing. On days four and five Ivo read 115 pages in total, and on day six Ivo read 31 pages. On average, how many pages did Ivo read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 58 + 0 + 115 + 31",
+    "value": 204
+   },
+   {
+    "step": "average 204 / 6",
+    "value": 34
+   }
+  ],
+  "gsm8k_answer": "total 58 + 0 + 115 + 31 = 204\naverage 204 / 6 = 34\n#### 34",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0605",
+  "template": "grouped_days",
+  "question": "Farah is reading a long book. On days one and two Farah read a total of 47 pages. On day three Farah read nothing. On days four and five Farah read 67 pages in total, and on day six Farah read 24 pages. On average, how many pages did Farah read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 47 + 0 + 67 + 24",
+    "value": 138
+   },
+   {
+    "step": "average 138 / 6",
+    "value": 23
+   }
+  ],
+  "gsm8k_answer": "total 47 + 0 + 67 + 24 = 138\naverage 138 / 6 = 23\n#### 23",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0606",
+  "template": "grouped_days",
+  "question": "Petra is reading a long book. On days one and two Petra read a total of 77 pages. On day three Petra read nothing. On days four and five Petra read 101 pages in total, and on day six Petra read 44 pages. On average, how many pages did Petra read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 77 + 0 + 101 + 44",
+    "value": 222
+   },
+   {
+    "step": "average 222 / 6",
+    "value": 37
+   }
+  ],
+  "gsm8k_answer": "total 77 + 0 + 101 + 44 = 222\naverage 222 / 6 = 37\n#### 37",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0607",
+  "template": "grouped_days",
+  "question": "Rosa is reading a long book. On days one and two Rosa read a total of 60 pages. On day three Rosa read nothing. On days four and five Rosa read 36 pages in total, and on day six Rosa read 24 pages. On average, how many pages did Rosa read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 60 + 0 + 36 + 24",
+    "value": 120
+   },
+   {
+    "step": "average 120 / 6",
+    "value": 20
+   }
+  ],
+  "gsm8k_answer": "total 60 + 0 + 36 + 24 = 120\naverage 120 / 6 = 20\n#### 20",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0608",
+  "template": "grouped_days",
+  "question": "Kemal is reading a long book. On days one and two Kemal read a total of 77 pages. On day three Kemal read nothing. On days four and five Kemal read 38 pages in total, and on day six Kemal read 11 pages. On average, how many pages did Kemal read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 77 + 0 + 38 + 11",
+    "value": 126
+   },
+   {
+    "step": "average 126 / 6",
+    "value": 21
+   }
+  ],
+  "gsm8k_answer": "total 77 + 0 + 38 + 11 = 126\naverage 126 / 6 = 21\n#### 21",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0609",
+  "template": "grouped_days",
+  "question": "Farah is reading a long book. On days one and two Farah read a total of 36 pages. On day three Farah read nothing. On days four and five Farah read 78 pages in total, and on day six Farah read 60 pages. On average, how many pages did Farah read per day over the six days?",
+  "reference": [
+   {
+    "step": "total 36 + 0 + 78 + 60",
+    "value": 174
+   },
+   {
+    "step": "average 174 / 6",
+    "value": 29
+   }
+  ],
+  "gsm8k_answer": "total 36 + 0 + 78 + 60 = 174\naverage 174 / 6 = 29\n#### 29",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0700",
+  "template": "backwards",
+  "question": "Farah gave away 11 cookies, then received 15 more, then used half of the cookies Farah had. Farah now has 11 cookies. How many cookies did Farah start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 11",
+    "value": 22
+   },
+   {
+    "step": "before receiving 22 - 15",
+    "value": 7
+   },
+   {
+    "step": "start 7 + 11",
+    "value": 18
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 11 = 22\nbefore receiving 22 - 15 = 7\nstart 7 + 11 = 18\n#### 18",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0701",
+  "template": "backwards",
+  "question": "Elif gave away 12 coins, then received 18 more, then used half of the coins Elif had. Elif now has 17 coins. How many coins did Elif start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 17",
+    "value": 34
+   },
+   {
+    "step": "before receiving 34 - 18",
+    "value": 16
+   },
+   {
+    "step": "start 16 + 12",
+    "value": 28
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 17 = 34\nbefore receiving 34 - 18 = 16\nstart 16 + 12 = 28\n#### 28",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0702",
+  "template": "backwards",
+  "question": "Rosa gave away 13 coins, then received 15 more, then used half of the coins Rosa had. Rosa now has 30 coins. How many coins did Rosa start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 30",
+    "value": 60
+   },
+   {
+    "step": "before receiving 60 - 15",
+    "value": 45
+   },
+   {
+    "step": "start 45 + 13",
+    "value": 58
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 30 = 60\nbefore receiving 60 - 15 = 45\nstart 45 + 13 = 58\n#### 58",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0703",
+  "template": "backwards",
+  "question": "Jonas gave away 7 cookies, then received 5 more, then used half of the cookies Jonas had. Jonas now has 5 cookies. How many cookies did Jonas start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 5",
+    "value": 10
+   },
+   {
+    "step": "before receiving 10 - 5",
+    "value": 5
+   },
+   {
+    "step": "start 5 + 7",
+    "value": 12
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 5 = 10\nbefore receiving 10 - 5 = 5\nstart 5 + 7 = 12\n#### 12",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0704",
+  "template": "backwards",
+  "question": "Tara gave away 3 coins, then received 16 more, then used half of the coins Tara had. Tara now has 18 coins. How many coins did Tara start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 18",
+    "value": 36
+   },
+   {
+    "step": "before receiving 36 - 16",
+    "value": 20
+   },
+   {
+    "step": "start 20 + 3",
+    "value": 23
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 18 = 36\nbefore receiving 36 - 16 = 20\nstart 20 + 3 = 23\n#### 23",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0705",
+  "template": "backwards",
+  "question": "Elif gave away 14 beads, then received 19 more, then used half of the beads Elif had. Elif now has 20 beads. How many beads did Elif start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 20",
+    "value": 40
+   },
+   {
+    "step": "before receiving 40 - 19",
+    "value": 21
+   },
+   {
+    "step": "start 21 + 14",
+    "value": 35
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 20 = 40\nbefore receiving 40 - 19 = 21\nstart 21 + 14 = 35\n#### 35",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0706",
+  "template": "backwards",
+  "question": "Elif gave away 6 stickers, then received 15 more, then used half of the stickers Elif had. Elif now has 24 stickers. How many stickers did Elif start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 24",
+    "value": 48
+   },
+   {
+    "step": "before receiving 48 - 15",
+    "value": 33
+   },
+   {
+    "step": "start 33 + 6",
+    "value": 39
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 24 = 48\nbefore receiving 48 - 15 = 33\nstart 33 + 6 = 39\n#### 39",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0707",
+  "template": "backwards",
+  "question": "Carla gave away 14 beads, then received 16 more, then used half of the beads Carla had. Carla now has 23 beads. How many beads did Carla start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 23",
+    "value": 46
+   },
+   {
+    "step": "before receiving 46 - 16",
+    "value": 30
+   },
+   {
+    "step": "start 30 + 14",
+    "value": 44
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 23 = 46\nbefore receiving 46 - 16 = 30\nstart 30 + 14 = 44\n#### 44",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0708",
+  "template": "backwards",
+  "question": "Elif gave away 5 coins, then received 6 more, then used half of the coins Elif had. Elif now has 30 coins. How many coins did Elif start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 30",
+    "value": 60
+   },
+   {
+    "step": "before receiving 60 - 6",
+    "value": 54
+   },
+   {
+    "step": "start 54 + 5",
+    "value": 59
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 30 = 60\nbefore receiving 60 - 6 = 54\nstart 54 + 5 = 59\n#### 59",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0709",
+  "template": "backwards",
+  "question": "Carla gave away 15 beads, then received 15 more, then used half of the beads Carla had. Carla now has 21 beads. How many beads did Carla start with?",
+  "reference": [
+   {
+    "step": "before spending half 2 x 21",
+    "value": 42
+   },
+   {
+    "step": "before receiving 42 - 15",
+    "value": 27
+   },
+   {
+    "step": "start 27 + 15",
+    "value": 42
+   }
+  ],
+  "gsm8k_answer": "before spending half 2 x 21 = 42\nbefore receiving 42 - 15 = 27\nstart 27 + 15 = 42\n#### 42",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0800",
+  "template": "future_ages",
+  "question": "Jonas is 2 times as old as Nora. Nora is 11 years old now. What will be the sum of their ages in 8 years?",
+  "reference": [
+   {
+    "step": "Jonas now 2 x 11",
+    "value": 22
+   },
+   {
+    "step": "Jonas then 22 + 8",
+    "value": 30
+   },
+   {
+    "step": "Nora then 11 + 8",
+    "value": 19
+   },
+   {
+    "step": "sum",
+    "value": 49
+   }
+  ],
+  "gsm8k_answer": "Jonas now 2 x 11 = 22\nJonas then 22 + 8 = 30\nNora then 11 + 8 = 19\nsum = 49\n#### 49",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0801",
+  "template": "future_ages",
+  "question": "Tara is 2 times as old as Sami. Sami is 4 years old now. What will be the sum of their ages in 7 years?",
+  "reference": [
+   {
+    "step": "Tara now 2 x 4",
+    "value": 8
+   },
+   {
+    "step": "Tara then 8 + 7",
+    "value": 15
+   },
+   {
+    "step": "Sami then 4 + 7",
+    "value": 11
+   },
+   {
+    "step": "sum",
+    "value": 26
+   }
+  ],
+  "gsm8k_answer": "Tara now 2 x 4 = 8\nTara then 8 + 7 = 15\nSami then 4 + 7 = 11\nsum = 26\n#### 26",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0802",
+  "template": "future_ages",
+  "question": "Kemal is 2 times as old as Elif. Elif is 10 years old now. What will be the sum of their ages in 6 years?",
+  "reference": [
+   {
+    "step": "Kemal now 2 x 10",
+    "value": 20
+   },
+   {
+    "step": "Kemal then 20 + 6",
+    "value": 26
+   },
+   {
+    "step": "Elif then 10 + 6",
+    "value": 16
+   },
+   {
+    "step": "sum",
+    "value": 42
+   }
+  ],
+  "gsm8k_answer": "Kemal now 2 x 10 = 20\nKemal then 20 + 6 = 26\nElif then 10 + 6 = 16\nsum = 42\n#### 42",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0803",
+  "template": "future_ages",
+  "question": "Rosa is 4 times as old as Lena. Lena is 7 years old now. What will be the sum of their ages in 5 years?",
+  "reference": [
+   {
+    "step": "Rosa now 4 x 7",
+    "value": 28
+   },
+   {
+    "step": "Rosa then 28 + 5",
+    "value": 33
+   },
+   {
+    "step": "Lena then 7 + 5",
+    "value": 12
+   },
+   {
+    "step": "sum",
+    "value": 45
+   }
+  ],
+  "gsm8k_answer": "Rosa now 4 x 7 = 28\nRosa then 28 + 5 = 33\nLena then 7 + 5 = 12\nsum = 45\n#### 45",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0804",
+  "template": "future_ages",
+  "question": "Tara is 4 times as old as Elif. Elif is 6 years old now. What will be the sum of their ages in 5 years?",
+  "reference": [
+   {
+    "step": "Tara now 4 x 6",
+    "value": 24
+   },
+   {
+    "step": "Tara then 24 + 5",
+    "value": 29
+   },
+   {
+    "step": "Elif then 6 + 5",
+    "value": 11
+   },
+   {
+    "step": "sum",
+    "value": 40
+   }
+  ],
+  "gsm8k_answer": "Tara now 4 x 6 = 24\nTara then 24 + 5 = 29\nElif then 6 + 5 = 11\nsum = 40\n#### 40",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0805",
+  "template": "future_ages",
+  "question": "Tara is 3 times as old as Ava. Ava is 12 years old now. What will be the sum of their ages in 7 years?",
+  "reference": [
+   {
+    "step": "Tara now 3 x 12",
+    "value": 36
+   },
+   {
+    "step": "Tara then 36 + 7",
+    "value": 43
+   },
+   {
+    "step": "Ava then 12 + 7",
+    "value": 19
+   },
+   {
+    "step": "sum",
+    "value": 62
+   }
+  ],
+  "gsm8k_answer": "Tara now 3 x 12 = 36\nTara then 36 + 7 = 43\nAva then 12 + 7 = 19\nsum = 62\n#### 62",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0806",
+  "template": "future_ages",
+  "question": "Rosa is 3 times as old as Tara. Tara is 14 years old now. What will be the sum of their ages in 6 years?",
+  "reference": [
+   {
+    "step": "Rosa now 3 x 14",
+    "value": 42
+   },
+   {
+    "step": "Rosa then 42 + 6",
+    "value": 48
+   },
+   {
+    "step": "Tara then 14 + 6",
+    "value": 20
+   },
+   {
+    "step": "sum",
+    "value": 68
+   }
+  ],
+  "gsm8k_answer": "Rosa now 3 x 14 = 42\nRosa then 42 + 6 = 48\nTara then 14 + 6 = 20\nsum = 68\n#### 68",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0807",
+  "template": "future_ages",
+  "question": "Ben is 4 times as old as Kemal. Kemal is 5 years old now. What will be the sum of their ages in 9 years?",
+  "reference": [
+   {
+    "step": "Ben now 4 x 5",
+    "value": 20
+   },
+   {
+    "step": "Ben then 20 + 9",
+    "value": 29
+   },
+   {
+    "step": "Kemal then 5 + 9",
+    "value": 14
+   },
+   {
+    "step": "sum",
+    "value": 43
+   }
+  ],
+  "gsm8k_answer": "Ben now 4 x 5 = 20\nBen then 20 + 9 = 29\nKemal then 5 + 9 = 14\nsum = 43\n#### 43",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0808",
+  "template": "future_ages",
+  "question": "Omar is 2 times as old as Kemal. Kemal is 4 years old now. What will be the sum of their ages in 7 years?",
+  "reference": [
+   {
+    "step": "Omar now 2 x 4",
+    "value": 8
+   },
+   {
+    "step": "Omar then 8 + 7",
+    "value": 15
+   },
+   {
+    "step": "Kemal then 4 + 7",
+    "value": 11
+   },
+   {
+    "step": "sum",
+    "value": 26
+   }
+  ],
+  "gsm8k_answer": "Omar now 2 x 4 = 8\nOmar then 8 + 7 = 15\nKemal then 4 + 7 = 11\nsum = 26\n#### 26",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0809",
+  "template": "future_ages",
+  "question": "Hana is 4 times as old as Sami. Sami is 13 years old now. What will be the sum of their ages in 5 years?",
+  "reference": [
+   {
+    "step": "Hana now 4 x 13",
+    "value": 52
+   },
+   {
+    "step": "Hana then 52 + 5",
+    "value": 57
+   },
+   {
+    "step": "Sami then 13 + 5",
+    "value": 18
+   },
+   {
+    "step": "sum",
+    "value": 75
+   }
+  ],
+  "gsm8k_answer": "Hana now 4 x 13 = 52\nHana then 52 + 5 = 57\nSami then 13 + 5 = 18\nsum = 75\n#### 75",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0900",
+  "template": "schedule_exceptions",
+  "question": "Over 10 weeks, Lena studied French 7 hours every week, with two exceptions: for two weeks in a row Lena studied 10 hours each week, and in one other week 10 hours. How many hours did Lena spend in total over the 10 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 10 - 3",
+    "value": 7
+   },
+   {
+    "step": "normal hours 7 x 7",
+    "value": 49
+   },
+   {
+    "step": "two weeks 2 x 10",
+    "value": 20
+   },
+   {
+    "step": "total 49 + 20 + 10",
+    "value": 79
+   }
+  ],
+  "gsm8k_answer": "normal weeks 10 - 3 = 7\nnormal hours 7 x 7 = 49\ntwo weeks 2 x 10 = 20\ntotal 49 + 20 + 10 = 79\n#### 79",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0901",
+  "template": "schedule_exceptions",
+  "question": "Over 7 weeks, Tara volunteered 5 hours every week, with two exceptions: for two weeks in a row Tara volunteered 7 hours each week, and in one other week 9 hours. How many hours did Tara spend in total over the 7 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 7 - 3",
+    "value": 4
+   },
+   {
+    "step": "normal hours 4 x 5",
+    "value": 20
+   },
+   {
+    "step": "two weeks 2 x 7",
+    "value": 14
+   },
+   {
+    "step": "total 20 + 14 + 9",
+    "value": 43
+   }
+  ],
+  "gsm8k_answer": "normal weeks 7 - 3 = 4\nnormal hours 4 x 5 = 20\ntwo weeks 2 x 7 = 14\ntotal 20 + 14 + 9 = 43\n#### 43",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0902",
+  "template": "schedule_exceptions",
+  "question": "Over 8 weeks, Elif studied French 5 hours every week, with two exceptions: for two weeks in a row Elif studied 6 hours each week, and in one other week 10 hours. How many hours did Elif spend in total over the 8 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 8 - 3",
+    "value": 5
+   },
+   {
+    "step": "normal hours 5 x 5",
+    "value": 25
+   },
+   {
+    "step": "two weeks 2 x 6",
+    "value": 12
+   },
+   {
+    "step": "total 25 + 12 + 10",
+    "value": 47
+   }
+  ],
+  "gsm8k_answer": "normal weeks 8 - 3 = 5\nnormal hours 5 x 5 = 25\ntwo weeks 2 x 6 = 12\ntotal 25 + 12 + 10 = 47\n#### 47",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0903",
+  "template": "schedule_exceptions",
+  "question": "Over 11 weeks, Omar practised piano 7 hours every week, with two exceptions: for two weeks in a row Omar practised 8 hours each week, and in one other week 9 hours. How many hours did Omar spend in total over the 11 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 11 - 3",
+    "value": 8
+   },
+   {
+    "step": "normal hours 8 x 7",
+    "value": 56
+   },
+   {
+    "step": "two weeks 2 x 8",
+    "value": 16
+   },
+   {
+    "step": "total 56 + 16 + 9",
+    "value": 81
+   }
+  ],
+  "gsm8k_answer": "normal weeks 11 - 3 = 8\nnormal hours 8 x 7 = 56\ntwo weeks 2 x 8 = 16\ntotal 56 + 16 + 9 = 81\n#### 81",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0904",
+  "template": "schedule_exceptions",
+  "question": "Over 11 weeks, Omar practised piano 4 hours every week, with two exceptions: for two weeks in a row Omar practised 5 hours each week, and in one other week 9 hours. How many hours did Omar spend in total over the 11 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 11 - 3",
+    "value": 8
+   },
+   {
+    "step": "normal hours 8 x 4",
+    "value": 32
+   },
+   {
+    "step": "two weeks 2 x 5",
+    "value": 10
+   },
+   {
+    "step": "total 32 + 10 + 9",
+    "value": 51
+   }
+  ],
+  "gsm8k_answer": "normal weeks 11 - 3 = 8\nnormal hours 8 x 4 = 32\ntwo weeks 2 x 5 = 10\ntotal 32 + 10 + 9 = 51\n#### 51",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0905",
+  "template": "schedule_exceptions",
+  "question": "Over 8 weeks, Hana studied French 4 hours every week, with two exceptions: for two weeks in a row Hana studied 6 hours each week, and in one other week 9 hours. How many hours did Hana spend in total over the 8 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 8 - 3",
+    "value": 5
+   },
+   {
+    "step": "normal hours 5 x 4",
+    "value": 20
+   },
+   {
+    "step": "two weeks 2 x 6",
+    "value": 12
+   },
+   {
+    "step": "total 20 + 12 + 9",
+    "value": 41
+   }
+  ],
+  "gsm8k_answer": "normal weeks 8 - 3 = 5\nnormal hours 5 x 4 = 20\ntwo weeks 2 x 6 = 12\ntotal 20 + 12 + 9 = 41\n#### 41",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0906",
+  "template": "schedule_exceptions",
+  "question": "Over 11 weeks, Carla practised piano 6 hours every week, with two exceptions: for two weeks in a row Carla practised 9 hours each week, and in one other week 8 hours. How many hours did Carla spend in total over the 11 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 11 - 3",
+    "value": 8
+   },
+   {
+    "step": "normal hours 8 x 6",
+    "value": 48
+   },
+   {
+    "step": "two weeks 2 x 9",
+    "value": 18
+   },
+   {
+    "step": "total 48 + 18 + 8",
+    "value": 74
+   }
+  ],
+  "gsm8k_answer": "normal weeks 11 - 3 = 8\nnormal hours 8 x 6 = 48\ntwo weeks 2 x 9 = 18\ntotal 48 + 18 + 8 = 74\n#### 74",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0907",
+  "template": "schedule_exceptions",
+  "question": "Over 9 weeks, Quinn practised piano 3 hours every week, with two exceptions: for two weeks in a row Quinn practised 6 hours each week, and in one other week 6 hours. How many hours did Quinn spend in total over the 9 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 9 - 3",
+    "value": 6
+   },
+   {
+    "step": "normal hours 6 x 3",
+    "value": 18
+   },
+   {
+    "step": "two weeks 2 x 6",
+    "value": 12
+   },
+   {
+    "step": "total 18 + 12 + 6",
+    "value": 36
+   }
+  ],
+  "gsm8k_answer": "normal weeks 9 - 3 = 6\nnormal hours 6 x 3 = 18\ntwo weeks 2 x 6 = 12\ntotal 18 + 12 + 6 = 36\n#### 36",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0908",
+  "template": "schedule_exceptions",
+  "question": "Over 10 weeks, Ben trained 6 hours every week, with two exceptions: for two weeks in a row Ben trained 9 hours each week, and in one other week 8 hours. How many hours did Ben spend in total over the 10 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 10 - 3",
+    "value": 7
+   },
+   {
+    "step": "normal hours 7 x 6",
+    "value": 42
+   },
+   {
+    "step": "two weeks 2 x 9",
+    "value": 18
+   },
+   {
+    "step": "total 42 + 18 + 8",
+    "value": 68
+   }
+  ],
+  "gsm8k_answer": "normal weeks 10 - 3 = 7\nnormal hours 7 x 6 = 42\ntwo weeks 2 x 9 = 18\ntotal 42 + 18 + 8 = 68\n#### 68",
+  "source": "synthetic"
+ },
+ {
+  "id": "syn_0909",
+  "template": "schedule_exceptions",
+  "question": "Over 12 weeks, Kemal studied French 3 hours every week, with two exceptions: for two weeks in a row Kemal studied 5 hours each week, and in one other week 5 hours. How many hours did Kemal spend in total over the 12 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks 12 - 3",
+    "value": 9
+   },
+   {
+    "step": "normal hours 9 x 3",
+    "value": 27
+   },
+   {
+    "step": "two weeks 2 x 5",
+    "value": 10
+   },
+   {
+    "step": "total 27 + 10 + 5",
+    "value": 42
+   }
+  ],
+  "gsm8k_answer": "normal weeks 12 - 3 = 9\nnormal hours 9 x 3 = 27\ntwo weeks 2 x 5 = 10\ntotal 27 + 10 + 5 = 42\n#### 42",
+  "source": "synthetic"
+ }
+]

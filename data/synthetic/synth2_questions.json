@@ -1,0 +1,2622 @@
+[
+ {
+  "id": "sy2_0000",
+  "template": "two_rate_journey",
+  "question": "A delivery van travels 300 km at 60 km/h, then returns along the same road at 30 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 300 / 60",
+    "value": 5
+   },
+   {
+    "step": "time back = 300 / 30",
+    "value": 10
+   },
+   {
+    "step": "hours longer = 10 - 5",
+    "value": 5
+   },
+   {
+    "step": "minutes longer = 5 x 60",
+    "value": 300
+   }
+  ],
+  "gsm8k_answer": "time out = 300 / 60 = 5\ntime back = 300 / 30 = 10\nhours longer = 10 - 5 = 5\nminutes longer = 5 x 60 = 300\n#### 300",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0001",
+  "template": "two_rate_journey",
+  "question": "A courier travels 200 km at 50 km/h, then returns along the same road at 40 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 200 / 50",
+    "value": 4
+   },
+   {
+    "step": "time back = 200 / 40",
+    "value": 5
+   },
+   {
+    "step": "hours longer = 5 - 4",
+    "value": 1
+   },
+   {
+    "step": "minutes longer = 1 x 60",
+    "value": 60
+   }
+  ],
+  "gsm8k_answer": "time out = 200 / 50 = 4\ntime back = 200 / 40 = 5\nhours longer = 5 - 4 = 1\nminutes longer = 1 x 60 = 60\n#### 60",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0002",
+  "template": "two_rate_journey",
+  "question": "A delivery van travels 180 km at 45 km/h, then returns along the same road at 36 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 180 / 45",
+    "value": 4
+   },
+   {
+    "step": "time back = 180 / 36",
+    "value": 5
+   },
+   {
+    "step": "hours longer = 5 - 4",
+    "value": 1
+   },
+   {
+    "step": "minutes longer = 1 x 60",
+    "value": 60
+   }
+  ],
+  "gsm8k_answer": "time out = 180 / 45 = 4\ntime back = 180 / 36 = 5\nhours longer = 5 - 4 = 1\nminutes longer = 1 x 60 = 60\n#### 60",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0003",
+  "template": "two_rate_journey",
+  "question": "A delivery van travels 150 km at 75 km/h, then returns along the same road at 50 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 150 / 75",
+    "value": 2
+   },
+   {
+    "step": "time back = 150 / 50",
+    "value": 3
+   },
+   {
+    "step": "hours longer = 3 - 2",
+    "value": 1
+   },
+   {
+    "step": "minutes longer = 1 x 60",
+    "value": 60
+   }
+  ],
+  "gsm8k_answer": "time out = 150 / 75 = 2\ntime back = 150 / 50 = 3\nhours longer = 3 - 2 = 1\nminutes longer = 1 x 60 = 60\n#### 60",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0004",
+  "template": "two_rate_journey",
+  "question": "A delivery van travels 180 km at 90 km/h, then returns along the same road at 30 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 180 / 90",
+    "value": 2
+   },
+   {
+    "step": "time back = 180 / 30",
+    "value": 6
+   },
+   {
+    "step": "hours longer = 6 - 2",
+    "value": 4
+   },
+   {
+    "step": "minutes longer = 4 x 60",
+    "value": 240
+   }
+  ],
+  "gsm8k_answer": "time out = 180 / 90 = 2\ntime back = 180 / 30 = 6\nhours longer = 6 - 2 = 4\nminutes longer = 4 x 60 = 240\n#### 240",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0005",
+  "template": "two_rate_journey",
+  "question": "A courier travels 240 km at 60 km/h, then returns along the same road at 30 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 240 / 60",
+    "value": 4
+   },
+   {
+    "step": "time back = 240 / 30",
+    "value": 8
+   },
+   {
+    "step": "hours longer = 8 - 4",
+    "value": 4
+   },
+   {
+    "step": "minutes longer = 4 x 60",
+    "value": 240
+   }
+  ],
+  "gsm8k_answer": "time out = 240 / 60 = 4\ntime back = 240 / 30 = 8\nhours longer = 8 - 4 = 4\nminutes longer = 4 x 60 = 240\n#### 240",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0006",
+  "template": "two_rate_journey",
+  "question": "A cyclist travels 360 km at 90 km/h, then returns along the same road at 40 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 360 / 90",
+    "value": 4
+   },
+   {
+    "step": "time back = 360 / 40",
+    "value": 9
+   },
+   {
+    "step": "hours longer = 9 - 4",
+    "value": 5
+   },
+   {
+    "step": "minutes longer = 5 x 60",
+    "value": 300
+   }
+  ],
+  "gsm8k_answer": "time out = 360 / 90 = 4\ntime back = 360 / 40 = 9\nhours longer = 9 - 4 = 5\nminutes longer = 5 x 60 = 300\n#### 300",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0007",
+  "template": "two_rate_journey",
+  "question": "A delivery van travels 360 km at 90 km/h, then returns along the same road at 40 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 360 / 90",
+    "value": 4
+   },
+   {
+    "step": "time back = 360 / 40",
+    "value": 9
+   },
+   {
+    "step": "hours longer = 9 - 4",
+    "value": 5
+   },
+   {
+    "step": "minutes longer = 5 x 60",
+    "value": 300
+   }
+  ],
+  "gsm8k_answer": "time out = 360 / 90 = 4\ntime back = 360 / 40 = 9\nhours longer = 9 - 4 = 5\nminutes longer = 5 x 60 = 300\n#### 300",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0008",
+  "template": "two_rate_journey",
+  "question": "A delivery van travels 180 km at 60 km/h, then returns along the same road at 30 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 180 / 60",
+    "value": 3
+   },
+   {
+    "step": "time back = 180 / 30",
+    "value": 6
+   },
+   {
+    "step": "hours longer = 6 - 3",
+    "value": 3
+   },
+   {
+    "step": "minutes longer = 3 x 60",
+    "value": 180
+   }
+  ],
+  "gsm8k_answer": "time out = 180 / 60 = 3\ntime back = 180 / 30 = 6\nhours longer = 6 - 3 = 3\nminutes longer = 3 x 60 = 180\n#### 180",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0009",
+  "template": "two_rate_journey",
+  "question": "A cyclist travels 180 km at 90 km/h, then returns along the same road at 60 km/h. How many MINUTES longer does the return take than the outward trip?",
+  "reference": [
+   {
+    "step": "time out = 180 / 90",
+    "value": 2
+   },
+   {
+    "step": "time back = 180 / 60",
+    "value": 3
+   },
+   {
+    "step": "hours longer = 3 - 2",
+    "value": 1
+   },
+   {
+    "step": "minutes longer = 1 x 60",
+    "value": 60
+   }
+  ],
+  "gsm8k_answer": "time out = 180 / 90 = 2\ntime back = 180 / 60 = 3\nhours longer = 3 - 2 = 1\nminutes longer = 1 x 60 = 60\n#### 60",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0100",
+  "template": "up_then_down",
+  "question": "A guitar cost $560. The shop raised the price by 75%, then later took 20% off the raised price. How many dollars MORE than the original $560 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 560 x 75%",
+    "value": 420
+   },
+   {
+    "step": "raised price = 560 + 420",
+    "value": 980
+   },
+   {
+    "step": "discount = 980 x 20%",
+    "value": 196
+   },
+   {
+    "step": "final price = 980 - 196",
+    "value": 784
+   },
+   {
+    "step": "more than original = 784 - 560",
+    "value": 224
+   }
+  ],
+  "gsm8k_answer": "rise = 560 x 75% = 420\nraised price = 560 + 420 = 980\ndiscount = 980 x 20% = 196\nfinal price = 980 - 196 = 784\nmore than original = 784 - 560 = 224\n#### 224",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0101",
+  "template": "up_then_down",
+  "question": "A camera cost $400. The shop raised the price by 75%, then later took 20% off the raised price. How many dollars MORE than the original $400 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 400 x 75%",
+    "value": 300
+   },
+   {
+    "step": "raised price = 400 + 300",
+    "value": 700
+   },
+   {
+    "step": "discount = 700 x 20%",
+    "value": 140
+   },
+   {
+    "step": "final price = 700 - 140",
+    "value": 560
+   },
+   {
+    "step": "more than original = 560 - 400",
+    "value": 160
+   }
+  ],
+  "gsm8k_answer": "rise = 400 x 75% = 300\nraised price = 400 + 300 = 700\ndiscount = 700 x 20% = 140\nfinal price = 700 - 140 = 560\nmore than original = 560 - 400 = 160\n#### 160",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0102",
+  "template": "up_then_down",
+  "question": "A guitar cost $480. The shop raised the price by 75%, then later took 10% off the raised price. How many dollars MORE than the original $480 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 480 x 75%",
+    "value": 360
+   },
+   {
+    "step": "raised price = 480 + 360",
+    "value": 840
+   },
+   {
+    "step": "discount = 840 x 10%",
+    "value": 84
+   },
+   {
+    "step": "final price = 840 - 84",
+    "value": 756
+   },
+   {
+    "step": "more than original = 756 - 480",
+    "value": 276
+   }
+  ],
+  "gsm8k_answer": "rise = 480 x 75% = 360\nraised price = 480 + 360 = 840\ndiscount = 840 x 10% = 84\nfinal price = 840 - 84 = 756\nmore than original = 756 - 480 = 276\n#### 276",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0103",
+  "template": "up_then_down",
+  "question": "A camera cost $240. The shop raised the price by 75%, then later took 20% off the raised price. How many dollars MORE than the original $240 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 240 x 75%",
+    "value": 180
+   },
+   {
+    "step": "raised price = 240 + 180",
+    "value": 420
+   },
+   {
+    "step": "discount = 420 x 20%",
+    "value": 84
+   },
+   {
+    "step": "final price = 420 - 84",
+    "value": 336
+   },
+   {
+    "step": "more than original = 336 - 240",
+    "value": 96
+   }
+  ],
+  "gsm8k_answer": "rise = 240 x 75% = 180\nraised price = 240 + 180 = 420\ndiscount = 420 x 20% = 84\nfinal price = 420 - 84 = 336\nmore than original = 336 - 240 = 96\n#### 96",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0104",
+  "template": "up_then_down",
+  "question": "A bicycle cost $800. The shop raised the price by 50%, then later took 10% off the raised price. How many dollars MORE than the original $800 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 800 x 50%",
+    "value": 400
+   },
+   {
+    "step": "raised price = 800 + 400",
+    "value": 1200
+   },
+   {
+    "step": "discount = 1200 x 10%",
+    "value": 120
+   },
+   {
+    "step": "final price = 1200 - 120",
+    "value": 1080
+   },
+   {
+    "step": "more than original = 1080 - 800",
+    "value": 280
+   }
+  ],
+  "gsm8k_answer": "rise = 800 x 50% = 400\nraised price = 800 + 400 = 1200\ndiscount = 1200 x 10% = 120\nfinal price = 1200 - 120 = 1080\nmore than original = 1080 - 800 = 280\n#### 280",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0105",
+  "template": "up_then_down",
+  "question": "A camera cost $960. The shop raised the price by 75%, then later took 20% off the raised price. How many dollars MORE than the original $960 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 960 x 75%",
+    "value": 720
+   },
+   {
+    "step": "raised price = 960 + 720",
+    "value": 1680
+   },
+   {
+    "step": "discount = 1680 x 20%",
+    "value": 336
+   },
+   {
+    "step": "final price = 1680 - 336",
+    "value": 1344
+   },
+   {
+    "step": "more than original = 1344 - 960",
+    "value": 384
+   }
+  ],
+  "gsm8k_answer": "rise = 960 x 75% = 720\nraised price = 960 + 720 = 1680\ndiscount = 1680 x 20% = 336\nfinal price = 1680 - 336 = 1344\nmore than original = 1344 - 960 = 384\n#### 384",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0106",
+  "template": "up_then_down",
+  "question": "A guitar cost $960. The shop raised the price by 75%, then later took 20% off the raised price. How many dollars MORE than the original $960 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 960 x 75%",
+    "value": 720
+   },
+   {
+    "step": "raised price = 960 + 720",
+    "value": 1680
+   },
+   {
+    "step": "discount = 1680 x 20%",
+    "value": 336
+   },
+   {
+    "step": "final price = 1680 - 336",
+    "value": 1344
+   },
+   {
+    "step": "more than original = 1344 - 960",
+    "value": 384
+   }
+  ],
+  "gsm8k_answer": "rise = 960 x 75% = 720\nraised price = 960 + 720 = 1680\ndiscount = 1680 x 20% = 336\nfinal price = 1680 - 336 = 1344\nmore than original = 1344 - 960 = 384\n#### 384",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0107",
+  "template": "up_then_down",
+  "question": "A guitar cost $560. The shop raised the price by 50%, then later took 20% off the raised price. How many dollars MORE than the original $560 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 560 x 50%",
+    "value": 280
+   },
+   {
+    "step": "raised price = 560 + 280",
+    "value": 840
+   },
+   {
+    "step": "discount = 840 x 20%",
+    "value": 168
+   },
+   {
+    "step": "final price = 840 - 168",
+    "value": 672
+   },
+   {
+    "step": "more than original = 672 - 560",
+    "value": 112
+   }
+  ],
+  "gsm8k_answer": "rise = 560 x 50% = 280\nraised price = 560 + 280 = 840\ndiscount = 840 x 20% = 168\nfinal price = 840 - 168 = 672\nmore than original = 672 - 560 = 112\n#### 112",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0108",
+  "template": "up_then_down",
+  "question": "A camera cost $320. The shop raised the price by 75%, then later took 20% off the raised price. How many dollars MORE than the original $320 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 320 x 75%",
+    "value": 240
+   },
+   {
+    "step": "raised price = 320 + 240",
+    "value": 560
+   },
+   {
+    "step": "discount = 560 x 20%",
+    "value": 112
+   },
+   {
+    "step": "final price = 560 - 112",
+    "value": 448
+   },
+   {
+    "step": "more than original = 448 - 320",
+    "value": 128
+   }
+  ],
+  "gsm8k_answer": "rise = 320 x 75% = 240\nraised price = 320 + 240 = 560\ndiscount = 560 x 20% = 112\nfinal price = 560 - 112 = 448\nmore than original = 448 - 320 = 128\n#### 128",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0109",
+  "template": "up_then_down",
+  "question": "A guitar cost $1000. The shop raised the price by 75%, then later took 10% off the raised price. How many dollars MORE than the original $1000 is the final price?",
+  "reference": [
+   {
+    "step": "rise = 1000 x 75%",
+    "value": 750
+   },
+   {
+    "step": "raised price = 1000 + 750",
+    "value": 1750
+   },
+   {
+    "step": "discount = 1750 x 10%",
+    "value": 175
+   },
+   {
+    "step": "final price = 1750 - 175",
+    "value": 1575
+   },
+   {
+    "step": "more than original = 1575 - 1000",
+    "value": 575
+   }
+  ],
+  "gsm8k_answer": "rise = 1000 x 75% = 750\nraised price = 1000 + 750 = 1750\ndiscount = 1750 x 10% = 175\nfinal price = 1750 - 175 = 1575\nmore than original = 1575 - 1000 = 575\n#### 575",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0200",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 108 tiles. One job used 1/3 of them. A second job used 1/2 of the tiles that were LEFT. The rest are packed into crates of 8, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 108 / 3",
+    "value": 36
+   },
+   {
+    "step": "left after first = 108 - 36",
+    "value": 72
+   },
+   {
+    "step": "second job used = 72 / 2",
+    "value": 36
+   },
+   {
+    "step": "left after second = 72 - 36",
+    "value": 36
+   },
+   {
+    "step": "crates = ceil(36 / 8)",
+    "value": 5
+   }
+  ],
+  "gsm8k_answer": "first job used = 108 / 3 = 36\nleft after first = 108 - 36 = 72\nsecond job used = 72 / 2 = 36\nleft after second = 72 - 36 = 36\ncrates = ceil(36 / 8) = 5\n#### 5",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0201",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 204 tiles. One job used 1/4 of them. A second job used 1/3 of the tiles that were LEFT. The rest are packed into crates of 10, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 204 / 4",
+    "value": 51
+   },
+   {
+    "step": "left after first = 204 - 51",
+    "value": 153
+   },
+   {
+    "step": "second job used = 153 / 3",
+    "value": 51
+   },
+   {
+    "step": "left after second = 153 - 51",
+    "value": 102
+   },
+   {
+    "step": "crates = ceil(102 / 10)",
+    "value": 11
+   }
+  ],
+  "gsm8k_answer": "first job used = 204 / 4 = 51\nleft after first = 204 - 51 = 153\nsecond job used = 153 / 3 = 51\nleft after second = 153 - 51 = 102\ncrates = ceil(102 / 10) = 11\n#### 11",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0202",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 130 tiles. One job used 1/5 of them. A second job used 1/2 of the tiles that were LEFT. The rest are packed into crates of 12, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 130 / 5",
+    "value": 26
+   },
+   {
+    "step": "left after first = 130 - 26",
+    "value": 104
+   },
+   {
+    "step": "second job used = 104 / 2",
+    "value": 52
+   },
+   {
+    "step": "left after second = 104 - 52",
+    "value": 52
+   },
+   {
+    "step": "crates = ceil(52 / 12)",
+    "value": 5
+   }
+  ],
+  "gsm8k_answer": "first job used = 130 / 5 = 26\nleft after first = 130 - 26 = 104\nsecond job used = 104 / 2 = 52\nleft after second = 104 - 52 = 52\ncrates = ceil(52 / 12) = 5\n#### 5",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0203",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 110 tiles. One job used 1/5 of them. A second job used 1/2 of the tiles that were LEFT. The rest are packed into crates of 12, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 110 / 5",
+    "value": 22
+   },
+   {
+    "step": "left after first = 110 - 22",
+    "value": 88
+   },
+   {
+    "step": "second job used = 88 / 2",
+    "value": 44
+   },
+   {
+    "step": "left after second = 88 - 44",
+    "value": 44
+   },
+   {
+    "step": "crates = ceil(44 / 12)",
+    "value": 4
+   }
+  ],
+  "gsm8k_answer": "first job used = 110 / 5 = 22\nleft after first = 110 - 22 = 88\nsecond job used = 88 / 2 = 44\nleft after second = 88 - 44 = 44\ncrates = ceil(44 / 12) = 4\n#### 4",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0204",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 78 tiles. One job used 1/3 of them. A second job used 1/2 of the tiles that were LEFT. The rest are packed into crates of 8, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 78 / 3",
+    "value": 26
+   },
+   {
+    "step": "left after first = 78 - 26",
+    "value": 52
+   },
+   {
+    "step": "second job used = 52 / 2",
+    "value": 26
+   },
+   {
+    "step": "left after second = 52 - 26",
+    "value": 26
+   },
+   {
+    "step": "crates = ceil(26 / 8)",
+    "value": 4
+   }
+  ],
+  "gsm8k_answer": "first job used = 78 / 3 = 26\nleft after first = 78 - 26 = 52\nsecond job used = 52 / 2 = 26\nleft after second = 52 - 26 = 26\ncrates = ceil(26 / 8) = 4\n#### 4",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0205",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 40 tiles. One job used 1/4 of them. A second job used 1/2 of the tiles that were LEFT. The rest are packed into crates of 12, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 40 / 4",
+    "value": 10
+   },
+   {
+    "step": "left after first = 40 - 10",
+    "value": 30
+   },
+   {
+    "step": "second job used = 30 / 2",
+    "value": 15
+   },
+   {
+    "step": "left after second = 30 - 15",
+    "value": 15
+   },
+   {
+    "step": "crates = ceil(15 / 12)",
+    "value": 2
+   }
+  ],
+  "gsm8k_answer": "first job used = 40 / 4 = 10\nleft after first = 40 - 10 = 30\nsecond job used = 30 / 2 = 15\nleft after second = 30 - 15 = 15\ncrates = ceil(15 / 12) = 2\n#### 2",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0206",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 156 tiles. One job used 1/4 of them. A second job used 1/3 of the tiles that were LEFT. The rest are packed into crates of 12, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 156 / 4",
+    "value": 39
+   },
+   {
+    "step": "left after first = 156 - 39",
+    "value": 117
+   },
+   {
+    "step": "second job used = 117 / 3",
+    "value": 39
+   },
+   {
+    "step": "left after second = 117 - 39",
+    "value": 78
+   },
+   {
+    "step": "crates = ceil(78 / 12)",
+    "value": 7
+   }
+  ],
+  "gsm8k_answer": "first job used = 156 / 4 = 39\nleft after first = 156 - 39 = 117\nsecond job used = 117 / 3 = 39\nleft after second = 117 - 39 = 78\ncrates = ceil(78 / 12) = 7\n#### 7",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0207",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 30 tiles. One job used 1/3 of them. A second job used 1/2 of the tiles that were LEFT. The rest are packed into crates of 8, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 30 / 3",
+    "value": 10
+   },
+   {
+    "step": "left after first = 30 - 10",
+    "value": 20
+   },
+   {
+    "step": "second job used = 20 / 2",
+    "value": 10
+   },
+   {
+    "step": "left after second = 20 - 10",
+    "value": 10
+   },
+   {
+    "step": "crates = ceil(10 / 8)",
+    "value": 2
+   }
+  ],
+  "gsm8k_answer": "first job used = 30 / 3 = 10\nleft after first = 30 - 10 = 20\nsecond job used = 20 / 2 = 10\nleft after second = 20 - 10 = 10\ncrates = ceil(10 / 8) = 2\n#### 2",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0208",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 104 tiles. One job used 1/4 of them. A second job used 1/2 of the tiles that were LEFT. The rest are packed into crates of 12, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 104 / 4",
+    "value": 26
+   },
+   {
+    "step": "left after first = 104 - 26",
+    "value": 78
+   },
+   {
+    "step": "second job used = 78 / 2",
+    "value": 39
+   },
+   {
+    "step": "left after second = 78 - 39",
+    "value": 39
+   },
+   {
+    "step": "crates = ceil(39 / 12)",
+    "value": 4
+   }
+  ],
+  "gsm8k_answer": "first job used = 104 / 4 = 26\nleft after first = 104 - 26 = 78\nsecond job used = 78 / 2 = 39\nleft after second = 78 - 39 = 39\ncrates = ceil(39 / 12) = 4\n#### 4",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0209",
+  "template": "tiles_two_fractions",
+  "question": "A warehouse has 36 tiles. One job used 1/3 of them. A second job used 1/2 of the tiles that were LEFT. The rest are packed into crates of 10, and the last crate may be part full. How many crates are needed?",
+  "reference": [
+   {
+    "step": "first job used = 36 / 3",
+    "value": 12
+   },
+   {
+    "step": "left after first = 36 - 12",
+    "value": 24
+   },
+   {
+    "step": "second job used = 24 / 2",
+    "value": 12
+   },
+   {
+    "step": "left after second = 24 - 12",
+    "value": 12
+   },
+   {
+    "step": "crates = ceil(12 / 10)",
+    "value": 2
+   }
+  ],
+  "gsm8k_answer": "first job used = 36 / 3 = 12\nleft after first = 36 - 12 = 24\nsecond job used = 24 / 2 = 12\nleft after second = 24 - 12 = 12\ncrates = ceil(12 / 10) = 2\n#### 2",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0300",
+  "template": "backwards_three",
+  "question": "Quinn gave away 1/3 of the tickets, then lost 7 more, and now has 3 tickets. How many tickets did Quinn have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 3 + 7",
+    "value": 10
+   },
+   {
+    "step": "that is 2 of every 3 at the start",
+    "value": 10
+   },
+   {
+    "step": "start = 10 x 3 / 2",
+    "value": 15
+   }
+  ],
+  "gsm8k_answer": "before losing = 3 + 7 = 10\nthat is 2 of every 3 at the start = 10\nstart = 10 x 3 / 2 = 15\n#### 15",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0301",
+  "template": "backwards_three",
+  "question": "Petra gave away 1/2 of the tickets, then lost 9 more, and now has 3 tickets. How many tickets did Petra have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 3 + 9",
+    "value": 12
+   },
+   {
+    "step": "that is 1 of every 2 at the start",
+    "value": 12
+   },
+   {
+    "step": "start = 12 x 2 / 1",
+    "value": 24
+   }
+  ],
+  "gsm8k_answer": "before losing = 3 + 9 = 12\nthat is 1 of every 2 at the start = 12\nstart = 12 x 2 / 1 = 24\n#### 24",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0302",
+  "template": "backwards_three",
+  "question": "Tara gave away 1/4 of the tokens, then lost 8 more, and now has 4 tokens. How many tokens did Tara have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 4 + 8",
+    "value": 12
+   },
+   {
+    "step": "that is 3 of every 4 at the start",
+    "value": 12
+   },
+   {
+    "step": "start = 12 x 4 / 3",
+    "value": 16
+   }
+  ],
+  "gsm8k_answer": "before losing = 4 + 8 = 12\nthat is 3 of every 4 at the start = 12\nstart = 12 x 4 / 3 = 16\n#### 16",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0303",
+  "template": "backwards_three",
+  "question": "Goran gave away 1/4 of the badges, then lost 13 more, and now has 5 badges. How many badges did Goran have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 5 + 13",
+    "value": 18
+   },
+   {
+    "step": "that is 3 of every 4 at the start",
+    "value": 18
+   },
+   {
+    "step": "start = 18 x 4 / 3",
+    "value": 24
+   }
+  ],
+  "gsm8k_answer": "before losing = 5 + 13 = 18\nthat is 3 of every 4 at the start = 18\nstart = 18 x 4 / 3 = 24\n#### 24",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0304",
+  "template": "backwards_three",
+  "question": "Lena gave away 1/3 of the tokens, then lost 4 more, and now has 4 tokens. How many tokens did Lena have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 4 + 4",
+    "value": 8
+   },
+   {
+    "step": "that is 2 of every 3 at the start",
+    "value": 8
+   },
+   {
+    "step": "start = 8 x 3 / 2",
+    "value": 12
+   }
+  ],
+  "gsm8k_answer": "before losing = 4 + 4 = 8\nthat is 2 of every 3 at the start = 8\nstart = 8 x 3 / 2 = 12\n#### 12",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0305",
+  "template": "backwards_three",
+  "question": "Ava gave away 1/3 of the badges, then lost 5 more, and now has 7 badges. How many badges did Ava have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 7 + 5",
+    "value": 12
+   },
+   {
+    "step": "that is 2 of every 3 at the start",
+    "value": 12
+   },
+   {
+    "step": "start = 12 x 3 / 2",
+    "value": 18
+   }
+  ],
+  "gsm8k_answer": "before losing = 7 + 5 = 12\nthat is 2 of every 3 at the start = 12\nstart = 12 x 3 / 2 = 18\n#### 18",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0306",
+  "template": "backwards_three",
+  "question": "Petra gave away 1/3 of the tokens, then lost 5 more, and now has 3 tokens. How many tokens did Petra have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 3 + 5",
+    "value": 8
+   },
+   {
+    "step": "that is 2 of every 3 at the start",
+    "value": 8
+   },
+   {
+    "step": "start = 8 x 3 / 2",
+    "value": 12
+   }
+  ],
+  "gsm8k_answer": "before losing = 3 + 5 = 8\nthat is 2 of every 3 at the start = 8\nstart = 8 x 3 / 2 = 12\n#### 12",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0307",
+  "template": "backwards_three",
+  "question": "Dmitri gave away 1/2 of the tokens, then lost 11 more, and now has 3 tokens. How many tokens did Dmitri have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 3 + 11",
+    "value": 14
+   },
+   {
+    "step": "that is 1 of every 2 at the start",
+    "value": 14
+   },
+   {
+    "step": "start = 14 x 2 / 1",
+    "value": 28
+   }
+  ],
+  "gsm8k_answer": "before losing = 3 + 11 = 14\nthat is 1 of every 2 at the start = 14\nstart = 14 x 2 / 1 = 28\n#### 28",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0308",
+  "template": "backwards_three",
+  "question": "Jonas gave away 1/3 of the tickets, then lost 6 more, and now has 6 tickets. How many tickets did Jonas have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 6 + 6",
+    "value": 12
+   },
+   {
+    "step": "that is 2 of every 3 at the start",
+    "value": 12
+   },
+   {
+    "step": "start = 12 x 3 / 2",
+    "value": 18
+   }
+  ],
+  "gsm8k_answer": "before losing = 6 + 6 = 12\nthat is 2 of every 3 at the start = 12\nstart = 12 x 3 / 2 = 18\n#### 18",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0309",
+  "template": "backwards_three",
+  "question": "Ivo gave away 1/4 of the seedlings, then lost 13 more, and now has 14 seedlings. How many seedlings did Ivo have at the start?",
+  "reference": [
+   {
+    "step": "before losing = 14 + 13",
+    "value": 27
+   },
+   {
+    "step": "that is 3 of every 4 at the start",
+    "value": 27
+   },
+   {
+    "step": "start = 27 x 4 / 3",
+    "value": 36
+   }
+  ],
+  "gsm8k_answer": "before losing = 14 + 13 = 27\nthat is 3 of every 4 at the start = 27\nstart = 27 x 4 / 3 = 36\n#### 36",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0400",
+  "template": "week_closed_day",
+  "question": "A deli sells 12 pies on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many pies does it sell in 2 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 12",
+    "value": 60
+   },
+   {
+    "step": "Saturday = 12 / 2",
+    "value": 6
+   },
+   {
+    "step": "one week = 60 + 6",
+    "value": 66
+   },
+   {
+    "step": "2 weeks = 66 x 2",
+    "value": 132
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 12 = 60\nSaturday = 12 / 2 = 6\none week = 60 + 6 = 66\n2 weeks = 66 x 2 = 132\n#### 132",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0401",
+  "template": "week_closed_day",
+  "question": "A florist sells 30 bouquets on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many bouquets does it sell in 4 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 30",
+    "value": 150
+   },
+   {
+    "step": "Saturday = 30 / 2",
+    "value": 15
+   },
+   {
+    "step": "one week = 150 + 15",
+    "value": 165
+   },
+   {
+    "step": "4 weeks = 165 x 4",
+    "value": 660
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 30 = 150\nSaturday = 30 / 2 = 15\none week = 150 + 15 = 165\n4 weeks = 165 x 4 = 660\n#### 660",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0402",
+  "template": "week_closed_day",
+  "question": "A bakery sells 16 loaves on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many loaves does it sell in 3 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 16",
+    "value": 80
+   },
+   {
+    "step": "Saturday = 16 / 2",
+    "value": 8
+   },
+   {
+    "step": "one week = 80 + 8",
+    "value": 88
+   },
+   {
+    "step": "3 weeks = 88 x 3",
+    "value": 264
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 16 = 80\nSaturday = 16 / 2 = 8\none week = 80 + 8 = 88\n3 weeks = 88 x 3 = 264\n#### 264",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0403",
+  "template": "week_closed_day",
+  "question": "A florist sells 40 bouquets on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many bouquets does it sell in 5 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 40",
+    "value": 200
+   },
+   {
+    "step": "Saturday = 40 / 2",
+    "value": 20
+   },
+   {
+    "step": "one week = 200 + 20",
+    "value": 220
+   },
+   {
+    "step": "5 weeks = 220 x 5",
+    "value": 1100
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 40 = 200\nSaturday = 40 / 2 = 20\none week = 200 + 20 = 220\n5 weeks = 220 x 5 = 1100\n#### 1100",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0404",
+  "template": "week_closed_day",
+  "question": "A bakery sells 16 loaves on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many loaves does it sell in 4 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 16",
+    "value": 80
+   },
+   {
+    "step": "Saturday = 16 / 2",
+    "value": 8
+   },
+   {
+    "step": "one week = 80 + 8",
+    "value": 88
+   },
+   {
+    "step": "4 weeks = 88 x 4",
+    "value": 352
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 16 = 80\nSaturday = 16 / 2 = 8\none week = 80 + 8 = 88\n4 weeks = 88 x 4 = 352\n#### 352",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0405",
+  "template": "week_closed_day",
+  "question": "A deli sells 12 pies on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many pies does it sell in 3 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 12",
+    "value": 60
+   },
+   {
+    "step": "Saturday = 12 / 2",
+    "value": 6
+   },
+   {
+    "step": "one week = 60 + 6",
+    "value": 66
+   },
+   {
+    "step": "3 weeks = 66 x 3",
+    "value": 198
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 12 = 60\nSaturday = 12 / 2 = 6\none week = 60 + 6 = 66\n3 weeks = 66 x 3 = 198\n#### 198",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0406",
+  "template": "week_closed_day",
+  "question": "A deli sells 40 pies on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many pies does it sell in 2 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 40",
+    "value": 200
+   },
+   {
+    "step": "Saturday = 40 / 2",
+    "value": 20
+   },
+   {
+    "step": "one week = 200 + 20",
+    "value": 220
+   },
+   {
+    "step": "2 weeks = 220 x 2",
+    "value": 440
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 40 = 200\nSaturday = 40 / 2 = 20\none week = 200 + 20 = 220\n2 weeks = 220 x 2 = 440\n#### 440",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0407",
+  "template": "week_closed_day",
+  "question": "A bakery sells 24 loaves on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many loaves does it sell in 3 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 24",
+    "value": 120
+   },
+   {
+    "step": "Saturday = 24 / 2",
+    "value": 12
+   },
+   {
+    "step": "one week = 120 + 12",
+    "value": 132
+   },
+   {
+    "step": "3 weeks = 132 x 3",
+    "value": 396
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 24 = 120\nSaturday = 24 / 2 = 12\none week = 120 + 12 = 132\n3 weeks = 132 x 3 = 396\n#### 396",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0408",
+  "template": "week_closed_day",
+  "question": "A florist sells 40 bouquets on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many bouquets does it sell in 2 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 40",
+    "value": 200
+   },
+   {
+    "step": "Saturday = 40 / 2",
+    "value": 20
+   },
+   {
+    "step": "one week = 200 + 20",
+    "value": 220
+   },
+   {
+    "step": "2 weeks = 220 x 2",
+    "value": 440
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 40 = 200\nSaturday = 40 / 2 = 20\none week = 200 + 20 = 220\n2 weeks = 220 x 2 = 440\n#### 440",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0409",
+  "template": "week_closed_day",
+  "question": "A bakery sells 16 loaves on each day from Monday to Friday, half that many on Saturday, and is closed on Sunday. How many loaves does it sell in 5 weeks?",
+  "reference": [
+   {
+    "step": "Monday to Friday = 5 x 16",
+    "value": 80
+   },
+   {
+    "step": "Saturday = 16 / 2",
+    "value": 8
+   },
+   {
+    "step": "one week = 80 + 8",
+    "value": 88
+   },
+   {
+    "step": "5 weeks = 88 x 5",
+    "value": 440
+   }
+  ],
+  "gsm8k_answer": "Monday to Friday = 5 x 16 = 80\nSaturday = 16 / 2 = 8\none week = 80 + 8 = 88\n5 weeks = 88 x 5 = 440\n#### 440",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0500",
+  "template": "ratio_difference",
+  "question": "Quinn and Rosa share 120 sweets in the ratio 5:3. How many MORE sweets does Quinn get than Rosa?",
+  "reference": [
+   {
+    "step": "parts = 5 + 3",
+    "value": 8
+   },
+   {
+    "step": "one part = 120 / 8",
+    "value": 15
+   },
+   {
+    "step": "Quinn = 5 x 15",
+    "value": 75
+   },
+   {
+    "step": "Rosa = 3 x 15",
+    "value": 45
+   },
+   {
+    "step": "more = 75 - 45",
+    "value": 30
+   }
+  ],
+  "gsm8k_answer": "parts = 5 + 3 = 8\none part = 120 / 8 = 15\nQuinn = 5 x 15 = 75\nRosa = 3 x 15 = 45\nmore = 75 - 45 = 30\n#### 30",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0501",
+  "template": "ratio_difference",
+  "question": "Tara and Ivo share 63 tokens in the ratio 7:2. How many MORE tokens does Tara get than Ivo?",
+  "reference": [
+   {
+    "step": "parts = 7 + 2",
+    "value": 9
+   },
+   {
+    "step": "one part = 63 / 9",
+    "value": 7
+   },
+   {
+    "step": "Tara = 7 x 7",
+    "value": 49
+   },
+   {
+    "step": "Ivo = 2 x 7",
+    "value": 14
+   },
+   {
+    "step": "more = 49 - 14",
+    "value": 35
+   }
+  ],
+  "gsm8k_answer": "parts = 7 + 2 = 9\none part = 63 / 9 = 7\nTara = 7 x 7 = 49\nIvo = 2 x 7 = 14\nmore = 49 - 14 = 35\n#### 35",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0502",
+  "template": "ratio_difference",
+  "question": "Ben and Mateo share 56 tokens in the ratio 5:3. How many MORE tokens does Ben get than Mateo?",
+  "reference": [
+   {
+    "step": "parts = 5 + 3",
+    "value": 8
+   },
+   {
+    "step": "one part = 56 / 8",
+    "value": 7
+   },
+   {
+    "step": "Ben = 5 x 7",
+    "value": 35
+   },
+   {
+    "step": "Mateo = 3 x 7",
+    "value": 21
+   },
+   {
+    "step": "more = 35 - 21",
+    "value": 14
+   }
+  ],
+  "gsm8k_answer": "parts = 5 + 3 = 8\none part = 56 / 8 = 7\nBen = 5 x 7 = 35\nMateo = 3 x 7 = 21\nmore = 35 - 21 = 14\n#### 14",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0503",
+  "template": "ratio_difference",
+  "question": "Kemal and Mateo share 70 sweets in the ratio 5:2. How many MORE sweets does Kemal get than Mateo?",
+  "reference": [
+   {
+    "step": "parts = 5 + 2",
+    "value": 7
+   },
+   {
+    "step": "one part = 70 / 7",
+    "value": 10
+   },
+   {
+    "step": "Kemal = 5 x 10",
+    "value": 50
+   },
+   {
+    "step": "Mateo = 2 x 10",
+    "value": 20
+   },
+   {
+    "step": "more = 50 - 20",
+    "value": 30
+   }
+  ],
+  "gsm8k_answer": "parts = 5 + 2 = 7\none part = 70 / 7 = 10\nKemal = 5 x 10 = 50\nMateo = 2 x 10 = 20\nmore = 50 - 20 = 30\n#### 30",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0504",
+  "template": "ratio_difference",
+  "question": "Farah and Lena share 120 sweets in the ratio 7:3. How many MORE sweets does Farah get than Lena?",
+  "reference": [
+   {
+    "step": "parts = 7 + 3",
+    "value": 10
+   },
+   {
+    "step": "one part = 120 / 10",
+    "value": 12
+   },
+   {
+    "step": "Farah = 7 x 12",
+    "value": 84
+   },
+   {
+    "step": "Lena = 3 x 12",
+    "value": 36
+   },
+   {
+    "step": "more = 84 - 36",
+    "value": 48
+   }
+  ],
+  "gsm8k_answer": "parts = 7 + 3 = 10\none part = 120 / 10 = 12\nFarah = 7 x 12 = 84\nLena = 3 x 12 = 36\nmore = 84 - 36 = 48\n#### 48",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0505",
+  "template": "ratio_difference",
+  "question": "Nora and Hana share 140 tokens in the ratio 7:3. How many MORE tokens does Nora get than Hana?",
+  "reference": [
+   {
+    "step": "parts = 7 + 3",
+    "value": 10
+   },
+   {
+    "step": "one part = 140 / 10",
+    "value": 14
+   },
+   {
+    "step": "Nora = 7 x 14",
+    "value": 98
+   },
+   {
+    "step": "Hana = 3 x 14",
+    "value": 42
+   },
+   {
+    "step": "more = 98 - 42",
+    "value": 56
+   }
+  ],
+  "gsm8k_answer": "parts = 7 + 3 = 10\none part = 140 / 10 = 14\nNora = 7 x 14 = 98\nHana = 3 x 14 = 42\nmore = 98 - 42 = 56\n#### 56",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0506",
+  "template": "ratio_difference",
+  "question": "Ben and Carla share 126 chips in the ratio 5:2. How many MORE chips does Ben get than Carla?",
+  "reference": [
+   {
+    "step": "parts = 5 + 2",
+    "value": 7
+   },
+   {
+    "step": "one part = 126 / 7",
+    "value": 18
+   },
+   {
+    "step": "Ben = 5 x 18",
+    "value": 90
+   },
+   {
+    "step": "Carla = 2 x 18",
+    "value": 36
+   },
+   {
+    "step": "more = 90 - 36",
+    "value": 54
+   }
+  ],
+  "gsm8k_answer": "parts = 5 + 2 = 7\none part = 126 / 7 = 18\nBen = 5 x 18 = 90\nCarla = 2 x 18 = 36\nmore = 90 - 36 = 54\n#### 54",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0507",
+  "template": "ratio_difference",
+  "question": "Hana and Omar share 112 walnuts in the ratio 5:3. How many MORE walnuts does Hana get than Omar?",
+  "reference": [
+   {
+    "step": "parts = 5 + 3",
+    "value": 8
+   },
+   {
+    "step": "one part = 112 / 8",
+    "value": 14
+   },
+   {
+    "step": "Hana = 5 x 14",
+    "value": 70
+   },
+   {
+    "step": "Omar = 3 x 14",
+    "value": 42
+   },
+   {
+    "step": "more = 70 - 42",
+    "value": 28
+   }
+  ],
+  "gsm8k_answer": "parts = 5 + 3 = 8\none part = 112 / 8 = 14\nHana = 5 x 14 = 70\nOmar = 3 x 14 = 42\nmore = 70 - 42 = 28\n#### 28",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0508",
+  "template": "ratio_difference",
+  "question": "Tara and Nora share 98 tokens in the ratio 5:2. How many MORE tokens does Tara get than Nora?",
+  "reference": [
+   {
+    "step": "parts = 5 + 2",
+    "value": 7
+   },
+   {
+    "step": "one part = 98 / 7",
+    "value": 14
+   },
+   {
+    "step": "Tara = 5 x 14",
+    "value": 70
+   },
+   {
+    "step": "Nora = 2 x 14",
+    "value": 28
+   },
+   {
+    "step": "more = 70 - 28",
+    "value": 42
+   }
+  ],
+  "gsm8k_answer": "parts = 5 + 2 = 7\none part = 98 / 7 = 14\nTara = 5 x 14 = 70\nNora = 2 x 14 = 28\nmore = 70 - 28 = 42\n#### 42",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0509",
+  "template": "ratio_difference",
+  "question": "Quinn and Ivo share 90 walnuts in the ratio 7:2. How many MORE walnuts does Quinn get than Ivo?",
+  "reference": [
+   {
+    "step": "parts = 7 + 2",
+    "value": 9
+   },
+   {
+    "step": "one part = 90 / 9",
+    "value": 10
+   },
+   {
+    "step": "Quinn = 7 x 10",
+    "value": 70
+   },
+   {
+    "step": "Ivo = 2 x 10",
+    "value": 20
+   },
+   {
+    "step": "more = 70 - 20",
+    "value": 50
+   }
+  ],
+  "gsm8k_answer": "parts = 7 + 2 = 9\none part = 90 / 9 = 10\nQuinn = 7 x 10 = 70\nIvo = 2 x 10 = 20\nmore = 70 - 20 = 50\n#### 50",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0600",
+  "template": "unit_price_cents",
+  "question": "Pack A has 6 batteries for $9. Pack B has 15 batteries for $21. For the better value pack, how many CENTS cheaper is one battery than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 9 x 100 / 6",
+    "value": 150
+   },
+   {
+    "step": "pack B per item = 21 x 100 / 15",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 150 - 140",
+    "value": 10
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 9 x 100 / 6 = 150\npack B per item = 21 x 100 / 15 = 140\ncheaper per item = 150 - 140 = 10\n#### 10",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0601",
+  "template": "unit_price_cents",
+  "question": "Pack A has 8 light bulbs for $12. Pack B has 10 light bulbs for $14. For the better value pack, how many CENTS cheaper is one light bulb than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 12 x 100 / 8",
+    "value": 150
+   },
+   {
+    "step": "pack B per item = 14 x 100 / 10",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 150 - 140",
+    "value": 10
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 12 x 100 / 8 = 150\npack B per item = 14 x 100 / 10 = 140\ncheaper per item = 150 - 140 = 10\n#### 10",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0602",
+  "template": "unit_price_cents",
+  "question": "Pack A has 4 light bulbs for $6. Pack B has 5 light bulbs for $7. For the better value pack, how many CENTS cheaper is one light bulb than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 6 x 100 / 4",
+    "value": 150
+   },
+   {
+    "step": "pack B per item = 7 x 100 / 5",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 150 - 140",
+    "value": 10
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 6 x 100 / 4 = 150\npack B per item = 7 x 100 / 5 = 140\ncheaper per item = 150 - 140 = 10\n#### 10",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0603",
+  "template": "unit_price_cents",
+  "question": "Pack A has 6 light bulbs for $9. Pack B has 10 light bulbs for $14. For the better value pack, how many CENTS cheaper is one light bulb than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 9 x 100 / 6",
+    "value": 150
+   },
+   {
+    "step": "pack B per item = 14 x 100 / 10",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 150 - 140",
+    "value": 10
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 9 x 100 / 6 = 150\npack B per item = 14 x 100 / 10 = 140\ncheaper per item = 150 - 140 = 10\n#### 10",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0604",
+  "template": "unit_price_cents",
+  "question": "Pack A has 5 sponges for $8. Pack B has 10 sponges for $14. For the better value pack, how many CENTS cheaper is one sponge than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 8 x 100 / 5",
+    "value": 160
+   },
+   {
+    "step": "pack B per item = 14 x 100 / 10",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 160 - 140",
+    "value": 20
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 8 x 100 / 5 = 160\npack B per item = 14 x 100 / 10 = 140\ncheaper per item = 160 - 140 = 20\n#### 20",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0605",
+  "template": "unit_price_cents",
+  "question": "Pack A has 5 light bulbs for $8. Pack B has 5 light bulbs for $7. For the better value pack, how many CENTS cheaper is one light bulb than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 8 x 100 / 5",
+    "value": 160
+   },
+   {
+    "step": "pack B per item = 7 x 100 / 5",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 160 - 140",
+    "value": 20
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 8 x 100 / 5 = 160\npack B per item = 7 x 100 / 5 = 140\ncheaper per item = 160 - 140 = 20\n#### 20",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0606",
+  "template": "unit_price_cents",
+  "question": "Pack A has 6 batteries for $9. Pack B has 5 batteries for $7. For the better value pack, how many CENTS cheaper is one battery than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 9 x 100 / 6",
+    "value": 150
+   },
+   {
+    "step": "pack B per item = 7 x 100 / 5",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 150 - 140",
+    "value": 10
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 9 x 100 / 6 = 150\npack B per item = 7 x 100 / 5 = 140\ncheaper per item = 150 - 140 = 10\n#### 10",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0607",
+  "template": "unit_price_cents",
+  "question": "Pack A has 6 sponges for $9. Pack B has 15 sponges for $21. For the better value pack, how many CENTS cheaper is one sponge than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 9 x 100 / 6",
+    "value": 150
+   },
+   {
+    "step": "pack B per item = 21 x 100 / 15",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 150 - 140",
+    "value": 10
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 9 x 100 / 6 = 150\npack B per item = 21 x 100 / 15 = 140\ncheaper per item = 150 - 140 = 10\n#### 10",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0608",
+  "template": "unit_price_cents",
+  "question": "Pack A has 8 light bulbs for $12. Pack B has 5 light bulbs for $7. For the better value pack, how many CENTS cheaper is one light bulb than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 12 x 100 / 8",
+    "value": 150
+   },
+   {
+    "step": "pack B per item = 7 x 100 / 5",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 150 - 140",
+    "value": 10
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 12 x 100 / 8 = 150\npack B per item = 7 x 100 / 5 = 140\ncheaper per item = 150 - 140 = 10\n#### 10",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0609",
+  "template": "unit_price_cents",
+  "question": "Pack A has 6 batteries for $9. Pack B has 10 batteries for $14. For the better value pack, how many CENTS cheaper is one battery than in the other pack?",
+  "reference": [
+   {
+    "step": "pack A per item = 9 x 100 / 6",
+    "value": 150
+   },
+   {
+    "step": "pack B per item = 14 x 100 / 10",
+    "value": 140
+   },
+   {
+    "step": "cheaper per item = 150 - 140",
+    "value": 10
+   }
+  ],
+  "gsm8k_answer": "pack A per item = 9 x 100 / 6 = 150\npack B per item = 14 x 100 / 10 = 140\ncheaper per item = 150 - 140 = 10\n#### 10",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0700",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 21:00 and lasts 9 hours and 30 minutes. Straight after it there is a handover of 20 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 21 x 60 + 0",
+    "value": 1260
+   },
+   {
+    "step": "shift length in minutes = 9 x 60 + 30",
+    "value": 570
+   },
+   {
+    "step": "shift ends = 1260 + 570",
+    "value": 1830
+   },
+   {
+    "step": "handover ends = 1830 + 20",
+    "value": 1850
+   },
+   {
+    "step": "after midnight = 1850 - 1440",
+    "value": 410
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 21 x 60 + 0 = 1260\nshift length in minutes = 9 x 60 + 30 = 570\nshift ends = 1260 + 570 = 1830\nhandover ends = 1830 + 20 = 1850\nafter midnight = 1850 - 1440 = 410\n#### 410",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0701",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 21:15 and lasts 5 hours and 45 minutes. Straight after it there is a handover of 30 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 21 x 60 + 15",
+    "value": 1275
+   },
+   {
+    "step": "shift length in minutes = 5 x 60 + 45",
+    "value": 345
+   },
+   {
+    "step": "shift ends = 1275 + 345",
+    "value": 1620
+   },
+   {
+    "step": "handover ends = 1620 + 30",
+    "value": 1650
+   },
+   {
+    "step": "after midnight = 1650 - 1440",
+    "value": 210
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 21 x 60 + 15 = 1275\nshift length in minutes = 5 x 60 + 45 = 345\nshift ends = 1275 + 345 = 1620\nhandover ends = 1620 + 30 = 1650\nafter midnight = 1650 - 1440 = 210\n#### 210",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0702",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 21:00 and lasts 9 hours and 0 minutes. Straight after it there is a handover of 45 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 21 x 60 + 0",
+    "value": 1260
+   },
+   {
+    "step": "shift length in minutes = 9 x 60 + 0",
+    "value": 540
+   },
+   {
+    "step": "shift ends = 1260 + 540",
+    "value": 1800
+   },
+   {
+    "step": "handover ends = 1800 + 45",
+    "value": 1845
+   },
+   {
+    "step": "after midnight = 1845 - 1440",
+    "value": 405
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 21 x 60 + 0 = 1260\nshift length in minutes = 9 x 60 + 0 = 540\nshift ends = 1260 + 540 = 1800\nhandover ends = 1800 + 45 = 1845\nafter midnight = 1845 - 1440 = 405\n#### 405",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0703",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 22:30 and lasts 8 hours and 30 minutes. Straight after it there is a handover of 20 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 22 x 60 + 30",
+    "value": 1350
+   },
+   {
+    "step": "shift length in minutes = 8 x 60 + 30",
+    "value": 510
+   },
+   {
+    "step": "shift ends = 1350 + 510",
+    "value": 1860
+   },
+   {
+    "step": "handover ends = 1860 + 20",
+    "value": 1880
+   },
+   {
+    "step": "after midnight = 1880 - 1440",
+    "value": 440
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 22 x 60 + 30 = 1350\nshift length in minutes = 8 x 60 + 30 = 510\nshift ends = 1350 + 510 = 1860\nhandover ends = 1860 + 20 = 1880\nafter midnight = 1880 - 1440 = 440\n#### 440",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0704",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 23:45 and lasts 5 hours and 30 minutes. Straight after it there is a handover of 20 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 23 x 60 + 45",
+    "value": 1425
+   },
+   {
+    "step": "shift length in minutes = 5 x 60 + 30",
+    "value": 330
+   },
+   {
+    "step": "shift ends = 1425 + 330",
+    "value": 1755
+   },
+   {
+    "step": "handover ends = 1755 + 20",
+    "value": 1775
+   },
+   {
+    "step": "after midnight = 1775 - 1440",
+    "value": 335
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 23 x 60 + 45 = 1425\nshift length in minutes = 5 x 60 + 30 = 330\nshift ends = 1425 + 330 = 1755\nhandover ends = 1755 + 20 = 1775\nafter midnight = 1775 - 1440 = 335\n#### 335",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0705",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 22:15 and lasts 7 hours and 0 minutes. Straight after it there is a handover of 45 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 22 x 60 + 15",
+    "value": 1335
+   },
+   {
+    "step": "shift length in minutes = 7 x 60 + 0",
+    "value": 420
+   },
+   {
+    "step": "shift ends = 1335 + 420",
+    "value": 1755
+   },
+   {
+    "step": "handover ends = 1755 + 45",
+    "value": 1800
+   },
+   {
+    "step": "after midnight = 1800 - 1440",
+    "value": 360
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 22 x 60 + 15 = 1335\nshift length in minutes = 7 x 60 + 0 = 420\nshift ends = 1335 + 420 = 1755\nhandover ends = 1755 + 45 = 1800\nafter midnight = 1800 - 1440 = 360\n#### 360",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0706",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 22:45 and lasts 6 hours and 0 minutes. Straight after it there is a handover of 30 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 22 x 60 + 45",
+    "value": 1365
+   },
+   {
+    "step": "shift length in minutes = 6 x 60 + 0",
+    "value": 360
+   },
+   {
+    "step": "shift ends = 1365 + 360",
+    "value": 1725
+   },
+   {
+    "step": "handover ends = 1725 + 30",
+    "value": 1755
+   },
+   {
+    "step": "after midnight = 1755 - 1440",
+    "value": 315
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 22 x 60 + 45 = 1365\nshift length in minutes = 6 x 60 + 0 = 360\nshift ends = 1365 + 360 = 1725\nhandover ends = 1725 + 30 = 1755\nafter midnight = 1755 - 1440 = 315\n#### 315",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0707",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 23:15 and lasts 5 hours and 0 minutes. Straight after it there is a handover of 20 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 23 x 60 + 15",
+    "value": 1395
+   },
+   {
+    "step": "shift length in minutes = 5 x 60 + 0",
+    "value": 300
+   },
+   {
+    "step": "shift ends = 1395 + 300",
+    "value": 1695
+   },
+   {
+    "step": "handover ends = 1695 + 20",
+    "value": 1715
+   },
+   {
+    "step": "after midnight = 1715 - 1440",
+    "value": 275
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 23 x 60 + 15 = 1395\nshift length in minutes = 5 x 60 + 0 = 300\nshift ends = 1395 + 300 = 1695\nhandover ends = 1695 + 20 = 1715\nafter midnight = 1715 - 1440 = 275\n#### 275",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0708",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 21:30 and lasts 7 hours and 45 minutes. Straight after it there is a handover of 20 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 21 x 60 + 30",
+    "value": 1290
+   },
+   {
+    "step": "shift length in minutes = 7 x 60 + 45",
+    "value": 465
+   },
+   {
+    "step": "shift ends = 1290 + 465",
+    "value": 1755
+   },
+   {
+    "step": "handover ends = 1755 + 20",
+    "value": 1775
+   },
+   {
+    "step": "after midnight = 1775 - 1440",
+    "value": 335
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 21 x 60 + 30 = 1290\nshift length in minutes = 7 x 60 + 45 = 465\nshift ends = 1290 + 465 = 1755\nhandover ends = 1755 + 20 = 1775\nafter midnight = 1775 - 1440 = 335\n#### 335",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0709",
+  "template": "midnight_shift",
+  "question": "A night shift starts at 22:15 and lasts 8 hours and 45 minutes. Straight after it there is a handover of 20 minutes. How many minutes after midnight does the handover end?",
+  "reference": [
+   {
+    "step": "start in minutes after midnight = 22 x 60 + 15",
+    "value": 1335
+   },
+   {
+    "step": "shift length in minutes = 8 x 60 + 45",
+    "value": 525
+   },
+   {
+    "step": "shift ends = 1335 + 525",
+    "value": 1860
+   },
+   {
+    "step": "handover ends = 1860 + 20",
+    "value": 1880
+   },
+   {
+    "step": "after midnight = 1880 - 1440",
+    "value": 440
+   }
+  ],
+  "gsm8k_answer": "start in minutes after midnight = 22 x 60 + 15 = 1335\nshift length in minutes = 8 x 60 + 45 = 525\nshift ends = 1335 + 525 = 1860\nhandover ends = 1860 + 20 = 1880\nafter midnight = 1880 - 1440 = 440\n#### 440",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0800",
+  "template": "border_area",
+  "question": "A rectangular rug measures 8 feet by 6 feet. A path 1 foot wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 8 + 2 x 1",
+    "value": 10
+   },
+   {
+    "step": "outer width = 6 + 2 x 1",
+    "value": 8
+   },
+   {
+    "step": "outer area = 10 x 8",
+    "value": 80
+   },
+   {
+    "step": "rug area = 8 x 6",
+    "value": 48
+   },
+   {
+    "step": "path area = 80 - 48",
+    "value": 32
+   }
+  ],
+  "gsm8k_answer": "outer length = 8 + 2 x 1 = 10\nouter width = 6 + 2 x 1 = 8\nouter area = 10 x 8 = 80\nrug area = 8 x 6 = 48\npath area = 80 - 48 = 32\n#### 32",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0801",
+  "template": "border_area",
+  "question": "A rectangular flower bed measures 13 feet by 10 feet. A path 2 feet wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 13 + 2 x 2",
+    "value": 17
+   },
+   {
+    "step": "outer width = 10 + 2 x 2",
+    "value": 14
+   },
+   {
+    "step": "outer area = 17 x 14",
+    "value": 238
+   },
+   {
+    "step": "flower bed area = 13 x 10",
+    "value": 130
+   },
+   {
+    "step": "path area = 238 - 130",
+    "value": 108
+   }
+  ],
+  "gsm8k_answer": "outer length = 13 + 2 x 2 = 17\nouter width = 10 + 2 x 2 = 14\nouter area = 17 x 14 = 238\nflower bed area = 13 x 10 = 130\npath area = 238 - 130 = 108\n#### 108",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0802",
+  "template": "border_area",
+  "question": "A rectangular pond measures 12 feet by 7 feet. A path 1 foot wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 12 + 2 x 1",
+    "value": 14
+   },
+   {
+    "step": "outer width = 7 + 2 x 1",
+    "value": 9
+   },
+   {
+    "step": "outer area = 14 x 9",
+    "value": 126
+   },
+   {
+    "step": "pond area = 12 x 7",
+    "value": 84
+   },
+   {
+    "step": "path area = 126 - 84",
+    "value": 42
+   }
+  ],
+  "gsm8k_answer": "outer length = 12 + 2 x 1 = 14\nouter width = 7 + 2 x 1 = 9\nouter area = 14 x 9 = 126\npond area = 12 x 7 = 84\npath area = 126 - 84 = 42\n#### 42",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0803",
+  "template": "border_area",
+  "question": "A rectangular pond measures 13 feet by 3 feet. A path 2 feet wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 13 + 2 x 2",
+    "value": 17
+   },
+   {
+    "step": "outer width = 3 + 2 x 2",
+    "value": 7
+   },
+   {
+    "step": "outer area = 17 x 7",
+    "value": 119
+   },
+   {
+    "step": "pond area = 13 x 3",
+    "value": 39
+   },
+   {
+    "step": "path area = 119 - 39",
+    "value": 80
+   }
+  ],
+  "gsm8k_answer": "outer length = 13 + 2 x 2 = 17\nouter width = 3 + 2 x 2 = 7\nouter area = 17 x 7 = 119\npond area = 13 x 3 = 39\npath area = 119 - 39 = 80\n#### 80",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0804",
+  "template": "border_area",
+  "question": "A rectangular pond measures 7 feet by 7 feet. A path 2 feet wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 7 + 2 x 2",
+    "value": 11
+   },
+   {
+    "step": "outer width = 7 + 2 x 2",
+    "value": 11
+   },
+   {
+    "step": "outer area = 11 x 11",
+    "value": 121
+   },
+   {
+    "step": "pond area = 7 x 7",
+    "value": 49
+   },
+   {
+    "step": "path area = 121 - 49",
+    "value": 72
+   }
+  ],
+  "gsm8k_answer": "outer length = 7 + 2 x 2 = 11\nouter width = 7 + 2 x 2 = 11\nouter area = 11 x 11 = 121\npond area = 7 x 7 = 49\npath area = 121 - 49 = 72\n#### 72",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0805",
+  "template": "border_area",
+  "question": "A rectangular rug measures 14 feet by 4 feet. A path 2 feet wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 14 + 2 x 2",
+    "value": 18
+   },
+   {
+    "step": "outer width = 4 + 2 x 2",
+    "value": 8
+   },
+   {
+    "step": "outer area = 18 x 8",
+    "value": 144
+   },
+   {
+    "step": "rug area = 14 x 4",
+    "value": 56
+   },
+   {
+    "step": "path area = 144 - 56",
+    "value": 88
+   }
+  ],
+  "gsm8k_answer": "outer length = 14 + 2 x 2 = 18\nouter width = 4 + 2 x 2 = 8\nouter area = 18 x 8 = 144\nrug area = 14 x 4 = 56\npath area = 144 - 56 = 88\n#### 88",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0806",
+  "template": "border_area",
+  "question": "A rectangular flower bed measures 12 feet by 11 feet. A path 2 feet wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 12 + 2 x 2",
+    "value": 16
+   },
+   {
+    "step": "outer width = 11 + 2 x 2",
+    "value": 15
+   },
+   {
+    "step": "outer area = 16 x 15",
+    "value": 240
+   },
+   {
+    "step": "flower bed area = 12 x 11",
+    "value": 132
+   },
+   {
+    "step": "path area = 240 - 132",
+    "value": 108
+   }
+  ],
+  "gsm8k_answer": "outer length = 12 + 2 x 2 = 16\nouter width = 11 + 2 x 2 = 15\nouter area = 16 x 15 = 240\nflower bed area = 12 x 11 = 132\npath area = 240 - 132 = 108\n#### 108",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0807",
+  "template": "border_area",
+  "question": "A rectangular pond measures 7 feet by 3 feet. A path 2 feet wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 7 + 2 x 2",
+    "value": 11
+   },
+   {
+    "step": "outer width = 3 + 2 x 2",
+    "value": 7
+   },
+   {
+    "step": "outer area = 11 x 7",
+    "value": 77
+   },
+   {
+    "step": "pond area = 7 x 3",
+    "value": 21
+   },
+   {
+    "step": "path area = 77 - 21",
+    "value": 56
+   }
+  ],
+  "gsm8k_answer": "outer length = 7 + 2 x 2 = 11\nouter width = 3 + 2 x 2 = 7\nouter area = 11 x 7 = 77\npond area = 7 x 3 = 21\npath area = 77 - 21 = 56\n#### 56",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0808",
+  "template": "border_area",
+  "question": "A rectangular pond measures 11 feet by 10 feet. A path 2 feet wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 11 + 2 x 2",
+    "value": 15
+   },
+   {
+    "step": "outer width = 10 + 2 x 2",
+    "value": 14
+   },
+   {
+    "step": "outer area = 15 x 14",
+    "value": 210
+   },
+   {
+    "step": "pond area = 11 x 10",
+    "value": 110
+   },
+   {
+    "step": "path area = 210 - 110",
+    "value": 100
+   }
+  ],
+  "gsm8k_answer": "outer length = 11 + 2 x 2 = 15\nouter width = 10 + 2 x 2 = 14\nouter area = 15 x 14 = 210\npond area = 11 x 10 = 110\npath area = 210 - 110 = 100\n#### 100",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0809",
+  "template": "border_area",
+  "question": "A rectangular flower bed measures 9 feet by 10 feet. A path 1 foot wide is laid all the way around it. How many square feet does the PATH alone cover?",
+  "reference": [
+   {
+    "step": "outer length = 9 + 2 x 1",
+    "value": 11
+   },
+   {
+    "step": "outer width = 10 + 2 x 1",
+    "value": 12
+   },
+   {
+    "step": "outer area = 11 x 12",
+    "value": 132
+   },
+   {
+    "step": "flower bed area = 9 x 10",
+    "value": 90
+   },
+   {
+    "step": "path area = 132 - 90",
+    "value": 42
+   }
+  ],
+  "gsm8k_answer": "outer length = 9 + 2 x 1 = 11\nouter width = 10 + 2 x 1 = 12\nouter area = 11 x 12 = 132\nflower bed area = 9 x 10 = 90\npath area = 132 - 90 = 42\n#### 42",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0900",
+  "template": "schedule_exceptions",
+  "question": "Over 7 weeks, Carla trained 5 hours in a normal week. Two of the weeks were not normal: in those two Carla trained 8 hours each week. One further week was also not normal: in that week Carla trained 10 hours. How many hours in total over the 7 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 7 - 3",
+    "value": 4
+   },
+   {
+    "step": "normal hours = 4 x 5",
+    "value": 20
+   },
+   {
+    "step": "two weeks = 2 x 8",
+    "value": 16
+   },
+   {
+    "step": "total = 20 + 16 + 10",
+    "value": 46
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 7 - 3 = 4\nnormal hours = 4 x 5 = 20\ntwo weeks = 2 x 8 = 16\ntotal = 20 + 16 + 10 = 46\n#### 46",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0901",
+  "template": "schedule_exceptions",
+  "question": "Over 10 weeks, Sami studied French 4 hours in a normal week. Two of the weeks were not normal: in those two Sami studied 5 hours each week. One further week was also not normal: in that week Sami studied 7 hours. How many hours in total over the 10 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 10 - 3",
+    "value": 7
+   },
+   {
+    "step": "normal hours = 7 x 4",
+    "value": 28
+   },
+   {
+    "step": "two weeks = 2 x 5",
+    "value": 10
+   },
+   {
+    "step": "total = 28 + 10 + 7",
+    "value": 45
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 10 - 3 = 7\nnormal hours = 7 x 4 = 28\ntwo weeks = 2 x 5 = 10\ntotal = 28 + 10 + 7 = 45\n#### 45",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0902",
+  "template": "schedule_exceptions",
+  "question": "Over 9 weeks, Ivo practised piano 6 hours in a normal week. Two of the weeks were not normal: in those two Ivo practised 8 hours each week. One further week was also not normal: in that week Ivo practised 10 hours. How many hours in total over the 9 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 9 - 3",
+    "value": 6
+   },
+   {
+    "step": "normal hours = 6 x 6",
+    "value": 36
+   },
+   {
+    "step": "two weeks = 2 x 8",
+    "value": 16
+   },
+   {
+    "step": "total = 36 + 16 + 10",
+    "value": 62
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 9 - 3 = 6\nnormal hours = 6 x 6 = 36\ntwo weeks = 2 x 8 = 16\ntotal = 36 + 16 + 10 = 62\n#### 62",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0903",
+  "template": "schedule_exceptions",
+  "question": "Over 10 weeks, Rosa practised piano 5 hours in a normal week. Two of the weeks were not normal: in those two Rosa practised 7 hours each week. One further week was also not normal: in that week Rosa practised 8 hours. How many hours in total over the 10 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 10 - 3",
+    "value": 7
+   },
+   {
+    "step": "normal hours = 7 x 5",
+    "value": 35
+   },
+   {
+    "step": "two weeks = 2 x 7",
+    "value": 14
+   },
+   {
+    "step": "total = 35 + 14 + 8",
+    "value": 57
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 10 - 3 = 7\nnormal hours = 7 x 5 = 35\ntwo weeks = 2 x 7 = 14\ntotal = 35 + 14 + 8 = 57\n#### 57",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0904",
+  "template": "schedule_exceptions",
+  "question": "Over 11 weeks, Lena volunteered 3 hours in a normal week. Two of the weeks were not normal: in those two Lena volunteered 5 hours each week. One further week was also not normal: in that week Lena volunteered 6 hours. How many hours in total over the 11 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 11 - 3",
+    "value": 8
+   },
+   {
+    "step": "normal hours = 8 x 3",
+    "value": 24
+   },
+   {
+    "step": "two weeks = 2 x 5",
+    "value": 10
+   },
+   {
+    "step": "total = 24 + 10 + 6",
+    "value": 40
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 11 - 3 = 8\nnormal hours = 8 x 3 = 24\ntwo weeks = 2 x 5 = 10\ntotal = 24 + 10 + 6 = 40\n#### 40",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0905",
+  "template": "schedule_exceptions",
+  "question": "Over 11 weeks, Carla trained 3 hours in a normal week. Two of the weeks were not normal: in those two Carla trained 6 hours each week. One further week was also not normal: in that week Carla trained 7 hours. How many hours in total over the 11 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 11 - 3",
+    "value": 8
+   },
+   {
+    "step": "normal hours = 8 x 3",
+    "value": 24
+   },
+   {
+    "step": "two weeks = 2 x 6",
+    "value": 12
+   },
+   {
+    "step": "total = 24 + 12 + 7",
+    "value": 43
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 11 - 3 = 8\nnormal hours = 8 x 3 = 24\ntwo weeks = 2 x 6 = 12\ntotal = 24 + 12 + 7 = 43\n#### 43",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0906",
+  "template": "schedule_exceptions",
+  "question": "Over 7 weeks, Jonas trained 5 hours in a normal week. Two of the weeks were not normal: in those two Jonas trained 8 hours each week. One further week was also not normal: in that week Jonas trained 9 hours. How many hours in total over the 7 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 7 - 3",
+    "value": 4
+   },
+   {
+    "step": "normal hours = 4 x 5",
+    "value": 20
+   },
+   {
+    "step": "two weeks = 2 x 8",
+    "value": 16
+   },
+   {
+    "step": "total = 20 + 16 + 9",
+    "value": 45
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 7 - 3 = 4\nnormal hours = 4 x 5 = 20\ntwo weeks = 2 x 8 = 16\ntotal = 20 + 16 + 9 = 45\n#### 45",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0907",
+  "template": "schedule_exceptions",
+  "question": "Over 11 weeks, Goran trained 6 hours in a normal week. Two of the weeks were not normal: in those two Goran trained 8 hours each week. One further week was also not normal: in that week Goran trained 11 hours. How many hours in total over the 11 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 11 - 3",
+    "value": 8
+   },
+   {
+    "step": "normal hours = 8 x 6",
+    "value": 48
+   },
+   {
+    "step": "two weeks = 2 x 8",
+    "value": 16
+   },
+   {
+    "step": "total = 48 + 16 + 11",
+    "value": 75
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 11 - 3 = 8\nnormal hours = 8 x 6 = 48\ntwo weeks = 2 x 8 = 16\ntotal = 48 + 16 + 11 = 75\n#### 75",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0908",
+  "template": "schedule_exceptions",
+  "question": "Over 10 weeks, Farah volunteered 6 hours in a normal week. Two of the weeks were not normal: in those two Farah volunteered 9 hours each week. One further week was also not normal: in that week Farah volunteered 10 hours. How many hours in total over the 10 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 10 - 3",
+    "value": 7
+   },
+   {
+    "step": "normal hours = 7 x 6",
+    "value": 42
+   },
+   {
+    "step": "two weeks = 2 x 9",
+    "value": 18
+   },
+   {
+    "step": "total = 42 + 18 + 10",
+    "value": 70
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 10 - 3 = 7\nnormal hours = 7 x 6 = 42\ntwo weeks = 2 x 9 = 18\ntotal = 42 + 18 + 10 = 70\n#### 70",
+  "source": "synthetic"
+ },
+ {
+  "id": "sy2_0909",
+  "template": "schedule_exceptions",
+  "question": "Over 12 weeks, Carla studied French 4 hours in a normal week. Two of the weeks were not normal: in those two Carla studied 5 hours each week. One further week was also not normal: in that week Carla studied 6 hours. How many hours in total over the 12 weeks?",
+  "reference": [
+   {
+    "step": "normal weeks = 12 - 3",
+    "value": 9
+   },
+   {
+    "step": "normal hours = 9 x 4",
+    "value": 36
+   },
+   {
+    "step": "two weeks = 2 x 5",
+    "value": 10
+   },
+   {
+    "step": "total = 36 + 10 + 6",
+    "value": 52
+   }
+  ],
+  "gsm8k_answer": "normal weeks = 12 - 3 = 9\nnormal hours = 9 x 4 = 36\ntwo weeks = 2 x 5 = 10\ntotal = 36 + 10 + 6 = 52\n#### 52",
+  "source": "synthetic"
+ }
+]
