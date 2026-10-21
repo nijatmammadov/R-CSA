@@ -10,11 +10,21 @@ to the steps of a reasoning chain. For each step the model judges its own step a
 probes of it, and against versions of the question with one number changed. The first step whose
 score falls below a threshold is reported as the error.
 
+## Datasets
+
+| Benchmark | Dev set (settings chosen here) | Test set (run once) | Models |
+|---|---|---|---|
+| GSM8K | 200 questions from the GSM8K train split | 400 questions from GSM8K-Platinum | Llama-3.1-8B-Instruct, Mistral-7B-Instruct-v0.3 |
+| MATH Level 5 | 200 Level 5 questions from the MATH train split | 400 Level 5 questions from the MATH test split, excluding MATH-500 | Qwen2.5-7B-Instruct |
+
+Each model solves the questions itself and judges its own steps. First-error labels were proposed
+by a script and an LLM assistant, then confirmed by hand. The question files are in `data/dev` and
+`data/test`, the solved and labelled chains in `data/dev` and `results/test`.
+
 ## Results
 
-Test sets: GSM8K-Platinum (Llama-3.1-8B, Mistral-7B) and MATH Level 5 (Qwen2.5-7B). All settings
-were fixed on separate dev sets before the test run. F1 is detection of wrong chains; PB F1 is the
-ProcessBench metric for locating the first error.
+All settings were fixed on the dev sets before the test run. F1 is detection of wrong chains;
+PB F1 is the ProcessBench metric for locating the first error.
 
 | Method | Llama F1 | Llama PB F1 | Mistral F1 | Mistral PB F1 | Qwen F1 | Qwen PB F1 |
 |---|---|---|---|---|---|---|
