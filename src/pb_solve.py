@@ -19,8 +19,25 @@ thing established or computed. Show the arithmetic in each step.
 
 After the last step, write a final line of the form "Answer: <number>" with the number only."""
 
+SOLVE_YESNO = """Answer the yes/no question step by step.
+
+Write each step on its own line, starting with "Step 1:", "Step 2:", and so on. One step = one
+fact or one inference. Write only the step itself, without labels or sources.
+
+After the last step, write a final line of the form "Answer: Yes" or "Answer: No". Choose one of
+the two even if you are unsure."""
+
 _STEP = re.compile(r'^\s*\**\s*Step\s*(\d+)\s*\**\s*[:.)-]\s*\**\s*', re.I)
 _ANSWER = re.compile(r'^\s*\**\s*(?:final\s+)?answer\s*\**\s*[:=]\s*(.+)$', re.I)
+FOLLOWUP = """Question: {question}
+
+Reasoning:
+{reply}
+
+Based on this reasoning, is the answer to the question Yes or No? Reply with one word: Yes or No."""
+_ENDED = re.compile(r'[.!?)"\'\u201d]\s*$')
+_YESNO_ANSWER = re.compile(r'^\W*(yes|no)\b', re.I)
+_YESNO_IN_STEP = re.compile(r'answer\s*(?:is|:)\s*\W*(yes|no)\b', re.I)
 _NUM = re.compile(r'-?\d{1,3}(?:[ ,]\d{3})+(?:\.\d+)?|-?\d[\d,]*(?:\.\d+)?')
 
 
@@ -57,16 +74,38 @@ def parse(reply):
     return steps, answer
 
 
+def yesno(text):
+    m = _YESNO_ANSWER.match(text or '')
+    return m.group(1).lower() if m else None
+
+
+def needs_followup(rec):
+    return (rec.get('gold') in ('yes', 'no') and rec.get('status') == 'ok' and rec.get('answer') is None
+            and 'answer_followup' not in rec and bool(_ENDED.search(rec.get('raw') or '')))
+
+
 def finish(rec):
     steps, ans = parse(rec['raw'])
-    pred = number(ans)
     rec.pop('note', None)
-    if pred is None and steps:
-        pred = number(steps[-1])
-        if pred is not None:
-            rec['note'] = 'no Answer line: answer taken from the last number of the last step'
-    rec.update(steps=steps, answer=pred,
-               answer_correct=(pred is not None and abs(pred - rec['gold']) < 1e-6))
+    if rec['gold'] in ('yes', 'no'):
+        pred = yesno(ans)
+        if pred is None and steps:
+            m = _YESNO_IN_STEP.findall(steps[-1])
+            if m:
+                pred = m[-1].lower()
+                rec['note'] = 'no Answer line: answer taken from "the answer is ..." in the last step'
+        if pred is None and rec.get('answer_followup') in ('yes', 'no'):
+            pred = rec['answer_followup']
+            rec['note'] = 'no Answer line: Yes/No from a follow-up call to the same model'
+        correct = pred == rec['gold']
+    else:
+        pred = number(ans)
+        if pred is None and steps:
+            pred = number(steps[-1])
+            if pred is not None:
+                rec['note'] = 'no Answer line: answer taken from the last number of the last step'
+        correct = pred is not None and abs(pred - rec['gold']) < 1e-6
+    rec.update(steps=steps, answer=pred, answer_correct=correct)
     rec.pop('error', None)
     if not steps:
         rec.update(status='error', error='no "Step k:" lines in the reply')
@@ -111,14 +150,16 @@ def main():
     for r in done.values():
         if r.get('raw') and r.get('label') in (None, -1):
             finish(r)
-    todo = [q for q in qs if q['id'] not in done]
+    todo = [q for q in qs if q['id'] not in done or not done[q['id']].get('raw')]
     print('Solving | %s | %d questions, %d to do' % (model, len(qs), len(todo)), flush=True)
 
     def solve(q):
+        yn = q.get('gold') in ('yes', 'no')
         rec = {'id': q['id'], 'subset': 'gsm8k', 'generator': a.generator, 'model': model,
-               'problem': q['question'], 'gold': gold_of(q['gsm8k_answer'])}
+               'problem': q['question'], 'gold': q['gold'] if yn else gold_of(q['gsm8k_answer'])}
         try:
-            reply = asker.ask(SOLVE, q['question'], max_tokens=a.max_tokens, temperature=0.0)
+            reply = asker.ask(SOLVE_YESNO if yn else SOLVE, q['question'], max_tokens=a.max_tokens,
+                              temperature=0.0)
         except pc.APIGaveUp as e:
             rec.update(status='error', error=str(e)[:300])
             return rec
@@ -138,6 +179,24 @@ def main():
             print('  %-10s %-6s | %d/%d | %.0fs elapsed | api errors %s | %s'
                   % (r['id'], mark, n, len(todo), time.time() - t0, asker.errors or '{}',
                      pc.spend(asker.tokens, pin, pout)), flush=True)
+    follow = [r for r in done.values() if needs_followup(r)]
+    if follow:
+        print('Follow-up Yes/No call for %d replies that ended without an answer' % len(follow), flush=True)
+
+        def ask_followup(r):
+            try:
+                reply = asker.ask(None, FOLLOWUP.format(question=r['problem'], reply=r['raw'].strip()),
+                                  max_tokens=5, temperature=0.0)
+            except pc.APIGaveUp:
+                return r
+            r['answer_followup'] = yesno(reply) or 'unparsed: ' + reply.strip()[:40]
+            return finish(r)
+
+        with ThreadPoolExecutor(max_workers=a.workers) as ex:
+            for r in ex.map(ask_followup, follow):
+                done[r['id']] = r
+                print('  %-10s follow-up %s -> %s' % (r['id'], r.get('answer_followup'),
+                                                      'right' if r['answer_correct'] else 'WRONG'), flush=True)
     out = [done[q['id']] for q in qs if q['id'] in done]
     pc.save_json(a.out, out)
 

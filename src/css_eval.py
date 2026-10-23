@@ -118,6 +118,24 @@ def tune(chains, source, fn, params, rule='pbf1'):
     return best[1], best[2]
 
 
+def cv_preds(chains, source, fn, params, rule, k, seed=42):
+    import random
+    wrong = sorted(c['id'] for c in chains if c['label'] != -1)
+    cor = sorted(c['id'] for c in chains if c['label'] == -1)
+    rng = random.Random(seed)
+    rng.shuffle(wrong)
+    rng.shuffle(cor)
+    fold = {i: j % k for j, i in enumerate(wrong)}
+    fold.update({i: j % k for j, i in enumerate(cor)})
+    preds = {}
+    for f in range(k):
+        train = [c for c in chains if fold[c['id']] != f]
+        held = [c for c in chains if fold[c['id']] == f]
+        t, p = tune(train, source, fn, params, rule)
+        preds.update(preds_for(held, source, fn, t, p))
+    return preds
+
+
 def load(labels_path, css_path, feng_path, critic_path, selfcheck_path=None, ptrue_full_path=None, cfq_path=None):
     labels = {r['id']: r for r in json.load(open(labels_path, encoding='utf-8'))}
     css = {r['id']: r for r in json.load(open(css_path, encoding='utf-8')) if r.get('status') == 'ok'}
@@ -239,6 +257,8 @@ def main():
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument('--freeze', help='DEV: tune here and write the chosen settings to this file')
     g.add_argument('--frozen', help='TEST: apply the settings in this file, tune nothing')
+    g.add_argument('--cv', type=int, help='K: no separate test set; each of K folds is predicted with the '
+                                          'threshold tuned on the other folds (needs --weights-from)')
     ap.add_argument('--md', default=None)
     a = ap.parse_args()
 
@@ -247,14 +267,25 @@ def main():
         raise SystemExit('no labelled chains with a finished run of every method')
     nw = sum(c['label'] != -1 for c in chains)
     frozen = json.load(open(a.frozen, encoding='utf-8')) if a.frozen else {}
+    if a.cv is not None and (not a.weights_from or a.cv < 2):
+        raise SystemExit('--cv K needs K >= 2 and --weights-from (weights fixed, only the threshold is tuned)')
     if a.weights_from and a.frozen:
         raise SystemExit('--weights-from tunes thresholds; it cannot be combined with --frozen')
     fixed = json.load(open(a.weights_from, encoding='utf-8')) if a.weights_from else {}
-    chosen, res = {}, []
+    chosen, res, skipped = {}, [], []
     for name, src, fn, params in methods(a.feng is not None, a.critic is not None, a.selfcheck is not None,
                                      a.ptrue_full is not None, a.ablations, a.cfq is not None):
+        if fn and not any(x is not None for c in chains for _, x in F.step_scores(c, src, fn, params[0])):
+            skipped.append(name)
+            continue
         if src == 'critic':
             preds, t, p = {c['id']: c['critic'] for c in chains}, None, None
+        elif a.cv:
+            if name not in fixed:
+                raise SystemExit('%s missing from %s' % (name, a.weights_from))
+            w = fixed[name]['param']
+            p = tuple(w) if isinstance(w, list) else w
+            preds, t = cv_preds(chains, src, fn, [p], a.rule, a.cv), 'cv'
         else:
             if a.frozen:
                 if name not in frozen:
@@ -280,15 +311,20 @@ def main():
 
     mode = ('DEV: %s tuned on these same chains (in-sample, rule %s) and frozen to %s'
             % ('thresholds (weights from %s)' % a.weights_from if a.weights_from else 'settings', a.rule, a.freeze)
-            if a.freeze else 'TEST: frozen settings from %s, nothing tuned' % a.frozen)
+            if a.freeze else 'TEST: frozen settings from %s, nothing tuned' % a.frozen if a.frozen else
+            '%d-fold cross-validation: each fold predicted with the threshold tuned (rule %s) on the other folds; '
+            'weights from %s, not tuned; AUROCs use no threshold' % (a.cv, a.rule, a.weights_from))
     L = ['# R-CSA (ours) vs baselines', '', '%d chains (%d wrong, %d correct). %s.' % (len(chains), nw, len(chains) - nw, mode)]
     if missing:
         L.append('%d labelled chains lack a finished run of every method and are left out.' % len(missing))
+    if skipped:
+        L.append('Not scored, no value on these chains: %s.' % ', '.join(skipped))
     L += ['', '## Results', '',
           '| Method | Setting | TP/FN/FP/TN | Acc | Prec | Rec | Spec | F1 | Bal. acc | Exact | ±1 | Dist | PB F1 | Chain AUROC | Step AUROC |',
           '|' + '---|' * 15]
     for name, t, p, preds, s, ca, sa in res:
-        setting = '—' if t is None else ('t=%.2f%s' % (t, '' if p is None else ', %s' % (p,)))
+        setting = '—' if t is None else ('t: %d-fold CV%s' % (a.cv, '' if p is None else ', %s' % (p,))
+                                         if t == 'cv' else 't=%.2f%s' % (t, '' if p is None else ', %s' % (p,)))
         loc = ['—'] * 4 if name in DETECTION_ONLY else \
             ['%d/%d' % (s['exact'], nw), '%d/%d' % (s['near'], nw), F.fmt(s['dist']), F.fmt(s['pbf1'])]
         L.append('| %s | %s | %d/%d/%d/%d | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s |' % tuple([

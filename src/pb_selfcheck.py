@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pb_common as pc
-from pb_solve import SOLVE
+from pb_solve import SOLVE, SOLVE_YESNO
 
 PROMPT = ('Context: {context}\n\nSentence: {sentence}\n\n'
           'Is the sentence supported by the context above? Answer Yes or No.\n\nAnswer: ')
@@ -27,10 +27,13 @@ def verdict(text):
 def run(asker, rec, n, inner):
     out = {k: rec[k] for k in ('id', 'subset', 'generator', 'label')}
     out.update(model=asker.model, config={'n_samples': n, 'sample_temperature': SAMPLE_T, 'prompt': PROMPT})
+    solve = SOLVE_YESNO if rec.get('gold') in ('yes', 'no') else SOLVE
+    if solve is SOLVE_YESNO:
+        out['config']['solve_prompt'] = 'yes/no'
     steps = [' '.join(s.split()) for s in rec['steps']]
     try:
         with ThreadPoolExecutor(max_workers=inner) as ex:
-            samples = list(ex.map(lambda _: asker.ask(SOLVE, rec['problem'], max_tokens=1024,
+            samples = list(ex.map(lambda _: asker.ask(solve, rec['problem'], max_tokens=1024,
                                                       temperature=SAMPLE_T), range(n)))
         samples = [s for s in samples if s and s.strip()]
         if not samples:

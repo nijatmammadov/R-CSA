@@ -1,0 +1,3752 @@
+[
+ {
+  "id": "sqa_00450e9708370dc2d0b3",
+  "question": "Does store bought milk have cream at the top?",
+  "gold": "no",
+  "gsm8k_answer": "When milk is non-homogenized, the cream will separate and rise to the top.\nMost store bought milk is homogenized. \n#### no",
+  "decomposition": [
+   "What processes does store-bought milk go through?",
+   "What are the characteristics of milk that is treated with #1?",
+   "Is \"cream on the top\" a characteristic listed in #2?"
+  ],
+  "facts": [
+   "When milk is non-homogenized, the cream will separate and rise to the top.",
+   "Most store bought milk is homogenized. "
+  ],
+  "term": "Cream",
+  "description": "Dairy product",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_0071170f6430e556011a",
+  "question": "Is white light the absence of color?",
+  "gold": "no",
+  "gsm8k_answer": "White light is formed by the combination of red, green, and blue light.\nInstead, black is considered to be the absence of color.\n#### no",
+  "decomposition": [
+   "How many colors of light are mixed to create white light?",
+   "Is #1 equal to zero?"
+  ],
+  "facts": [
+   "White light is formed by the combination of red, green, and blue light.",
+   "Instead, black is considered to be the absence of color."
+  ],
+  "term": "White",
+  "description": "color",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_039b9b5991e111ec5c00",
+  "question": "Did the 23rd amendment give Puerto Ricans the right to vote for president?",
+  "gold": "no",
+  "gsm8k_answer": "The 23rd Amendment to the Constitution gave residents of Washington D.C. the right to vote in presidential elections.\nPuerto Rico is an American territory, not a state, and does not have the right to vote for president.\nPuerto Rico is not Washington D.C.\n#### no",
+  "decomposition": [
+   "Which US state was given the right to vote by the 23rd Amendment?",
+   "Is Is Puerto Rico a US state or the same as #1?"
+  ],
+  "facts": [
+   "The 23rd Amendment to the Constitution gave residents of Washington D.C. the right to vote in presidential elections.",
+   "Puerto Rico is an American territory, not a state, and does not have the right to vote for president.",
+   "Puerto Rico is not Washington D.C."
+  ],
+  "term": "Twenty-third Amendment to the United States Constitution",
+  "description": "Grants residents of Washington, D.C. the right to vote in U.S. presidential elections",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_04e6a9154cdeed09ec4b",
+  "question": "Can pancreas removal cause bankruptcy?",
+  "gold": "yes",
+  "gsm8k_answer": "Pancreas removal is a medical procedure.\nMedical procedures are expensive in come countries. \nExpensive procedures can cause debt.\nDebt can cause bankruptcy. \n#### yes",
+  "decomposition": [
+   "What medical procedures are involved when a pancreas be removed?",
+   "In what places are #1 sometimes directly paid for by the patient?",
+   "Among any of #2, what consequences exist for medical debt?",
+   "Is bankruptcy included in #3?"
+  ],
+  "facts": [
+   "Pancreas removal is a medical procedure.",
+   "Medical procedures are expensive in come countries. ",
+   "Expensive procedures can cause debt.",
+   "Debt can cause bankruptcy. "
+  ],
+  "term": "Pancreas",
+  "description": "A glandular organ that plays a role in the digestive and endocrine systems of vertebrates.",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_055518206578e9530184",
+  "question": "Would hypothermia be a concern for a human wearing zoot suit on Triton?",
+  "gold": "yes",
+  "gsm8k_answer": "A zoot suit was a man's suit of an exaggerated style popular in the 1940s.\nTriton is one of the coldest planets in the solar system.\nTriton is located about 2.8 billion miles from the warmth of the sun.\nTriton has an average temperature of -235.0°C\nA zoot suit is made of thin material such as cloth.\n#### yes",
+  "decomposition": [
+   "What is the average temperature on Triton?",
+   "What material are zoot suits made of?",
+   "Below which body temperature will hypothermia set in?",
+   "Would clothes made of #2 be unable to keep body temperature above #3 in ambient temperature of #1?"
+  ],
+  "facts": [
+   "A zoot suit was a man's suit of an exaggerated style popular in the 1940s.",
+   "Triton is one of the coldest planets in the solar system.",
+   "Triton is located about 2.8 billion miles from the warmth of the sun.",
+   "Triton has an average temperature of -235.0°C",
+   "A zoot suit is made of thin material such as cloth."
+  ],
+  "term": "Hypothermia",
+  "description": "A human body core temperature below 35.0°C",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_05f3232699d385d3f7b1",
+  "question": "Is it true that gay male couples cannot naturally reproduce?",
+  "gold": "no",
+  "gsm8k_answer": "Gay men can have any of the various sex organs that humans have.\nTrans men will sometimes become pregnant with their significant other before transitioning medically. \n#### no",
+  "decomposition": [
+   "What defines a male gender?",
+   "What organs are needed to impregnate someone?",
+   "What organs are needed to carry a pregnancy?",
+   "Does #1 exclude persons with either of #2 or #3?"
+  ],
+  "facts": [
+   "Gay men can have any of the various sex organs that humans have.",
+   "Trans men will sometimes become pregnant with their significant other before transitioning medically. "
+  ],
+  "term": "Reproduction",
+  "description": "Biological process by which new organisms are generated from one or more parent organisms",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_05f53f3375ec01af553f",
+  "question": "Are Chipotle Cinnamon Pork Chops appropriate for a Seder?",
+  "gold": "no",
+  "gsm8k_answer": "Chipotle Cinnamon Pork Chops are a popular recipe made by applying a cinnamon rub to pork chops.\nThe Seder is a Jewish feast day that begins the season of Passover.\nPork is forbidden by Jewish kosher laws.\n#### no",
+  "decomposition": [
+   "What kind of event is a Seder?",
+   "Which religious group observes #1?",
+   "Which foods are considered appropriate by the dietary restrictions imposed on #2?",
+   "What are the main ingredients of Chipotle Cinnamon Pork Chops?",
+   "Are #4 included in #3?"
+  ],
+  "facts": [
+   "Chipotle Cinnamon Pork Chops are a popular recipe made by applying a cinnamon rub to pork chops.",
+   "The Seder is a Jewish feast day that begins the season of Passover.",
+   "Pork is forbidden by Jewish kosher laws."
+  ],
+  "term": "Cinnamon",
+  "description": "spice obtained from the inner bark of several trees from the genus Cinnamomum",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_06d7e148f6c6849917ac",
+  "question": "During the pandemic, is door to door advertising considered inconsiderate?",
+  "gold": "yes",
+  "gsm8k_answer": "Door to door advertising involves someone going to several homes in a residential area to make sales and leave informational packets.\nDuring the COVID-19 pandemic, the CDC recommends that people limit their travel to essential needs only.\nDuring the COVID-19 pandemic, citizens are advised to stay home and to limit their interaction with others.\nDuring the COVID-19 pandemic, people are encouraged to remain six feet away from each other at all times.\nThe more people that someone interacts with, the higher the likelihood of them becoming a vector for the COVID-19 virus.\n#### yes",
+  "decomposition": [
+   "What does door to door advertising involve a person to do?",
+   "During the COVID-19 pandemic, what does the CDC advise people to do in terms of traveling?",
+   "During the COVID-19 pandemic, what does the CDC advise people to do in terms of interaction with others?",
+   "Does doing #1 go against #2 and #3?"
+  ],
+  "facts": [
+   "Door to door advertising involves someone going to several homes in a residential area to make sales and leave informational packets.",
+   "During the COVID-19 pandemic, the CDC recommends that people limit their travel to essential needs only.",
+   "During the COVID-19 pandemic, citizens are advised to stay home and to limit their interaction with others.",
+   "During the COVID-19 pandemic, people are encouraged to remain six feet away from each other at all times.",
+   "The more people that someone interacts with, the higher the likelihood of them becoming a vector for the COVID-19 virus."
+  ],
+  "term": "Advertising",
+  "description": "Form of communication for marketing, typically paid for",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_074ff780e16343240a73",
+  "question": "Would Emmanuel Macron celebrate Cinco de Mayo?",
+  "gold": "no",
+  "gsm8k_answer": "Cinco de Mayo is observed to commemorate the Mexican Army's victory over the French Empire at the Battle of Puebla, on May 5, 1862.\nEmmanuel Macron is the current president of France.\nEmmanuel Macron was born in France and his ancestry traces back to France.\nPeople do not typically celebrate events in which their country was defeated.\n#### no",
+  "decomposition": [
+   "Which countries usually celebrate the Cinco de Mayo?",
+   "Which country is Emmanuel Macron from?",
+   "Is #2 included in any of #1?"
+  ],
+  "facts": [
+   "Cinco de Mayo is observed to commemorate the Mexican Army's victory over the French Empire at the Battle of Puebla, on May 5, 1862.",
+   "Emmanuel Macron is the current president of France.",
+   "Emmanuel Macron was born in France and his ancestry traces back to France.",
+   "People do not typically celebrate events in which their country was defeated."
+  ],
+  "term": "Cinco de Mayo",
+  "description": "Annual celebration held on May 5",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_084a7fc181a1d772d5cc",
+  "question": "Do people celebrate Earth Day with a ceremonial tire fire?",
+  "gold": "no",
+  "gsm8k_answer": "Earth Day is a global holiday to show support for environmental protection.\nTire fire is a large quantity of tires burning at once.\nSmoke from burning tires contain heavy metals and other harmful pollutants.\nSmoke is harmful to the environment. \n#### no",
+  "decomposition": [
+   "What is the major focus/purpose of the Earth Day holiday?",
+   "What are the environmental implications of tire fire?",
+   "Is #2 consistent with #1?"
+  ],
+  "facts": [
+   "Earth Day is a global holiday to show support for environmental protection.",
+   "Tire fire is a large quantity of tires burning at once.",
+   "Smoke from burning tires contain heavy metals and other harmful pollutants.",
+   "Smoke is harmful to the environment. "
+  ],
+  "term": "Earth Day",
+  "description": "Annual event on 22 April",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_0c8ce64882b7257750ca",
+  "question": "Does the Constitution of the Philippines copy text from the British constitution?",
+  "gold": "no",
+  "gsm8k_answer": "The Constitution of the Philippines is a document ratified in 1987\nThe British constitution is not an actual document, but a collection of legal statutes, precedent, political custom and social convention\n#### no",
+  "decomposition": [
+   "What was the British Constitution?",
+   "What kind of document was the Constitution of the Philippines?",
+   "Can #1 copy something from #2"
+  ],
+  "facts": [
+   "The Constitution of the Philippines is a document ratified in 1987",
+   "The British constitution is not an actual document, but a collection of legal statutes, precedent, political custom and social convention"
+  ],
+  "term": "Constitution of the Philippines",
+  "description": "Supreme law of the Republic of the Philippines",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_0d7954e1b6fbf893400b",
+  "question": "Does frost mean that it will be a snowy day?",
+  "gold": "no",
+  "gsm8k_answer": "Frost forms regularly in areas that experience freezing temperatures and morning dew.\nFrost isn't deposited from the sky like snow, it forms on the ground.\n#### no",
+  "decomposition": [
+   "How is frost formed?",
+   "Does #1 usually involve the falling of snow?"
+  ],
+  "facts": [
+   "Frost forms regularly in areas that experience freezing temperatures and morning dew.",
+   "Frost isn't deposited from the sky like snow, it forms on the ground."
+  ],
+  "term": "Frost",
+  "description": "coating or deposit of ice that may form in humid air in cold conditions, usually overnight",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_0edac4af92465027fe27",
+  "question": "Is Cholera alive?",
+  "gold": "yes",
+  "gsm8k_answer": "Cholera are a type of bacteria.\nBacteria are considered living creatures.\n#### yes",
+  "decomposition": [
+   "Is cholera a bacteria?",
+   "Are bacteria considered to be living?",
+   "Are the answers to #1 and #2 the same?"
+  ],
+  "facts": [
+   "Cholera are a type of bacteria.",
+   "Bacteria are considered living creatures."
+  ],
+  "term": "Cholera",
+  "description": "Bacterial infection of the small intestine",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_0fe6efc635ea040f492a",
+  "question": "Could Steven Spielberg send emails as a child?",
+  "gold": "no",
+  "gsm8k_answer": "Steven Spielberg was born in 1946.\nEmail did not become available to the general public until 1995.\n#### no",
+  "decomposition": [
+   "When was Stephen Spielberg born?",
+   "When was email invented?",
+   "What is #1 plus 10?",
+   "Is #2 before #3?"
+  ],
+  "facts": [
+   "Steven Spielberg was born in 1946.",
+   "Email did not become available to the general public until 1995."
+  ],
+  "term": "Steven Spielberg",
+  "description": "American film director and screenwriter",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_10ccc95fa9383fb55f4b",
+  "question": "Can a cell fit inside of a shoebox?",
+  "gold": "yes",
+  "gsm8k_answer": "The average shoebox is around 14 inches by 10 inches by 5 inches\nThe average eukaryotic cell is between 1 and 100 micrometers in diameter\n#### yes",
+  "decomposition": [
+   "How big is a cell?",
+   "How big is a shoebox?",
+   "Is #1 smaller than #2?"
+  ],
+  "facts": [
+   "The average shoebox is around 14 inches by 10 inches by 5 inches",
+   "The average eukaryotic cell is between 1 and 100 micrometers in diameter"
+  ],
+  "term": "Cell (biology)",
+  "description": "The basic structural and functional unit of all organisms; the smallest unit of life.",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_10e1c2f6e6d16a0ec196",
+  "question": "Would Statue of Liberty be visible if submerged in Bohai Sea?",
+  "gold": "yes",
+  "gsm8k_answer": "The Bohai Sea is 230 feet deep.\nThe Statue of Liberty is 305 feet tall.\n#### yes",
+  "decomposition": [
+   "How deep is the Bohai Sea?",
+   "How tall is the Statue of Liberty?",
+   "Is #2 greater than #1?"
+  ],
+  "facts": [
+   "The Bohai Sea is 230 feet deep.",
+   "The Statue of Liberty is 305 feet tall."
+  ],
+  "term": "Bohai Sea",
+  "description": "The innermost gulf of the Yellow Sea and Korea Bay on the coast of Northeastern and North China",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1239d3324de47bf0a89f",
+  "question": "Is it normal to blow out candles during a funeral?",
+  "gold": "no",
+  "gsm8k_answer": "Blowing out candles is typically done during a birthday celebration, prior to eating the birthday cake.\nFunerals are typically very somber events in which cake is not served.\n#### no",
+  "decomposition": [
+   "Blowing out candles is a typical part of which celebration?",
+   "What kind of aura is naturally associated with #1?",
+   "Is the atmosphere in a funeral typically similar to #2?"
+  ],
+  "facts": [
+   "Blowing out candles is typically done during a birthday celebration, prior to eating the birthday cake.",
+   "Funerals are typically very somber events in which cake is not served."
+  ],
+  "term": "Funeral",
+  "description": "ceremony for a person who has died",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_12b7b19a3858a68cca91",
+  "question": "Did Confederate States Army influence West Point fashion?",
+  "gold": "yes",
+  "gsm8k_answer": "The Confederate States Army was clad in cadet gray uniforms.\nWest Point uniforms are cadet gray and white.\nConfederate States Army uniforms contained Generally, the uniform jacket of the Confederate soldier was single breasted, made of gray or brown fabric, with a six to nine button front and hat.\n West Point uniforms contain a standing collar, white trousers, and black shakos (known as a \"tarbucket hat\" in U.S. Army nomenclature).\n#### yes",
+  "decomposition": [
+   "What were the main features of the Confederate States Army uniforms?",
+   "What are the most notable features of West Point uniforms?",
+   "Is there a significant overlap between #1 and #2?"
+  ],
+  "facts": [
+   "The Confederate States Army was clad in cadet gray uniforms.",
+   "West Point uniforms are cadet gray and white.",
+   "Confederate States Army uniforms contained Generally, the uniform jacket of the Confederate soldier was single breasted, made of gray or brown fabric, with a six to nine button front and hat.",
+   " West Point uniforms contain a standing collar, white trousers, and black shakos (known as a \"tarbucket hat\" in U.S. Army nomenclature)."
+  ],
+  "term": "Confederate States Army",
+  "description": "Southern army in American Civil War",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1329c142f928bfb2ee1e",
+  "question": "Can someone with dermatitis be a hand model?",
+  "gold": "no",
+  "gsm8k_answer": "Dermatitis causes rashes, redness, blisters, cracking of the skin, and scarring. \nHand models tend to have flawless skin and hands.\n#### no",
+  "decomposition": [
+   "What does dermatitis cauas a person's skin to look like?",
+   "What must a hand model's skin look like?",
+   "Is #1 the same as #2?"
+  ],
+  "facts": [
+   "Dermatitis causes rashes, redness, blisters, cracking of the skin, and scarring. ",
+   "Hand models tend to have flawless skin and hands."
+  ],
+  "term": "Dermatitis",
+  "description": "skin disease",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_15c1c5825e1f5469c9b7",
+  "question": "Does Carl Linnaeus share the same final resting place as Michael Jackson?",
+  "gold": "no",
+  "gsm8k_answer": "Carl Linnaeus is buried in the Uppsala Cathedral.\nMichael Jackson is entombed at the Forest Lawn Memorial Park.\n#### no",
+  "decomposition": [
+   "Where is Carl Linnaeus buried?",
+   "Where is Michael Jackson entombed?",
+   "Is #1 the same as #2?"
+  ],
+  "facts": [
+   "Carl Linnaeus is buried in the Uppsala Cathedral.",
+   "Michael Jackson is entombed at the Forest Lawn Memorial Park."
+  ],
+  "term": "Carl Linnaeus",
+  "description": "Swedish botanist, physician, and zoologist",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_179c2d5107fff7cca04c",
+  "question": "Was Robert Downey Jr. a good role model as a young man?",
+  "gold": "no",
+  "gsm8k_answer": "As a young man, Robert Downey Jr. struggled with drug and alcohol addiction.\nRobert Downey Jr. shot a gun out of a car window while doing drugs as a young adult.\n#### no",
+  "decomposition": [
+   "Did Robert Downey Jr. completely avoid dangerous, irresponsible behavior as a young adult?"
+  ],
+  "facts": [
+   "As a young man, Robert Downey Jr. struggled with drug and alcohol addiction.",
+   "Robert Downey Jr. shot a gun out of a car window while doing drugs as a young adult."
+  ],
+  "term": "Robert Downey Jr.",
+  "description": "American actor",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_17d69358e10370a4dc42",
+  "question": "Does butter industry survive cow extinction?",
+  "gold": "yes",
+  "gsm8k_answer": "Butter is a dairy product made from milk.\nCows are the predominant source of milk in the US.\nGoats, sheep, buffalo, and other mammals produce milk.\nGoat butter, made from 100% Goat's Milk, is an excellent source of Vitamin A.\n#### yes",
+  "decomposition": [
+   "What animal product is butter made from?",
+   "What common livestock animals produce #1?",
+   "Are animals other than cows included in #2?"
+  ],
+  "facts": [
+   "Butter is a dairy product made from milk.",
+   "Cows are the predominant source of milk in the US.",
+   "Goats, sheep, buffalo, and other mammals produce milk.",
+   "Goat butter, made from 100% Goat's Milk, is an excellent source of Vitamin A."
+  ],
+  "term": "Butter",
+  "description": "dairy product",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1932e05f10680ece229f",
+  "question": "Would the top of Mount Fuji stick out of the Sea of Japan? ",
+  "gold": "yes",
+  "gsm8k_answer": "The average depth of the Sea of Japan is  5,748 feet (1,752 metres) and its maximum depth is 12,276 feet (3,742 metres)\nMount Fuji is 3,776.24 metres (12,389.2 ft) tall. \n#### yes",
+  "decomposition": [
+   "How tall is Mount Fuji?",
+   "What is the maximum depth of the Sea of Japan?",
+   "Is #1 greater than #2?"
+  ],
+  "facts": [
+   "The average depth of the Sea of Japan is  5,748 feet (1,752 metres) and its maximum depth is 12,276 feet (3,742 metres)",
+   "Mount Fuji is 3,776.24 metres (12,389.2 ft) tall. "
+  ],
+  "term": "Sea of Japan",
+  "description": "Marginal sea between Japan, Russia and Korea",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_19ccb88d92c668ff7576",
+  "question": "Are sesame seeds glued onto hamburger buns?",
+  "gold": "no",
+  "gsm8k_answer": "Glue is toxic and not used in food production.\nSesame seeds add texture and visual appeal to hamburger buns.\nBeaten eggwhites are often used to adhere foods to other foods. \n#### no",
+  "decomposition": [
+   "What do people usually do with hamburger buns?",
+   "Can you #1 sesame seeds?"
+  ],
+  "facts": [
+   "Glue is toxic and not used in food production.",
+   "Sesame seeds add texture and visual appeal to hamburger buns.",
+   "Beaten eggwhites are often used to adhere foods to other foods. "
+  ],
+  "term": "Sesame",
+  "description": "species of plant",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1a2f8e9a0ea655b506c9",
+  "question": "Did Solomon make up bigger percentage of Islamic prophets than Kings of Judah?",
+  "gold": "no",
+  "gsm8k_answer": "According to The Quran, Solomon was one of 25 prophets.\nAccording to some Islamic hadiths, there have been as many as 124,000 prophets.\nSolomon was one of 20 Kings of Judah.\n#### no",
+  "decomposition": [
+   "According to the Quran, how many prophets were there?",
+   "How many Kings of Judah were there?",
+   "What is 1 divided by #1?",
+   "What is 1 divided by #2?",
+   "Is #3 greater than #4?"
+  ],
+  "facts": [
+   "According to The Quran, Solomon was one of 25 prophets.",
+   "According to some Islamic hadiths, there have been as many as 124,000 prophets.",
+   "Solomon was one of 20 Kings of Judah."
+  ],
+  "term": "Solomon",
+  "description": "king of Israel and the son of David",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1bc9473120a8deb0d358",
+  "question": "Does Homer Simpson need two hands worth of fingers to count to 5?",
+  "gold": "yes",
+  "gsm8k_answer": "Homer Simpson is a character of the long running comedy animated series \"The Simpsons\".\nAll characters in \"The Simpsons\" have 4 fingers on each hand.\n#### yes",
+  "decomposition": [
+   "How many fingers does Homer Simpson have on each hand?",
+   "Is #1 less than 5?"
+  ],
+  "facts": [
+   "Homer Simpson is a character of the long running comedy animated series \"The Simpsons\".",
+   "All characters in \"The Simpsons\" have 4 fingers on each hand."
+  ],
+  "term": "5",
+  "description": "Natural number",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1e4cfd7f0b9bfe500325",
+  "question": "Does rock star Keith Richards play a captain of a boat in a movie?",
+  "gold": "yes",
+  "gsm8k_answer": "Keith Richards has a cameo appearance in two of the Pirates of the Caribbean movies.\nHe plays Captain Teague, the elderly father of famous pirate Captain Jack Sparrow.\nIn At World's End, he is the member of the council of Pirate Lords who is responsible for keeping the Pirate Code, and there is a brief shot of him and his crew aboard their ship during the sequence where the pirates are raising their banners in preparation to fight.\n#### yes",
+  "decomposition": [
+   "What role did Keith Richards play in the Pirates of the Caribbean movies?",
+   "Can #1 be considered a captain of a boat?"
+  ],
+  "facts": [
+   "Keith Richards has a cameo appearance in two of the Pirates of the Caribbean movies.",
+   "He plays Captain Teague, the elderly father of famous pirate Captain Jack Sparrow.",
+   "In At World's End, he is the member of the council of Pirate Lords who is responsible for keeping the Pirate Code, and there is a brief shot of him and his crew aboard their ship during the sequence where the pirates are raising their banners in preparation to fight."
+  ],
+  "term": "Boat",
+  "description": "vessel for transport by water",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1e628c1171e197713797",
+  "question": "Do flying fish have good eyesight?",
+  "gold": "yes",
+  "gsm8k_answer": "Flying fish  are commonly found in the epipelagic zone, the top layer of the ocean to a depth of about 200 m (656 ft). \nThe epipelagic zone is the illuminated zone at the surface of the sea where enough light is available for photosynthesis. \nGood eyesight is a necessary survival trait for animals living in well-lit areas.\n#### yes",
+  "decomposition": [
+   "Which layer of the ocean are flying fish usually found?",
+   "What are the lighting conditions characteristic of #1?",
+   "Would good eyesight be necessary for organisms in #2 environment?"
+  ],
+  "facts": [
+   "Flying fish  are commonly found in the epipelagic zone, the top layer of the ocean to a depth of about 200 m (656 ft). ",
+   "The epipelagic zone is the illuminated zone at the surface of the sea where enough light is available for photosynthesis. ",
+   "Good eyesight is a necessary survival trait for animals living in well-lit areas."
+  ],
+  "term": "Flying fish",
+  "description": "Family of marine fish that can make powerful, self-propelled leaps out of water",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1e96f55f483e1e040ebb",
+  "question": "Does the JPEG acronym stand for a joint committee?",
+  "gold": "yes",
+  "gsm8k_answer": "The term \"JPEG\" is an initialism/acronym for the Joint Photographic Experts Group.\nThey created the standard in 1992.\nThe Joint Photographic Experts Group (JPEG) is the joint committee between ISO/IEC JTC 1 and ITU-T Study Group 16 (formerly CCITT) . \nThe Joint Photographic Experts Group created and maintains the JPEG, JPEG 2000, and JPEG XR standards. \n#### yes",
+  "decomposition": [
+   "What does the acronym JPEG represent?",
+   "Is #1 a coalition of different groups?"
+  ],
+  "facts": [
+   "The term \"JPEG\" is an initialism/acronym for the Joint Photographic Experts Group.",
+   "They created the standard in 1992.",
+   "The Joint Photographic Experts Group (JPEG) is the joint committee between ISO/IEC JTC 1 and ITU-T Study Group 16 (formerly CCITT) . ",
+   "The Joint Photographic Experts Group created and maintains the JPEG, JPEG 2000, and JPEG XR standards. "
+  ],
+  "term": "JPEG",
+  "description": "Lossy compression method for reducing the size of digital images",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1f5ae49933529a734433",
+  "question": "Could an American confuse breakfast in British cuisine for dinner?",
+  "gold": "yes",
+  "gsm8k_answer": "In British Cuisine, baked beans are served with toast for breakfast.\nIn the US, baked beans are served alongside barbecue dinners.\nBritish 'Full breakfasts' include grilled vegetables like mushrooms and whole cherry tomatoes.\nGrilled mushrooms and tomatoes are used more often in evening dishes in the US.\n#### yes",
+  "decomposition": [
+   "What foods are part of a traditional British breakfast?",
+   "What foods are part of a traditional American dinner?",
+   "Is there overlap between #1 and #2?"
+  ],
+  "facts": [
+   "In British Cuisine, baked beans are served with toast for breakfast.",
+   "In the US, baked beans are served alongside barbecue dinners.",
+   "British 'Full breakfasts' include grilled vegetables like mushrooms and whole cherry tomatoes.",
+   "Grilled mushrooms and tomatoes are used more often in evening dishes in the US."
+  ],
+  "term": "British cuisine",
+  "description": "culinary traditions of the United Kingdom",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_1f6eb529d30617a2fb4c",
+  "question": "Are some adherents to Christianity in China historic enemies of Catholic Church?",
+  "gold": "yes",
+  "gsm8k_answer": "Christianity in China is comprised of several different groups including: Protestants, Catholics, Evangelicals, and Orthodox Christians.\nCatholics have been at war with Protestants throughout history.\nThe 1572 St. Bartholomew's Day Massacre saw thousands of Protestants killed by Catholic mobs.\nEnglish Protestant rulers killed many Irish Catholics during the Reformation.\n#### yes",
+  "decomposition": [
+   "Which Christian denominations are historic enemies of the Catholic Church?",
+   "Do any of the denominations in #1 currently have adherents in China?"
+  ],
+  "facts": [
+   "Christianity in China is comprised of several different groups including: Protestants, Catholics, Evangelicals, and Orthodox Christians.",
+   "Catholics have been at war with Protestants throughout history.",
+   "The 1572 St. Bartholomew's Day Massacre saw thousands of Protestants killed by Catholic mobs.",
+   "English Protestant rulers killed many Irish Catholics during the Reformation."
+  ],
+  "term": "Christianity in China",
+  "description": "Religious community",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_20287f4a7c88c5ab5dfe",
+  "question": "Would Adam Sandler get a reference to Cole Spouse and a scuba man doll?",
+  "gold": "yes",
+  "gsm8k_answer": "Adam Sandler and Cole Sprouse starred together in \"Big Daddy\".\nA prop used throughout \"Big Daddy\" was a scuba diving action figure that Cole's character called 'Scuba Steve'.\n#### yes",
+  "decomposition": [
+   "What did Adam Sandler and Cole Sprouse star together in?",
+   "Was a scuba man doll used as a prop by Cole in #1?"
+  ],
+  "facts": [
+   "Adam Sandler and Cole Sprouse starred together in \"Big Daddy\".",
+   "A prop used throughout \"Big Daddy\" was a scuba diving action figure that Cole's character called 'Scuba Steve'."
+  ],
+  "term": "Adam Sandler",
+  "description": "American actor, comedian, screenwriter, and producer",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_21e352756ce2d1add415",
+  "question": "Does the land in close proximity to beaver dams suffer?",
+  "gold": "yes",
+  "gsm8k_answer": "Beaver dams often lead to flooding in the areas around them.\nFlooding can lead to loosening of the soil.\nLoosened soil can cause trees to fall over. \nFlooding can lead to soil erosion.\n#### yes",
+  "decomposition": [
+   "What are the effects of beaver dams on surrounding lands?",
+   "Are any of #1 significantly negative?"
+  ],
+  "facts": [
+   "Beaver dams often lead to flooding in the areas around them.",
+   "Flooding can lead to loosening of the soil.",
+   "Loosened soil can cause trees to fall over. ",
+   "Flooding can lead to soil erosion."
+  ],
+  "term": "Beaver",
+  "description": "Genus of mammals",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_22f2af73032b63ba0f50",
+  "question": "Is the QWERTY keyboard layout meant to be slow?",
+  "gold": "yes",
+  "gsm8k_answer": "The QWERTY keyboard layout was made for use on typewriters.\nTypewriters could not be used too quickly, or they would jam. \n#### yes",
+  "decomposition": [
+   "What machine was QWERTY keyboard layout created for?",
+   "Why was QWERTY keyboard layout created for #1?",
+   "Will typing slow solve the problem of #2?"
+  ],
+  "facts": [
+   "The QWERTY keyboard layout was made for use on typewriters.",
+   "Typewriters could not be used too quickly, or they would jam. "
+  ],
+  "term": "Keyboard layout",
+  "description": "any specific mechanical, visual, or functional arrangement of the keys of a keyboard or typewriter",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_231e5f5b1350d6f38613",
+  "question": "Was Anthony Quinn more prolific at making children than J.D. Salinger?",
+  "gold": "yes",
+  "gsm8k_answer": "Author J.D. Salinger had two children.\nActor Anthony Quinn had twelve children.\n#### yes",
+  "decomposition": [
+   "How many children did J. D. Salinger have?",
+   "How many children did Anthony Quinn have?",
+   "Is #2 greater than #1?"
+  ],
+  "facts": [
+   "Author J.D. Salinger had two children.",
+   "Actor Anthony Quinn had twelve children."
+  ],
+  "term": "J. D. Salinger",
+  "description": "American writer",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_247d868160a2401fcf78",
+  "question": "Would baker's dozen of side by side Mac Trucks jam up Golden Gate Bridge?",
+  "gold": "yes",
+  "gsm8k_answer": "The width of the Golden Gate Bridge is 90 feet. \nA baker's dozen includes 13 items.\nThe width of a Mac truck is around 8 feet.\n#### yes",
+  "decomposition": [
+   "How wide is a Mac truck?",
+   "How many items are in a baker's dozen?",
+   "What is #1 multiplied by #2?",
+   "How wide is the Golden Gate Bridge?",
+   "Is #3 greater than or equal to #4?"
+  ],
+  "facts": [
+   "The width of the Golden Gate Bridge is 90 feet. ",
+   "A baker's dozen includes 13 items.",
+   "The width of a Mac truck is around 8 feet."
+  ],
+  "term": "Golden Gate Bridge",
+  "description": "suspension bridge on the San Francisco Bay",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_26f2be23bb14c311bbfb",
+  "question": "Is Central Park Zoo located on an island?",
+  "gold": "yes",
+  "gsm8k_answer": "Central Park Zoo is located in Manhattan.\nManhattan is an island.\n#### yes",
+  "decomposition": [
+   "Where is the Central Park Zoo located?",
+   "Is #1 an island?"
+  ],
+  "facts": [
+   "Central Park Zoo is located in Manhattan.",
+   "Manhattan is an island."
+  ],
+  "term": "Central Park Zoo",
+  "description": "Zoo in Central Park, Manhattan, New York City",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_28595a667f1c97853fb4",
+  "question": "Can atheism surpass Christianity in American black communities by 2021?",
+  "gold": "no",
+  "gsm8k_answer": "83% of blacks in the US identify as Christians.\n In the United States, blacks are less likely than other ethnic groups to be religiously unaffiliated, let alone identifying as atheist.\nAfrican American history, slavery and the civil rights movement are all closely tied to Christianity in America.\n#### no",
+  "decomposition": [
+   "What is the population of black Americans?",
+   "How many out of #1 follow a religion?",
+   "Is #2 close to or less than 50%?"
+  ],
+  "facts": [
+   "83% of blacks in the US identify as Christians.",
+   " In the United States, blacks are less likely than other ethnic groups to be religiously unaffiliated, let alone identifying as atheist.",
+   "African American history, slavery and the civil rights movement are all closely tied to Christianity in America."
+  ],
+  "term": "Atheism",
+  "description": "Absence of belief in the existence of deities",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_28aa968b35362d3ae68d",
+  "question": "Would three newborn kittens fit on a standard Amtrak coach seat?",
+  "gold": "yes",
+  "gsm8k_answer": "Newborn kittens are small enough to fit in an average human hand.\nThe average human hand is 7 inches.\nAn Amtrak coach seat is 39\" x 23\".\n#### yes",
+  "decomposition": [
+   "What is the size of a newborn kitten?",
+   "How big would #1 times three kittens be?",
+   "How large is an Amtrak coach seat?",
+   "Is #2 smaller than #3?"
+  ],
+  "facts": [
+   "Newborn kittens are small enough to fit in an average human hand.",
+   "The average human hand is 7 inches.",
+   "An Amtrak coach seat is 39\" x 23\"."
+  ],
+  "term": "Amtrak",
+  "description": "Intercity rail operator in the United States",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_28dd04d21d71c90354c0",
+  "question": "Is an Eastern chipmunk likely to die before seeing two leap years?",
+  "gold": "yes",
+  "gsm8k_answer": "A leap year happens every four years.\nThe Eastern chipmunk has an average lifespan of three years.\n#### yes",
+  "decomposition": [
+   "What is the average lifespan of an Eastern chipmunk?",
+   "How often does a leap year occur?",
+   "Is #2 greater than #1?"
+  ],
+  "facts": [
+   "A leap year happens every four years.",
+   "The Eastern chipmunk has an average lifespan of three years."
+  ],
+  "term": "Chipmunk",
+  "description": "Tribe of mammals (rodent (marmot))",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_299d237ba3e3bf7f1824",
+  "question": "Can you substitute the pins in a bowling alley lane with Dustin Hoffman's Oscars?",
+  "gold": "no",
+  "gsm8k_answer": "There are ten pins in a bowling alley lane\nDustin Hoffman has won two Oscars\n#### no",
+  "decomposition": [
+   "How many pins are on a bowling alley lane?",
+   "How many Oscars has Dustin Hoffman won?",
+   "Is #2 greater than or equal to #1?"
+  ],
+  "facts": [
+   "There are ten pins in a bowling alley lane",
+   "Dustin Hoffman has won two Oscars"
+  ],
+  "term": "Dustin Hoffman",
+  "description": "American actor and director",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_2b49a76700775fd2c326",
+  "question": "Would a hippie hypothetically be bummed out by Augustus's Pax Romana?",
+  "gold": "no",
+  "gsm8k_answer": "A hippie was a member of the counterculture movement of the 1960s.\nOne of the most prevalent hippie statements is peace and love.\nThe Pax Romana was a near 200 year era of peace in the Roman Empire that began during the reign of Augustus.\nAugustus had several loves, including three wives.\n#### no",
+  "decomposition": [
+   "What ideals did hippies promote?",
+   "What was the defining attribute of Pax Romana?",
+   "Is #2 not a subset of #1?"
+  ],
+  "facts": [
+   "A hippie was a member of the counterculture movement of the 1960s.",
+   "One of the most prevalent hippie statements is peace and love.",
+   "The Pax Romana was a near 200 year era of peace in the Roman Empire that began during the reign of Augustus.",
+   "Augustus had several loves, including three wives."
+  ],
+  "term": "Augustus",
+  "description": "First emperor of the Roman Empire",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_2b73dae1804aae94e1ba",
+  "question": "Are people more likely than normal to get sunburn at Burning Man?",
+  "gold": "yes",
+  "gsm8k_answer": "Burning Man often attracts lots of young people who are typically wearing minimal clothing due to the weather and for style. \nBurning Man festivities occur in the hot summer sun and are often not in shaded areas.\n#### yes",
+  "decomposition": [
+   "What style of clothing do people wear to the burning man festival?",
+   "Sun burning occurs easily while wearing what style of clothing?",
+   "Is #1 and #2 the same?"
+  ],
+  "facts": [
+   "Burning Man often attracts lots of young people who are typically wearing minimal clothing due to the weather and for style. ",
+   "Burning Man festivities occur in the hot summer sun and are often not in shaded areas."
+  ],
+  "term": "Burning Man",
+  "description": "annual experimental festival based in Nevada, United States",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_2c8492afccd96813b673",
+  "question": "Would a triples tandem bike support Apollo 15 crew?",
+  "gold": "yes",
+  "gsm8k_answer": "A tandem bike has seats for more than one rider.\nA triples tandem bike has three seats and can support three riders.\nThe crew of Apollo 15 consisted of three people.\n#### yes",
+  "decomposition": [
+   "How many people were on the Apollo 15 mission?",
+   "How many people can ride a triple tandem bike?",
+   "Is #2 at least #1?"
+  ],
+  "facts": [
+   "A tandem bike has seats for more than one rider.",
+   "A triples tandem bike has three seats and can support three riders.",
+   "The crew of Apollo 15 consisted of three people."
+  ],
+  "term": "Apollo 15",
+  "description": "Fourth crewed mission to land on the Moon",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_2dcc3e63ca77285a1468",
+  "question": "Would Carrie Poppy be likely to trust a psychic?",
+  "gold": "no",
+  "gsm8k_answer": "Carrie Poppy is an American podcaster who is on a show called 'Oh No! Ross and Carrie.\"\n\"Oh No Ross and Carrie\" is a show that critically examines religious claims and those of the supernatural.\nCarrie Poppy considers herself a skeptic and an investigative reporter.\n#### no",
+  "decomposition": [
+   "What is Carrie Poppy's profession?",
+   "What show is Carrie Poppy the #1 of?",
+   "What is the main of #2?",
+   "On #3, what stance does Carrie Poppy take as a reporter?",
+   "Would someone who is #4 likely trust psychics?"
+  ],
+  "facts": [
+   "Carrie Poppy is an American podcaster who is on a show called 'Oh No! Ross and Carrie.\"",
+   "\"Oh No Ross and Carrie\" is a show that critically examines religious claims and those of the supernatural.",
+   "Carrie Poppy considers herself a skeptic and an investigative reporter."
+  ],
+  "term": "Psychic",
+  "description": "person who claims to use extrasensory perception to identify information hidden from the normal senses",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_30fa53d7e523326fc510",
+  "question": "Would a Bulgarian priest eat a four-course meal on Christmas Eve?",
+  "gold": "no",
+  "gsm8k_answer": "A four-course meal consists of a soup, an appetizer, an entrée, and dessert.\nThe Bulgarian Christmas Eve meal has an odd number of dishes and an odd number of people sitting around the table.\n#### no",
+  "decomposition": [
+   "Is the number of dishes served at a Bulgarian Christmas Eve meal odd or even?",
+   "Is the number \"four\" odd or even?",
+   "Is #1 the same as #2?"
+  ],
+  "facts": [
+   "A four-course meal consists of a soup, an appetizer, an entrée, and dessert.",
+   "The Bulgarian Christmas Eve meal has an odd number of dishes and an odd number of people sitting around the table."
+  ],
+  "term": "Christmas Eve",
+  "description": "Evening or entire day before Christmas Day",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_326e1cad9b5dfd211246",
+  "question": "Did Jesus know anyone who spoke Estonian?",
+  "gold": "no",
+  "gsm8k_answer": "Estonian is the language of Estonia, which is located in Northern Europe near Finland.\nJesus is recorded to have lived and traveled almost exclusively within the borders of Galilee.\nGalilee is a territory within the borders of northern Israel.\nIsrael is located on the Mediterranean sea in the Middle East.\nIsrael is almost 2,000 miles from Estonia. \n#### no",
+  "decomposition": [
+   "Where is Estonian spoken?",
+   "Where did Jesus live and travel?",
+   "Where is #2 located?",
+   "Is #1 close to #3?"
+  ],
+  "facts": [
+   "Estonian is the language of Estonia, which is located in Northern Europe near Finland.",
+   "Jesus is recorded to have lived and traveled almost exclusively within the borders of Galilee.",
+   "Galilee is a territory within the borders of northern Israel.",
+   "Israel is located on the Mediterranean sea in the Middle East.",
+   "Israel is almost 2,000 miles from Estonia. "
+  ],
+  "term": "Estonian language",
+  "description": "Finno-Ugric language spoken in Estonia",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_32c5e6f9c9c24826535e",
+  "question": "Would a goblin shark eat at Crossroads Kitchen?",
+  "gold": "no",
+  "gsm8k_answer": "Goblin sharks are carnivores that subsist on other fish, cephalopods and crustaceans\nCrossroads Kitchen is a vegan restaurant in Los Angeles\nVegans do not consume any animal products\n#### no",
+  "decomposition": [
+   "What is the goblin shark's diet-based classification?",
+   "What kind of food is served at Crossroads Kitchen?",
+   "Would a #1 typically consume #2?"
+  ],
+  "facts": [
+   "Goblin sharks are carnivores that subsist on other fish, cephalopods and crustaceans",
+   "Crossroads Kitchen is a vegan restaurant in Los Angeles",
+   "Vegans do not consume any animal products"
+  ],
+  "term": "Goblin shark",
+  "description": "Deep-sea shark",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_34db1b7b265b7c192b47",
+  "question": "Can a minor replicate the double-slit experiment?",
+  "gold": "yes",
+  "gsm8k_answer": "A minor is a human child.\nThe double-slit experiment can theoretically be replicated by any human.\n#### yes",
+  "decomposition": [
+   "What species of living things does 'minor' refer to?",
+   "Can #1 replicate the double-slit experiment?"
+  ],
+  "facts": [
+   "A minor is a human child.",
+   "The double-slit experiment can theoretically be replicated by any human."
+  ],
+  "term": "Double-slit experiment",
+  "description": "Physics experiment, showing light can be modelled by both waves and particles",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_353c639b716192c036bc",
+  "question": "Have any members of the 2020 British royal family allegedly committed a felony?",
+  "gold": "yes",
+  "gsm8k_answer": "The 2020 British royal family includes Queen Elizabeth II and her children.\nPrince Andrew is the son of Queen Elizabeth II.\nPrince Andrew was accused of sexual abuse in 2019.\nSexual assault is classified as a felony.\n#### yes",
+  "decomposition": [
+   "Which royal family does Prince Andrew belong to?",
+   "What is Prince Andrew accused of?",
+   "What type of crime is #2?",
+   "Does #1 have a member accused of #3?"
+  ],
+  "facts": [
+   "The 2020 British royal family includes Queen Elizabeth II and her children.",
+   "Prince Andrew is the son of Queen Elizabeth II.",
+   "Prince Andrew was accused of sexual abuse in 2019.",
+   "Sexual assault is classified as a felony."
+  ],
+  "term": "British royal family",
+  "description": "Family consisting of close relatives of the monarch of the United Kingdom",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_36cdce4bdbdaf630113c",
+  "question": "Is the Illuminati card game still popular?",
+  "gold": "no",
+  "gsm8k_answer": "The original version of the game was released in 1982.\nA collectible card game version was released in 1995 but only had one set.\nThe most recent edition of the base game was published in 2007.\n#### no",
+  "decomposition": [
+   "When was the last Illuminati card game published?",
+   "Was #1 with the last few years?"
+  ],
+  "facts": [
+   "The original version of the game was released in 1982.",
+   "A collectible card game version was released in 1995 but only had one set.",
+   "The most recent edition of the base game was published in 2007."
+  ],
+  "term": "Illuminati",
+  "description": "A name given to several groups, both real and fictitious",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_3761a21e99cc3af7f948",
+  "question": "Is breast cancer associated with a ribbon?",
+  "gold": "yes",
+  "gsm8k_answer": "Breast cancer is one of many diseases associated with a specific color of ribbon.\nBreast cancer's ribbon is pink.\n#### yes",
+  "decomposition": [
+   "Which diseases are associated with a (certain color of) ribbon?",
+   "Is breast cancer included in #1?"
+  ],
+  "facts": [
+   "Breast cancer is one of many diseases associated with a specific color of ribbon.",
+   "Breast cancer's ribbon is pink."
+  ],
+  "term": "Breast cancer",
+  "description": "cancer that originates in the mammary gland",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_37633b531ceb891076f2",
+  "question": "Is the largest city in New Mexico also known as Yootó?",
+  "gold": "no",
+  "gsm8k_answer": "Yootó stands for Bead Water Place.\nThe area Santa Fe occupied was known by the Navajo people as Yootó.\nThe largest city in New Mexico is Albuquerque.\n#### no",
+  "decomposition": [
+   "What is the largest city in New Mexico?",
+   "Is #1 known as Yootó?"
+  ],
+  "facts": [
+   "Yootó stands for Bead Water Place.",
+   "The area Santa Fe occupied was known by the Navajo people as Yootó.",
+   "The largest city in New Mexico is Albuquerque."
+  ],
+  "term": "New Mexico",
+  "description": "U.S. state in the United States",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_3a7bd7d09030271474e5",
+  "question": "Does Amtrak operate four wheel vehicles?",
+  "gold": "yes",
+  "gsm8k_answer": "Amtrak is a transportation service.\nAmtrak transports people with trains and buses.\nA bus is a four wheel vehicle. \n#### yes",
+  "decomposition": [
+   "What kinds of vehicles does Amtrak use?",
+   "Do any of #1 have four wheels?"
+  ],
+  "facts": [
+   "Amtrak is a transportation service.",
+   "Amtrak transports people with trains and buses.",
+   "A bus is a four wheel vehicle. "
+  ],
+  "term": "Amtrak",
+  "description": "Intercity rail operator in the United States",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_3ca4dc54d01d0a8d8246",
+  "question": "Can Billie Eilish afford a Porsche?",
+  "gold": "yes",
+  "gsm8k_answer": "Billie Eilish is a famous female singer.\nBillie Eilish is 18 years old and has a net worth of $25 Million. \nA Porsche Boxster is a car that starts at $59,000.\n$25,000,000 is greater than $59,000.\n#### yes",
+  "decomposition": [
+   "What is Billie Eilish's net worth?",
+   "How much does a Porsche cost?",
+   "Is #1 greater than #2?"
+  ],
+  "facts": [
+   "Billie Eilish is a famous female singer.",
+   "Billie Eilish is 18 years old and has a net worth of $25 Million. ",
+   "A Porsche Boxster is a car that starts at $59,000.",
+   "$25,000,000 is greater than $59,000."
+  ],
+  "term": "Porsche",
+  "description": "automotive brand manufacturing subsidiary of Volkswagen",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_3e4741f68735f621de2c",
+  "question": "Is it foolish to stand on giraffe's head to see over Eiffel Tower?",
+  "gold": "yes",
+  "gsm8k_answer": "The neck of a giraffe can be up to 7 feet in length.\nIncluding their necks, giraffes can be as tall as 20 feet.\nThe Eiffel Tower is 1,063 feet tall.\n#### yes",
+  "decomposition": [
+   "How tall is a giraffe?",
+   "How tall is the Eiffel Tower?",
+   "Is #1 greater than #2?"
+  ],
+  "facts": [
+   "The neck of a giraffe can be up to 7 feet in length.",
+   "Including their necks, giraffes can be as tall as 20 feet.",
+   "The Eiffel Tower is 1,063 feet tall."
+  ],
+  "term": "Giraffe",
+  "description": "Tall African ungulate",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_4111c4147ebc06bd1163",
+  "question": "Can the Very Large Telescope observe the largest mountain on Earth?",
+  "gold": "no",
+  "gsm8k_answer": "The Very Large Telescope observes outer space.\nThe largest mountain on earth is underneath the ocean.\n#### no",
+  "decomposition": [
+   "What area does the Very Large Telescope observe?",
+   "Is the answer to #1 the same as earth?"
+  ],
+  "facts": [
+   "The Very Large Telescope observes outer space.",
+   "The largest mountain on earth is underneath the ocean."
+  ],
+  "term": "Very Large Telescope",
+  "description": "telescope in the Atacama Desert, Chile",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_42b4a8f9033fc8a0525d",
+  "question": "Are the Vietnamese people a great untapped resource for NBA players?",
+  "gold": "no",
+  "gsm8k_answer": "Vietnam was ranked as one of the countries with the shortest people on average, in 2019.\nThe average height of a Vietnamese man is 5 feet 4.74 inches.\nThe average height of an NBA player in 2018 was 6 foot 7 inches tall.\n#### no",
+  "decomposition": [
+   "What is the average height of NBA players?",
+   "What is the average height of Vietnamese males?",
+   "Is #2 close to being the same as #1?"
+  ],
+  "facts": [
+   "Vietnam was ranked as one of the countries with the shortest people on average, in 2019.",
+   "The average height of a Vietnamese man is 5 feet 4.74 inches.",
+   "The average height of an NBA player in 2018 was 6 foot 7 inches tall."
+  ],
+  "term": "Vietnamese people",
+  "description": "ethnic group originally from northern Vietnam",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_45030e86cc4e732184ef",
+  "question": "Will a Euro sink in water?",
+  "gold": "yes",
+  "gsm8k_answer": "The smallest Euro paper bill is Five Euro.\nOne Euro is only available as a coin.\nCoins sink in water. \nA metal coin is more dense than water\n#### yes",
+  "decomposition": [
+   "What is the density of water?",
+   "What material is an Euro coin made of?",
+   "Is the density of #2 usually higher than #1?"
+  ],
+  "facts": [
+   "The smallest Euro paper bill is Five Euro.",
+   "One Euro is only available as a coin.",
+   "Coins sink in water. ",
+   "A metal coin is more dense than water"
+  ],
+  "term": "Euro",
+  "description": "European currency",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_4af68d4552370d2a540a",
+  "question": "Is a cory catfish likely to eat another living fish?",
+  "gold": "no",
+  "gsm8k_answer": "The cory catfish is a fish that is described as a bottom feeder.\nThe cory catfish feeds on food located at the bottom of an ocean.\nFish cannot live too deep in oceans for very long because of the intense water pressure.\nThe bottom of oceans is populated by algae, coral, and microorganisms.\n#### no",
+  "decomposition": [
+   "What do cory catfish eat?",
+   "Is fish part of #1?"
+  ],
+  "facts": [
+   "The cory catfish is a fish that is described as a bottom feeder.",
+   "The cory catfish feeds on food located at the bottom of an ocean.",
+   "Fish cannot live too deep in oceans for very long because of the intense water pressure.",
+   "The bottom of oceans is populated by algae, coral, and microorganisms."
+  ],
+  "term": "Catfish",
+  "description": "order of fishes",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_4b66ebd989be42113847",
+  "question": "Do black-tailed jackrabbits fear the European wildcat?",
+  "gold": "no",
+  "gsm8k_answer": "The European wildcat is native to continental Europe, Scotland, Turkey and the Caucasus.\nThe black-tailed jackrabbit is native to Mexico and the western United States.\n#### no",
+  "decomposition": [
+   "What is the range of the black-tailed jackrabbit?",
+   "What is the range of the European wildcat?",
+   "Does #1 and #2 overlap?"
+  ],
+  "facts": [
+   "The European wildcat is native to continental Europe, Scotland, Turkey and the Caucasus.",
+   "The black-tailed jackrabbit is native to Mexico and the western United States."
+  ],
+  "term": "European wildcat",
+  "description": "Small wild cat",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_4e7877a14de6b741529d",
+  "question": "Are eagles and young bears both used as labels for skills-training youth groups?",
+  "gold": "yes",
+  "gsm8k_answer": "A young bear is a cub.\nBoy Scouts is a skill-training youth group that includes divisions such as Cub Scouts and Eagle Scouts\n#### yes",
+  "decomposition": [
+   "What is the name of a young bear?",
+   "What is a popular skill training group for boys? ",
+   "Are #1 and eagles names for groups in #2?"
+  ],
+  "facts": [
+   "A young bear is a cub.",
+   "Boy Scouts is a skill-training youth group that includes divisions such as Cub Scouts and Eagle Scouts"
+  ],
+  "term": "Eagle",
+  "description": "large carnivore bird",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_4f49742f126ed645a513",
+  "question": "Would a kaffir lime be a good ingredient for making a candle?",
+  "gold": "yes",
+  "gsm8k_answer": "Kaffir limes are citrus fruits originating in tropical climates.\nThe Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up.\nYankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles.\nSage and Citrus is one of the highest rated scents that Yankee Candle sells.\n#### yes",
+  "decomposition": [
+   "Which fragrance do Kaffir lime leaves emit when crushed?",
+   "What are the scents of some popular varieties of candles that Yankee Candle sells?",
+   "Is #2 included in #1?"
+  ],
+  "facts": [
+   "Kaffir limes are citrus fruits originating in tropical climates.",
+   "The Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up.",
+   "Yankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles.",
+   "Sage and Citrus is one of the highest rated scents that Yankee Candle sells."
+  ],
+  "term": "Kaffir lime",
+  "description": "A citrus fruit native to tropical Southeast Asia and southern China",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_4fbca4542b511a9a8426",
+  "question": "Does cell biology teach about the life cycle of Al Qaeda?",
+  "gold": "no",
+  "gsm8k_answer": "Cell biology is a subdiscipline of biology that deals with the structure and function of cells in living organisms\nAl Qaeda is made up of terrorist cells\nTerrorist cells are small groups of terrorists acting semi-independently for the same cause\n#### no",
+  "decomposition": [
+   "What is the main topic that people learn about in Cell biology?",
+   "What is Al Qaeda made up of?",
+   "Is #1 the same as #2?"
+  ],
+  "facts": [
+   "Cell biology is a subdiscipline of biology that deals with the structure and function of cells in living organisms",
+   "Al Qaeda is made up of terrorist cells",
+   "Terrorist cells are small groups of terrorists acting semi-independently for the same cause"
+  ],
+  "term": "Cell biology",
+  "description": "Scientific Discipline that Studies Cells",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_52516eaf11ee836ec945",
+  "question": "Were paparazzi directly responsible for the death of Amy Winehouse?",
+  "gold": "no",
+  "gsm8k_answer": "Amy Winehouse died at home and was found in her home by her bodyguard.\nAmy Winehouse's cause of death was alcohol poisoning. \n#### no",
+  "decomposition": [
+   "What was the cause of Amy Winehouse's death?",
+   "Did paparazzi have a direct involvement in #1?"
+  ],
+  "facts": [
+   "Amy Winehouse died at home and was found in her home by her bodyguard.",
+   "Amy Winehouse's cause of death was alcohol poisoning. "
+  ],
+  "term": "Paparazzi",
+  "description": "profession",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_5297737156179200e8d1",
+  "question": "Would a sofer be a bad job for a vegan?",
+  "gold": "yes",
+  "gsm8k_answer": "A sofer is a transcriber of religious texts, and has its origins in Judaism.\nSofers transcribe texts on a material known as vellum.\nVellum is made of materials derived from calfskin.\nVegans do not use any animal products.\n#### yes",
+  "decomposition": [
+   "What materials do sofers use?",
+   "What products do vegans refuse to use?",
+   "Is #1 included in #2?"
+  ],
+  "facts": [
+   "A sofer is a transcriber of religious texts, and has its origins in Judaism.",
+   "Sofers transcribe texts on a material known as vellum.",
+   "Vellum is made of materials derived from calfskin.",
+   "Vegans do not use any animal products."
+  ],
+  "term": "Sofer",
+  "description": "profession",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_5578fa931e75753da8c6",
+  "question": "Can a sea turtle play tennis using a tennis racket?",
+  "gold": "no",
+  "gsm8k_answer": "to play tennis, a human-like hand is needed to properly hold the tennis racket\nsea turtles have flippers and not human-like hands\n#### no",
+  "decomposition": [
+   "What body part does one need to hold a tennis racket?",
+   "Do turtles have #1?"
+  ],
+  "facts": [
+   "to play tennis, a human-like hand is needed to properly hold the tennis racket",
+   "sea turtles have flippers and not human-like hands"
+  ],
+  "term": "Sea turtle",
+  "description": "superfamily of reptiles",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_567cfdcd1729556f1f97",
+  "question": "Is it common to see frost during some college commencements?",
+  "gold": "yes",
+  "gsm8k_answer": "College commencement ceremonies often happen during the months of December, May, and sometimes June. \nFrost isn't uncommon to see during the month of December, as it is the winter.\n#### yes",
+  "decomposition": [
+   "What seasons can you expect see frost?",
+   "What months do college commencements occur?",
+   "Do any of #2 occur during #1?"
+  ],
+  "facts": [
+   "College commencement ceremonies often happen during the months of December, May, and sometimes June. ",
+   "Frost isn't uncommon to see during the month of December, as it is the winter."
+  ],
+  "term": "Frost",
+  "description": "coating or deposit of ice that may form in humid air in cold conditions, usually overnight",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_59b6401abbca792d2f5c",
+  "question": "Can citrus grow in Ulaanbaatar?",
+  "gold": "no",
+  "gsm8k_answer": "Citrus can withstand short periods down to as cold as −10 °C (14 °F), but realistically temperatures not falling below −2 °C (28 °F) are required for successful cultivation.\nUlaanbaatar has an average annual temperature of −0.4 °C or 31.3 °F.\n#### no",
+  "decomposition": [
+   "What climates are suitable for growing citrus?",
+   "What is the climate of Ulaanbaatar?",
+   "Is #2 similar to #1?"
+  ],
+  "facts": [
+   "Citrus can withstand short periods down to as cold as −10 °C (14 °F), but realistically temperatures not falling below −2 °C (28 °F) are required for successful cultivation.",
+   "Ulaanbaatar has an average annual temperature of −0.4 °C or 31.3 °F."
+  ],
+  "term": "Citrus",
+  "description": "genus of fruit-bearing plants (source of fruit such as lemons and oranges)",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_59e78fdde03974a7cf77",
+  "question": "Was a person sold a Creative Commons License for Boticelli's The Birth of Venus ripped off?",
+  "gold": "yes",
+  "gsm8k_answer": "A Creative Commons license allows for the free distribution of an otherwise copyrighted piece of work.\nWorks that are deemed in the public domain do not require a copyright or permission to use.\nAny work created before 1923 is in the public domain.\nSandro Boticelli's The Birth of Venus painting was from 1486.\n#### yes",
+  "decomposition": [
+   "What is the purpose of a Creative Commons license?",
+   "Do works in the public domain need #1?",
+   "Works created before what year are presently in the public domain?",
+   "Was Boticelli's The Birth of Venus created before #3?",
+   "Considering #2 and #4, is #1 unnecessary for Boticelli's The Birth of Venus?"
+  ],
+  "facts": [
+   "A Creative Commons license allows for the free distribution of an otherwise copyrighted piece of work.",
+   "Works that are deemed in the public domain do not require a copyright or permission to use.",
+   "Any work created before 1923 is in the public domain.",
+   "Sandro Boticelli's The Birth of Venus painting was from 1486."
+  ],
+  "term": "Creative Commons license",
+  "description": "license allowing free use of a work",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_5b45ccb915731a9e5f05",
+  "question": "Would it be hard to get toilet paper if there were no loggers?",
+  "gold": "yes",
+  "gsm8k_answer": "Logging produces products such as pulp.\nPulp is used to make paper products such as toilet paper.\n#### yes",
+  "decomposition": [
+   "What material is used to make paper products such as toilet paper?",
+   "Is logging an important step in  producing #1?"
+  ],
+  "facts": [
+   "Logging produces products such as pulp.",
+   "Pulp is used to make paper products such as toilet paper."
+  ],
+  "term": "Logging",
+  "description": "the cutting, skidding, on-site processing, and loading of trees or logs onto transport vehicles",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_5d56b9c9784b039864ca",
+  "question": "Can someone sell their time through the Toronto Star?",
+  "gold": "yes",
+  "gsm8k_answer": "The Toronto Star has a classifieds section\nReaders can advertise their own labor or services and thus their time \n#### yes",
+  "decomposition": [
+   "What section of the Toronto Star lists things for sale?",
+   "Can someone's services or labor be sold in #1?"
+  ],
+  "facts": [
+   "The Toronto Star has a classifieds section",
+   "Readers can advertise their own labor or services and thus their time "
+  ],
+  "term": "Toronto Star",
+  "description": "Newspaper in Toronto, Ontario, Canada",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_5dd71d65b4720ebf22d0",
+  "question": "Are Tom and Jerry featured in a ride at Disneyland?",
+  "gold": "no",
+  "gsm8k_answer": "Tom and Jerry were created by Hanna-Barbera and are currently owned by Warner Bros. and Turner Entertainment\nDisneyland is a theme park which features characters owned by the Walt Disney Company\n#### no",
+  "decomposition": [
+   "What company made Tom and Jerry?",
+   "What company owns Disneyland?",
+   "Are #1 and #2 the same?"
+  ],
+  "facts": [
+   "Tom and Jerry were created by Hanna-Barbera and are currently owned by Warner Bros. and Turner Entertainment",
+   "Disneyland is a theme park which features characters owned by the Walt Disney Company"
+  ],
+  "term": "Tom and Jerry",
+  "description": "Hanna Barbera cartoon series",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_63aad64acd6b789e4613",
+  "question": "Can the Supreme Court of Canada fight a Lucha trios match?",
+  "gold": "yes",
+  "gsm8k_answer": "A Lucha trios match requires at least two teams of three wrestlers each\nThe Supreme Court of Canada has nine justices\n#### yes",
+  "decomposition": [
+   "How many Justices are in the Supreme Court of Canada?",
+   "What is the total number of people needed to fight in a Lucha trios match?",
+   "Is #1 greater than or equal to #2?"
+  ],
+  "facts": [
+   "A Lucha trios match requires at least two teams of three wrestlers each",
+   "The Supreme Court of Canada has nine justices"
+  ],
+  "term": "Supreme Court of Canada",
+  "description": "highest court of Canada",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_641584a23042362fd6db",
+  "question": "Would the fastest tortoise win a race against a Chicago \"L\"?",
+  "gold": "no",
+  "gsm8k_answer": "Top speed of  Chicago \"L\" is 55 mph (89 km/h).\nThe Guinness Book of World Records maintains the record for fastest tortoise: the tortoise ran at an average speed of 0.63 miles per hour.\n#### no",
+  "decomposition": [
+   "What is the top speed of a Chicago \"L\"?",
+   "What is the top speed of a tortoise?",
+   "Is #2 greater than #1?"
+  ],
+  "facts": [
+   "Top speed of  Chicago \"L\" is 55 mph (89 km/h).",
+   "The Guinness Book of World Records maintains the record for fastest tortoise: the tortoise ran at an average speed of 0.63 miles per hour."
+  ],
+  "term": "Chicago \"L\"",
+  "description": "rapid transit system in Chicago, Illinois, operated by the CTA",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_65f899de64c4d5af256b",
+  "question": "Did origin dynasty of Go precede Jia Sidao?",
+  "gold": "yes",
+  "gsm8k_answer": "Go is a strategy game that originated in the Zhou dynasty.\nThe Zhou dynasty lasted from 1046 BC – 256 BC.\nJia Sidao was a chancellor during the late Song dynasty.\nThe Song dynasty started in 960 AD and lasted until 1279 AD.\n#### yes",
+  "decomposition": [
+   "During which Chinese dynasty did the game Go originate?",
+   "Which Chinese dynasty was Jia Sidao a part of during his lifetime?",
+   "Did #1 precede #2?"
+  ],
+  "facts": [
+   "Go is a strategy game that originated in the Zhou dynasty.",
+   "The Zhou dynasty lasted from 1046 BC – 256 BC.",
+   "Jia Sidao was a chancellor during the late Song dynasty.",
+   "The Song dynasty started in 960 AD and lasted until 1279 AD."
+  ],
+  "term": "Go (game)",
+  "description": "Abstract strategy board game for two players",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_6607e58a6578cfd5a88d",
+  "question": "Can United States Secretary of State do crimes in U.K. without being arrested?",
+  "gold": "yes",
+  "gsm8k_answer": "Diplomatic Immunity allows for diplomats in other countries to not be tried for their transgressions.\nCountries that signed the Vienna Convention on Diplomatic Relations allow for Diplomatic Immunity.\nAll UN member states besides Palau, The Solomon Islands, and South Sudan have signed the Vienna Convention on Diplomatic Relations treaty.\nThe U.K. is one of the original UN member nations.\n#### yes",
+  "decomposition": [
+   "Under which agreement is modern diplomatic immunity applicable?",
+   "Which countries have signed #1?",
+   "Is the U.K. included in #2?"
+  ],
+  "facts": [
+   "Diplomatic Immunity allows for diplomats in other countries to not be tried for their transgressions.",
+   "Countries that signed the Vienna Convention on Diplomatic Relations allow for Diplomatic Immunity.",
+   "All UN member states besides Palau, The Solomon Islands, and South Sudan have signed the Vienna Convention on Diplomatic Relations treaty.",
+   "The U.K. is one of the original UN member nations."
+  ],
+  "term": "United States Secretary of State",
+  "description": "U.S. cabinet member and head of the U.S. State Department",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_6613219dca94a3f583ef",
+  "question": "Could George Washington's own speeches have been recorded live to a compact disc?",
+  "gold": "no",
+  "gsm8k_answer": "George Washington died in 1799.\nCDs weren't invented until 1982.\n#### no",
+  "decomposition": [
+   "When did George Washington die?",
+   "When were compact discs introduced?",
+   "Is #1 after #2?"
+  ],
+  "facts": [
+   "George Washington died in 1799.",
+   "CDs weren't invented until 1982."
+  ],
+  "term": "Compact disc",
+  "description": "Optical disc for storage and playback of digital audio",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_6627a8d9112a0bbccdb2",
+  "question": "Do some people soak in olive oil and water?",
+  "gold": "yes",
+  "gsm8k_answer": "Adding olive oil to bath water is a common practice for dry skin.\nIn baths, people tend to soak for a period of time. \n#### yes",
+  "decomposition": [
+   "During which activity do people soak in water for some time?",
+   "Is it common to add olive oil water for dry skin during #1?"
+  ],
+  "facts": [
+   "Adding olive oil to bath water is a common practice for dry skin.",
+   "In baths, people tend to soak for a period of time. "
+  ],
+  "term": "Olive oil",
+  "description": "liquid fat extracted by pressing olives",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_67d0f066e50df02f006b",
+  "question": "Is number of different US President's in 1800s a lucky number in Hong Kong?",
+  "gold": "no",
+  "gsm8k_answer": "There were 24 different US President's in the 1800s.\n4 is an unlucky number in Chinese numerology.\nWhere East Asian and Western cultures blend, such as in Hong Kong, it is possible in some buildings that the thirteenth floor along with all the floors with 4s to be omitted. \n#### no",
+  "decomposition": [
+   "How many U.S. Presidents served during the 1800's?",
+   "What number is unlucky in Chinese numerology?",
+   "Does #1 end with a number other than #2?"
+  ],
+  "facts": [
+   "There were 24 different US President's in the 1800s.",
+   "4 is an unlucky number in Chinese numerology.",
+   "Where East Asian and Western cultures blend, such as in Hong Kong, it is possible in some buildings that the thirteenth floor along with all the floors with 4s to be omitted. "
+  ],
+  "term": "1800",
+  "description": "Year",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_67f7030eefb3bbddc425",
+  "question": "Is Casio's founding year a composite number?",
+  "gold": "yes",
+  "gsm8k_answer": "Electronics company Casio was founded in 1946.\nA composite number is a number that can be divided by numbers other than 1 and itself.\n1946 can be divided by 278 and 7.\n#### yes",
+  "decomposition": [
+   "What condition(s) makes a number composite?",
+   "When was Casio founded?",
+   "Does #2 satisfy #1?"
+  ],
+  "facts": [
+   "Electronics company Casio was founded in 1946.",
+   "A composite number is a number that can be divided by numbers other than 1 and itself.",
+   "1946 can be divided by 278 and 7."
+  ],
+  "term": "Casio",
+  "description": "Japanese electronics company",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_6908a297967d48522d1a",
+  "question": "Do you need a large room if you want to get into 3D printing?",
+  "gold": "no",
+  "gsm8k_answer": "Home 3D printers are sized to be able to sit on a desk or table.\nThe accessories and materials needed for 3D Printers can be stored easily and efficiently in a box or tote.\n#### no",
+  "decomposition": [
+   "What are the equipment needed for 3D printing?",
+   "How were #1 designed to be accommodated?",
+   "Would #2 require a larger-than-average sized room?"
+  ],
+  "facts": [
+   "Home 3D printers are sized to be able to sit on a desk or table.",
+   "The accessories and materials needed for 3D Printers can be stored easily and efficiently in a box or tote."
+  ],
+  "term": "3D printing",
+  "description": "Additive process used to make a three-dimensional object",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_6a8e31c1f4be7271fdae",
+  "question": "Is winter solstice in Northern Hemisphere closer to July than in Southern Hemisphere? ",
+  "gold": "no",
+  "gsm8k_answer": "The winter solstice in the Northern Hemisphere happens in December.\nThe winter solstice in the Southern Hemisphere happens in June.\n#### no",
+  "decomposition": [
+   "When does the winter solstice occur in the Northern Hemisphere?",
+   "When does the winter solstice occur in the Southern Hemisphere?",
+   "How many days are in between #1 and July?",
+   "How many days are between #2 and July?",
+   "Is #4 greater than #3?"
+  ],
+  "facts": [
+   "The winter solstice in the Northern Hemisphere happens in December.",
+   "The winter solstice in the Southern Hemisphere happens in June."
+  ],
+  "term": "Winter",
+  "description": "one of the Earth's four temperate seasons, occurring between autumn and spring",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_6b2d9e23d23bfaa0f351",
+  "question": "Is a spice grinder ueseless for the cheapest cinnamon sticks?",
+  "gold": "yes",
+  "gsm8k_answer": "Different species of cinnamon require different grinding methods to make the spice\nIndonesian cinnamon quills are thick and capable of damaging a spice or coffee grinder.\nIndonesian cinnamon is the most common and cheapest cinnamon in the USA\n#### yes",
+  "decomposition": [
+   "What type of cinnamon sticks are the cheapest in the US?",
+   "What is the size of #1?",
+   "Because of #2, would it cause damage to a typical spice grinder?"
+  ],
+  "facts": [
+   "Different species of cinnamon require different grinding methods to make the spice",
+   "Indonesian cinnamon quills are thick and capable of damaging a spice or coffee grinder.",
+   "Indonesian cinnamon is the most common and cheapest cinnamon in the USA"
+  ],
+  "term": "Cinnamon",
+  "description": "spice obtained from the inner bark of several trees from the genus Cinnamomum",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_6b4a798cea5eb2305236",
+  "question": "Is the US Secretary of State similar to an administrative secretary of an office?",
+  "gold": "no",
+  "gsm8k_answer": "An administrative secretary of an office is hired to handle routine and calendar scheduling for a superior.\nThe US Secretary of State is the head of the Department of State.\nThe US Secretary of State is analogous to a foreign minister of other countries. \nThe US secretary of state can have administrative assistants. \nAnother name for administrative secretary is administrative assistant. \n#### no",
+  "decomposition": [
+   "What kind of duties are assigned to an administrative secretary?",
+   "What are the duties and nature of the position of the US Secretary of State?",
+   "Is #2 in accordance with #1?"
+  ],
+  "facts": [
+   "An administrative secretary of an office is hired to handle routine and calendar scheduling for a superior.",
+   "The US Secretary of State is the head of the Department of State.",
+   "The US Secretary of State is analogous to a foreign minister of other countries. ",
+   "The US secretary of state can have administrative assistants. ",
+   "Another name for administrative secretary is administrative assistant. "
+  ],
+  "term": "Secretary",
+  "description": "occupation",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_6ffed6324812d6103c70",
+  "question": "Would Terence Tao outperform Eminem in a math competition?",
+  "gold": "yes",
+  "gsm8k_answer": "Eminem disliked math and social studies, and dropped out of high school at age 17.\nTerence Tao was a child prodigy in mathematics, attending university-level mathematics courses at the age of 9.\nFrom 1992 to 1996, Tao was a graduate student at Princeton University under the direction of Elias Stein, receiving his Ph.D. at the age of 21.\n#### yes",
+  "decomposition": [
+   "What achievements did Terence Tao make as a student of mathematics?",
+   "What was Eminem's disposition to mathematics as a high-schooler?",
+   "Does #1 indicate a higher mathematical ability than #2?"
+  ],
+  "facts": [
+   "Eminem disliked math and social studies, and dropped out of high school at age 17.",
+   "Terence Tao was a child prodigy in mathematics, attending university-level mathematics courses at the age of 9.",
+   "From 1992 to 1996, Tao was a graduate student at Princeton University under the direction of Elias Stein, receiving his Ph.D. at the age of 21."
+  ],
+  "term": "Eminem",
+  "description": "American rapper and actor",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_70ce89eac577e7deb95d",
+  "question": "Are implants from an ORIF surgery affected by the magnetic field of the Earth?",
+  "gold": "no",
+  "gsm8k_answer": "An ORIF surgery is an Open Reduction Internal Fixation, done to fix broken bones.\nMost hardware from ORIF surgeries is made of titanium.\nTitanium is only slightly magnetic and does not affect metal detectors.\n#### no",
+  "decomposition": [
+   "What kind of materials can be significantly affected by the earth's magnetic field?",
+   "What kind of materials are ORIF surgery implants made of?",
+   "Is #2 included in #1?"
+  ],
+  "facts": [
+   "An ORIF surgery is an Open Reduction Internal Fixation, done to fix broken bones.",
+   "Most hardware from ORIF surgeries is made of titanium.",
+   "Titanium is only slightly magnetic and does not affect metal detectors."
+  ],
+  "term": "Earth's magnetic field",
+  "description": "Magnetic field that extends from the Earth’s inner core to where it meets the solar wind",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_71aff579c3ec7336ab2a",
+  "question": "Could Sugar Ray Robinson box if he stole in Iran?",
+  "gold": "no",
+  "gsm8k_answer": "Sugar Ray Robinson was an American boxer who relied on his fists to achieve 109 KO victories.\nThe penalty for stealing in Iran is having your hand cut off.\nIn August 2015 a prisoner in Iran, who was caught stealing, had his right hand and part of his left leg cut off.\n#### no",
+  "decomposition": [
+   "What body part does Iran cut off if someone steals?",
+   "What body part is necessary for boxing?",
+   "Is #1 different from #2?"
+  ],
+  "facts": [
+   "Sugar Ray Robinson was an American boxer who relied on his fists to achieve 109 KO victories.",
+   "The penalty for stealing in Iran is having your hand cut off.",
+   "In August 2015 a prisoner in Iran, who was caught stealing, had his right hand and part of his left leg cut off."
+  ],
+  "term": "Sugar Ray Robinson",
+  "description": "American boxer",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_7273fee808f5fe2d29d4",
+  "question": "Would a customer be happy if their grocery store meat tasted like game?",
+  "gold": "no",
+  "gsm8k_answer": "\"Gamey\" is a word used to describe meat with a grassier, more wild taste.\nGaminess in supermarket meat is very unusual.\nMany people find game to be unpleasant in taste.\n#### no",
+  "decomposition": [
+   "Which kind of meat is referred to as game?",
+   "Are grocery store customers accustomed to #1?"
+  ],
+  "facts": [
+   "\"Gamey\" is a word used to describe meat with a grassier, more wild taste.",
+   "Gaminess in supermarket meat is very unusual.",
+   "Many people find game to be unpleasant in taste."
+  ],
+  "term": "Game (hunting)",
+  "description": "animal hunted for sport or for food",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_744c987d7dd7c14425dd",
+  "question": "Is Guitar Hero Beatles inappropriate for a US third grader?",
+  "gold": "no",
+  "gsm8k_answer": "The average age of a US third grader is 8.\nGuitar Hero is recommended for ages 7 and up.\nThe Beatles were a British rock band with a plethora of radio friendly hits.\n#### no",
+  "decomposition": [
+   "How old is the average US third grader?",
+   "What is the recommended age to play Guitar Hero?",
+   "Is #1 higher than #2?"
+  ],
+  "facts": [
+   "The average age of a US third grader is 8.",
+   "Guitar Hero is recommended for ages 7 and up.",
+   "The Beatles were a British rock band with a plethora of radio friendly hits."
+  ],
+  "term": "Guitar Hero",
+  "description": "video game series",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_756a40598bfc7d0650a4",
+  "question": "Was Great Recession the period of severest unemployment?",
+  "gold": "no",
+  "gsm8k_answer": "The Great Recession had an unemployment peak of 10%.\nThe Great Depression saw global GDP decline by almost 30% and unemployment approach 25%.\nUS unemployment numbers approached 15% in May 2020 due to the Coronavirus.\n#### no",
+  "decomposition": [
+   "What was the unemployment rate during the Great Recession?",
+   "What was the US unemployment rate in May 2020?",
+   "Is #2 less than #1?"
+  ],
+  "facts": [
+   "The Great Recession had an unemployment peak of 10%.",
+   "The Great Depression saw global GDP decline by almost 30% and unemployment approach 25%.",
+   "US unemployment numbers approached 15% in May 2020 due to the Coronavirus."
+  ],
+  "term": "Great Recession",
+  "description": "Early 21st-century global economic decline",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_7912115eb4ff2add7da5",
+  "question": "Does horseradish have a fetlock?",
+  "gold": "no",
+  "gsm8k_answer": "Horseradish is a type of plant that is used as a condiment.\nFetlock is the common name used for a joint found in horses.\n#### no",
+  "decomposition": [
+   "What kingdom is horseradish in?",
+   "Where is a fetlock found?",
+   "What kingdom is #2 in?",
+   "is #1 the same as #3?"
+  ],
+  "facts": [
+   "Horseradish is a type of plant that is used as a condiment.",
+   "Fetlock is the common name used for a joint found in horses."
+  ],
+  "term": "Horseradish",
+  "description": "species of plant",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_79a8c5beb6717b60df78",
+  "question": "Has type of political association Pompey had with Caesar influenced reality TV?",
+  "gold": "yes",
+  "gsm8k_answer": "Pompey, Julius Caesar, and Marcus Licinius Crassus formed a political association called a triumvirate.\nA triumvirate spits rule between three powerful people that get to make decisions.\nReality show The Challenge: Total Madness appoints three weekly winners to make decisions for the group, known as the Tribunal.\nReality show American Idol has had three judges making decisions about which contestants advance.\n#### yes",
+  "decomposition": [
+   "Which political association did Pompey form with Julius Caesar and Marcus Licinius Crassus?",
+   "How many people does #1 typically involve?",
+   "How many judges are on reality show American Idol?",
+   "Is #2 equal to #3?"
+  ],
+  "facts": [
+   "Pompey, Julius Caesar, and Marcus Licinius Crassus formed a political association called a triumvirate.",
+   "A triumvirate spits rule between three powerful people that get to make decisions.",
+   "Reality show The Challenge: Total Madness appoints three weekly winners to make decisions for the group, known as the Tribunal.",
+   "Reality show American Idol has had three judges making decisions about which contestants advance."
+  ],
+  "term": "Pompey",
+  "description": "1st/2nd-century BC Roman general",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_7a16e259ec3aacd46d18",
+  "question": "Does Linus Torvalds make money off of DirectX?",
+  "gold": "no",
+  "gsm8k_answer": "DirectX is a proprietary technology owned by Microsoft\nLinus Torvalds is the creator and lead developer for the open-source Linux kernel\nThe Linux kernel is used in operating systems that are competitors of Microsoft Windows\n#### no",
+  "decomposition": [
+   "Which company owns the DirectX technology?",
+   "Which operating system does #1 develop?",
+   "Linus Torvalds develops which operating system?",
+   "Is #2 the same as #3?"
+  ],
+  "facts": [
+   "DirectX is a proprietary technology owned by Microsoft",
+   "Linus Torvalds is the creator and lead developer for the open-source Linux kernel",
+   "The Linux kernel is used in operating systems that are competitors of Microsoft Windows"
+  ],
+  "term": "Linus Torvalds",
+  "description": "Creator and lead developer of Linux kernel",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_7bc8ec80c009c03b5094",
+  "question": "Would King Leonidas have succeeded with an army the size of Mozart's compositions?",
+  "gold": "no",
+  "gsm8k_answer": "King Leonidas led 300 Spartans and 700 Thespians against the Persian army at the Battle of Thermopylae.\nThe Persian army had around 150,000 soldiers at the Battle of Thermopylae.\nMozart composed 600 works.\n#### no",
+  "decomposition": [
+   "How many compositions did Mozart write?",
+   "How many soldiers did King Leonidas lead?",
+   "Is #1 larger than #2?"
+  ],
+  "facts": [
+   "King Leonidas led 300 Spartans and 700 Thespians against the Persian army at the Battle of Thermopylae.",
+   "The Persian army had around 150,000 soldiers at the Battle of Thermopylae.",
+   "Mozart composed 600 works."
+  ],
+  "term": "Composer",
+  "description": "person who creates music, either by musical notation or oral tradition",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_7bde4b4e29452e46c504",
+  "question": "Is Jack Black unlikely to compete with Bear McCreary for an award?",
+  "gold": "yes",
+  "gsm8k_answer": "Jack Black is a musician but not a composer\nBear McCreary is a composer\nTheir interests are similar but their skills not overlap in awards categories\n#### yes",
+  "decomposition": [
+   "What music-related occupation does Bear McCreary have?",
+   "What types of awards are won by notable figures who work as #1? ",
+   "What music-related occupation does Jack Black have?",
+   "What types of awards have been won by notable figures who work as #3?",
+   "Are #2 and #4 separate categories of awards?"
+  ],
+  "facts": [
+   "Jack Black is a musician but not a composer",
+   "Bear McCreary is a composer",
+   "Their interests are similar but their skills not overlap in awards categories"
+  ],
+  "term": "Jack Black",
+  "description": "American actor, comedian, musician, music producer and youtuber.",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_7c7fc86eedb6d024b639",
+  "question": "Does Metallica use Soulseek?",
+  "gold": "no",
+  "gsm8k_answer": "Soulseek is a computer program used to illegally share music files\nMetallica has been outspoken in their opposition of digital piracy\n#### no",
+  "decomposition": [
+   "Does Soulseek enable users to illegally share music files?",
+   "Does Metallica encourage illegal sharing of digital files?",
+   "Are the answers to #1 and #2 the same?"
+  ],
+  "facts": [
+   "Soulseek is a computer program used to illegally share music files",
+   "Metallica has been outspoken in their opposition of digital piracy"
+  ],
+  "term": "Metallica",
+  "description": "American heavy metal band",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_7fd3efc1fb2853ecec03",
+  "question": "Would a recruit for the United States Marine Corps be turned away for self harm?",
+  "gold": "yes",
+  "gsm8k_answer": "Self harm is when someone intentionally causes injury or pain to themselves.\nSelf harm is almost always related to a mental health condition.\nThose experiencing mental wellness related illnesses cannot join the Marines.\n#### yes",
+  "decomposition": [
+   "What medical condition is self harm usually related to?",
+   "Are people who suffer from #1 turned away from the US Marine Corps?"
+  ],
+  "facts": [
+   "Self harm is when someone intentionally causes injury or pain to themselves.",
+   "Self harm is almost always related to a mental health condition.",
+   "Those experiencing mental wellness related illnesses cannot join the Marines."
+  ],
+  "term": "United States Marine Corps",
+  "description": "Amphibious warfare branch of the United States Armed Forces",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_8157923564915cd3ac47",
+  "question": "Would a student of the class of 2017 have amnesia about 9/11?",
+  "gold": "yes",
+  "gsm8k_answer": "Childhood amnesia is common, with most adults not remembering their lives before 2 or 3 years of age\n9/11 occurred in 2001\nStudents graduating high-school in 2017 would have been born in 1999\n#### yes",
+  "decomposition": [
+   "What year did 9/11 occur?",
+   "In what year would students graduating high-school in 2017 have been born in?",
+   "What age is childhood amnesia most common in?",
+   "If someone was born in #2, how old would they have been in #1?",
+   "Does #3 overlap with #4?"
+  ],
+  "facts": [
+   "Childhood amnesia is common, with most adults not remembering their lives before 2 or 3 years of age",
+   "9/11 occurred in 2001",
+   "Students graduating high-school in 2017 would have been born in 1999"
+  ],
+  "term": "Amnesia",
+  "description": "Cognitive disorder where the memory is disturbed or lost",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_81f0d1ab3abc0aefe7fe",
+  "question": "Were Greeks essential to crafting Egyptian Lighthouse of Alexandria?",
+  "gold": "yes",
+  "gsm8k_answer": "The Lighthouse of Alexandria was an impressive monument in Egypt.\nThe Lighthouse of Alexandria was built by pharaoh Ptolemy II.\nPtolemy II was the son of Ptolemy I Soter.\nPtolemy I Soter was a Greek bodyguard of Alexander the Great and became pharaoh of Egypt.\n#### yes",
+  "decomposition": [
+   "Who built the Lighthouse of Alexandria?",
+   "Who was #1's father?",
+   "Was #2 Greek?"
+  ],
+  "facts": [
+   "The Lighthouse of Alexandria was an impressive monument in Egypt.",
+   "The Lighthouse of Alexandria was built by pharaoh Ptolemy II.",
+   "Ptolemy II was the son of Ptolemy I Soter.",
+   "Ptolemy I Soter was a Greek bodyguard of Alexander the Great and became pharaoh of Egypt."
+  ],
+  "term": "Lighthouse of Alexandria",
+  "description": "Ancient lighthouse in Egypt",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_81f2c649b9f61e019fcf",
+  "question": "Is the Flying Spaghetti Monster part of an ancient pantheon?",
+  "gold": "no",
+  "gsm8k_answer": "Ancient polytheistic religions are generally no longer popular in Western culture.\nThe Church of the Flying Spaghetti Monster was established in 2006 after the creation of the FSM itself in 2005.\n#### no",
+  "decomposition": [
+   "What time period is considered ancient?",
+   "What religion is the Flying Spaghetti Monster part of?",
+   "Was #2 established during #1?"
+  ],
+  "facts": [
+   "Ancient polytheistic religions are generally no longer popular in Western culture.",
+   "The Church of the Flying Spaghetti Monster was established in 2006 after the creation of the FSM itself in 2005."
+  ],
+  "term": "Flying Spaghetti Monster",
+  "description": "Chief deity of Pastafarianism",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_83a7c67c6f156f9cf4cb",
+  "question": "Will more people go in and out of Taco Bell than a Roy Rogers each year?",
+  "gold": "yes",
+  "gsm8k_answer": "Taco Bell has over 7,072 restaurants as of 2018.\nRoy Rogers had over 600 restaurants at its peak.\nRoy Rogers has 48 locations as of 2019.\n#### yes",
+  "decomposition": [
+   "How many restaurants does Taco Bell have?",
+   "How many restaurants does Roy Rogers have?",
+   "Is #1 significantly greater than #2?"
+  ],
+  "facts": [
+   "Taco Bell has over 7,072 restaurants as of 2018.",
+   "Roy Rogers had over 600 restaurants at its peak.",
+   "Roy Rogers has 48 locations as of 2019."
+  ],
+  "term": "Taco Bell",
+  "description": "American fast-food chain",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_84d5830f0a1fe2231ebe",
+  "question": "Can second row of QWERTY keyboard spell Abdastartus's kingdom?",
+  "gold": "yes",
+  "gsm8k_answer": "QWERTY keyboards have one row of numbers followed by three rows of letters.\nThe second row of the QWERTY keyboard has the letters: QWERTYUIOP.\nAbdastartus was king of Tyre from 929 – 921 BC.\n#### yes",
+  "decomposition": [
+   "What letters are on the second row of a QWERTY keyboard?",
+   "What was Abdastartus' kingdoms name?",
+   "Are all the letters in #2 also found in #1?"
+  ],
+  "facts": [
+   "QWERTY keyboards have one row of numbers followed by three rows of letters.",
+   "The second row of the QWERTY keyboard has the letters: QWERTYUIOP.",
+   "Abdastartus was king of Tyre from 929 – 921 BC."
+  ],
+  "term": "QWERTY",
+  "description": "keyboard layout where the first line is \"QWERTYUIOP\"",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_8703c535b9454f6d0d0a",
+  "question": "Would the Titanic be well preserved at the bottom of the Gulf of Finland?",
+  "gold": "yes",
+  "gsm8k_answer": "The bottom of the gulf is one of the world's largest ship cemeteries. Because of the low salinity and cold waters, and no shipworms, the ships are relatively well preserved.\nRMS Titanic was a British passenger ship.\n#### yes",
+  "decomposition": [
+   "Are ships well-preserved in the Gulf of Finland?",
+   "Was the RMS Titanic a ship?",
+   "Is both #1 and #2 \"yes\""
+  ],
+  "facts": [
+   "The bottom of the gulf is one of the world's largest ship cemeteries. Because of the low salinity and cold waters, and no shipworms, the ships are relatively well preserved.",
+   "RMS Titanic was a British passenger ship."
+  ],
+  "term": "Gulf of Finland",
+  "description": "arm of the Baltic Sea",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_87ac6bba774522028d68",
+  "question": "Does The Doctor keep his ship in his childhood home?",
+  "gold": "no",
+  "gsm8k_answer": "The Doctor grew up on a planet called Gallifrey.\nThe planet Gallifrey was destroyed in a time war.\nThe Doctor's ship doesn't require docking.\n#### no",
+  "decomposition": [
+   "Where is The Doctor's childhood home?",
+   "Can The Doctor still visit #1?"
+  ],
+  "facts": [
+   "The Doctor grew up on a planet called Gallifrey.",
+   "The planet Gallifrey was destroyed in a time war.",
+   "The Doctor's ship doesn't require docking."
+  ],
+  "term": "The Doctor (Doctor Who)",
+  "description": "fictional character from Doctor Who",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_891de45394329545fe11",
+  "question": "Is The Joy of Painting TV show still producing new episodes?",
+  "gold": "no",
+  "gsm8k_answer": "The Joy of Painting is hosted by painter Bob Ross.\nBob Ross died in 1995.\nThe episodes currently airing are reruns.\n#### no",
+  "decomposition": [
+   "Who was the host of The Joy of Painting?",
+   "Is #1 still alive?"
+  ],
+  "facts": [
+   "The Joy of Painting is hosted by painter Bob Ross.",
+   "Bob Ross died in 1995.",
+   "The episodes currently airing are reruns."
+  ],
+  "term": "Painting",
+  "description": "Practice of applying paint, pigment, color or other medium to a surface",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_89e58d7843d91dce4486",
+  "question": "Would Sophist's have hypothetically made good lawyers?",
+  "gold": "yes",
+  "gsm8k_answer": "Sophist's were teachers in ancient Greece that used rhetoric.\nLawyers must persuade juries that their side of the case is correct.\nRhetoric is the ancient art of persuasion that was meant to sway audiences in specific situations.\n#### yes",
+  "decomposition": [
+   "What were Sophist's role in Ancient Greece?",
+   "What did #1 use in their position?",
+   "What do lawyers do in their position?",
+   "Would #3 find #2 to be helpful?"
+  ],
+  "facts": [
+   "Sophist's were teachers in ancient Greece that used rhetoric.",
+   "Lawyers must persuade juries that their side of the case is correct.",
+   "Rhetoric is the ancient art of persuasion that was meant to sway audiences in specific situations."
+  ],
+  "term": "Sophist",
+  "description": "Specific kind of teacher in both Ancient Greece and in the Roman Empire",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_8bd0842a5b3757f3f0e0",
+  "question": "Did Eric Clapton have similar taste in women to one of the Beatles?",
+  "gold": "yes",
+  "gsm8k_answer": "The Beatles consisted of John Lennon, Paul McCartney, George Harrison, and Ringo Starr.\nGeorge Harrison was married to Pattie Boyd from 1966-1977.\nEric Clapton married Pattie Boyd in 1979.\n#### yes",
+  "decomposition": [
+   "Who are the spouses Eric Clapton has had?",
+   "Who are the spouses the members of the Beatles have had?",
+   "Is #1 listed in #2?"
+  ],
+  "facts": [
+   "The Beatles consisted of John Lennon, Paul McCartney, George Harrison, and Ringo Starr.",
+   "George Harrison was married to Pattie Boyd from 1966-1977.",
+   "Eric Clapton married Pattie Boyd in 1979."
+  ],
+  "term": "Eric Clapton",
+  "description": "English musician, singer, songwriter, and guitarist",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_8d3882499e0d6668b523",
+  "question": "Is narcissism's origin a rare place to get modern words from?",
+  "gold": "no",
+  "gsm8k_answer": "Narcissism comes from the ancient Greek story of Narcissus, who fell in love with his own reflection.\nAphrodisiac comes from stories about the ancient Greek goddess Aphrodite.\nEurope comes from Europa, an ancient Greek princess.\nThe word stygian relates to the river of Hades in Greek mythology.\nHypnosis comes from Hypnos, the Greek god of sleep.\n#### no",
+  "decomposition": [
+   "From what culture does the word \"narcissism\" come? ",
+   "What percent of English words come from #1?",
+   "Is #2 small enough to be considered \"rare\"?"
+  ],
+  "facts": [
+   "Narcissism comes from the ancient Greek story of Narcissus, who fell in love with his own reflection.",
+   "Aphrodisiac comes from stories about the ancient Greek goddess Aphrodite.",
+   "Europe comes from Europa, an ancient Greek princess.",
+   "The word stygian relates to the river of Hades in Greek mythology.",
+   "Hypnosis comes from Hypnos, the Greek god of sleep."
+  ],
+  "term": "Narcissism",
+  "description": "Personality trait of self love of a fake perfect self.",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_8d4cc62ee044a42c62dc",
+  "question": "Does actress Leila George lack the height to be a model?",
+  "gold": "no",
+  "gsm8k_answer": "Actress Leila George, the daughter of Vincent D'onofrio, is 5'9\" tall.\nModel Cindy Crawford is 5'9\" tall.\nModel Agyness Deyn is 5'8\" tall.\nModel Sara Sampaio is 5'8\" tall.\n#### no",
+  "decomposition": [
+   "How tall is Leila George?",
+   "How tall is Cindy Crawford? ",
+   "What is the height of model Sara Sampaio?",
+   "Is #1 shorter than both #2 and #3?"
+  ],
+  "facts": [
+   "Actress Leila George, the daughter of Vincent D'onofrio, is 5'9\" tall.",
+   "Model Cindy Crawford is 5'9\" tall.",
+   "Model Agyness Deyn is 5'8\" tall.",
+   "Model Sara Sampaio is 5'8\" tall."
+  ],
+  "term": "Model (person)",
+  "description": "person employed to display, advertise and promote products, or to serve as a visual aid",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_8d6a63cb473cbbf075f9",
+  "question": "Would Cyndi Lauper use milk substitute in her rice pudding?",
+  "gold": "yes",
+  "gsm8k_answer": "Cyndi Lauper wrote a song about lactose intolerance.\nLactose intolerance leads to gastrointestinal discomfort upon eating dairy.\n#### yes",
+  "decomposition": [
+   "What conditions lead people to using milk substitutes?",
+   "Does Cyndi Lauper suffer from any conditions listed in #1?"
+  ],
+  "facts": [
+   "Cyndi Lauper wrote a song about lactose intolerance.",
+   "Lactose intolerance leads to gastrointestinal discomfort upon eating dairy."
+  ],
+  "term": "Rice pudding",
+  "description": "Dish made from rice mixed with water or milk",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_8e1c0ce9d7c230c45b54",
+  "question": "Is groundhog day used as a global season indicator? ",
+  "gold": "no",
+  "gsm8k_answer": "Groundhog Day is an American tradition that occurs on February 2nd. \nGroundhog Day derives from a superstition that if a groundhog sees it's shadow it will mean there are six more weeks of winter.\nPeople living in the southern hemisphere of the world experience summer while the people in the north experience winter.\nDifferent global cultures define the dates of seasons differently.\n#### no",
+  "decomposition": [
+   "Where is Groundhog Day celebrated?",
+   "Is #1 in both the northern and southern hemisphere?"
+  ],
+  "facts": [
+   "Groundhog Day is an American tradition that occurs on February 2nd. ",
+   "Groundhog Day derives from a superstition that if a groundhog sees it's shadow it will mean there are six more weeks of winter.",
+   "People living in the southern hemisphere of the world experience summer while the people in the north experience winter.",
+   "Different global cultures define the dates of seasons differently."
+  ],
+  "term": "Groundhog Day",
+  "description": "Traditional method of weather prediction",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_921d3f15518552306050",
+  "question": "Would a lullaby be enough to wake Hellen Keller up?",
+  "gold": "no",
+  "gsm8k_answer": "Lullabies can be sung or played via instrument.\nHellen Keller was deaf. \n#### no",
+  "decomposition": [
+   "How are lullabies played?",
+   "What did Hellen Keller suffer from?",
+   "Would a person with #2 be able to hear #1?"
+  ],
+  "facts": [
+   "Lullabies can be sung or played via instrument.",
+   "Hellen Keller was deaf. "
+  ],
+  "term": "Lullaby",
+  "description": "soothing song, usually sung to young children before they go to sleep",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9289b9af1dc13c110687",
+  "question": "Would you be more likely to die of hypothermia in New York than Florida?",
+  "gold": "yes",
+  "gsm8k_answer": "Central New York Winters are between 12-30 degrees Fahrenheit.\nFlorida winters are between 65 and 77 degrees Fahrenheit.\n#### yes",
+  "decomposition": [
+   "What is the typical temperature range of the coldest time of the year in New York?",
+   "What is the typical temperature range of the coldest time of the year in Florida?",
+   "Is #1 lower than #2?"
+  ],
+  "facts": [
+   "Central New York Winters are between 12-30 degrees Fahrenheit.",
+   "Florida winters are between 65 and 77 degrees Fahrenheit."
+  ],
+  "term": "Hypothermia",
+  "description": "A human body core temperature below 35.0°C",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_934e9728911e2511986b",
+  "question": "Will Chuck Norris be a nonagenarian by time next leap year after 2020 happens?",
+  "gold": "no",
+  "gsm8k_answer": "A nonagenarian is a person between 90 and 99 years of age.\nChuck Norris is 80 years old in 2020.\nThe next leap year after 2020 is 2024.\nChuck Norris will be 84 in 2024.\n#### no",
+  "decomposition": [
+   "When was Chuck Norris born?",
+   "When is the next leap year after 2020?",
+   "What is the difference between #1 and #2?",
+   "How many years of age makes one a nonagenarian?",
+   "Is #3 greater than or equal to #4?"
+  ],
+  "facts": [
+   "A nonagenarian is a person between 90 and 99 years of age.",
+   "Chuck Norris is 80 years old in 2020.",
+   "The next leap year after 2020 is 2024.",
+   "Chuck Norris will be 84 in 2024."
+  ],
+  "term": "Chuck Norris",
+  "description": "American martial artist, actor, film producer and screenwriter",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_938ac30f09fb0f01def3",
+  "question": "Do most middle class families have butlers?",
+  "gold": "no",
+  "gsm8k_answer": "Butlers make about $60,000 per year on average for their work.\nMiddle class income is between $48,000 and $145,000.\n#### no",
+  "decomposition": [
+   "What is a butler?",
+   "How much does #1 make per year on average?",
+   "How much is the average middle class income?",
+   "Would #3 be enough to pay #2?"
+  ],
+  "facts": [
+   "Butlers make about $60,000 per year on average for their work.",
+   "Middle class income is between $48,000 and $145,000."
+  ],
+  "term": "Butler",
+  "description": "male domestic worker in charge of all the male household staff",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_942ec13cf67a99594e74",
+  "question": "Does a Generation Y member satisfy NYPD police officer age requirement?",
+  "gold": "yes",
+  "gsm8k_answer": "The NYPD has a minimum age requirement of 21.\nMembers of Generation Y were born between 1980 and 1994.\n#### yes",
+  "decomposition": [
+   "How old do you have to be to be an NYPD officer?",
+   "How old are Generation Y members currently?",
+   "Is #2 higher than #1?"
+  ],
+  "facts": [
+   "The NYPD has a minimum age requirement of 21.",
+   "Members of Generation Y were born between 1980 and 1994."
+  ],
+  "term": "Police officer",
+  "description": "warranted employee of a police force",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9485398c24d6a74e566a",
+  "question": "Would a blooming onion be possible with a shallot?",
+  "gold": "no",
+  "gsm8k_answer": "A blooming onion is a dish for sharing, featuring a sliced and deep fried onion made to resemble petals.\nA shallot is very small and would only make a few \"petals\"\n#### no",
+  "decomposition": [
+   "What characteristics of onions are important when making blooming onion dish?",
+   "Do the characteristics of shallot match with all of #1?"
+  ],
+  "facts": [
+   "A blooming onion is a dish for sharing, featuring a sliced and deep fried onion made to resemble petals.",
+   "A shallot is very small and would only make a few \"petals\""
+  ],
+  "term": "Onion",
+  "description": "vegetable",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9601160420a5dcd452a2",
+  "question": "Could someone in Tokyo take a taxi to the The Metropolitan Museum of Art?",
+  "gold": "no",
+  "gsm8k_answer": "Tokyo is located in Japan.\nJapan and the United States are separated by the Pacific Ocean.\nA taxi is not capable of travelling over water.\n#### no",
+  "decomposition": [
+   "Where is Tokyo?",
+   "Where is the Metropolitan Museum of Art?",
+   "What separates #1 and #2?",
+   "Can a taxi drive on #3?"
+  ],
+  "facts": [
+   "Tokyo is located in Japan.",
+   "Japan and the United States are separated by the Pacific Ocean.",
+   "A taxi is not capable of travelling over water."
+  ],
+  "term": "Metropolitan Museum of Art",
+  "description": "Art museum in New York City, New York",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_988f73f260f65621866e",
+  "question": "Can an adult male stand on top Donatello's bronze David and touch the Sistine Chapel ceiling?",
+  "gold": "no",
+  "gsm8k_answer": "Donatello's created a bronze David statue that stands over five feet tall.\nThe average height of an adult male is five feet and nine inches.\nThe tallest adult male in history was eight feet and eleven inches.\nThe Sistine Chapel ceiling is sixty eight feet high.\n#### no",
+  "decomposition": [
+   "How tall is Donatello's bronze David statue?",
+   "How tall is the tallest person to ever live?",
+   "How tall is the Sistine Chapel ceiling?",
+   "Is #1 plus #2 greater than or equal to #3?"
+  ],
+  "facts": [
+   "Donatello's created a bronze David statue that stands over five feet tall.",
+   "The average height of an adult male is five feet and nine inches.",
+   "The tallest adult male in history was eight feet and eleven inches.",
+   "The Sistine Chapel ceiling is sixty eight feet high."
+  ],
+  "term": "Donatello",
+  "description": "Italian painter and sculptor",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_99c894e0df31535c1e52",
+  "question": "Could casualties from deadliest war rival France's population?",
+  "gold": "no",
+  "gsm8k_answer": "The deadliest war in history was World War II.\nOver 56 million people died during World War II.\nThe population of France as of 2019 is 66 million.\n#### no",
+  "decomposition": [
+   "What is the population of France?",
+   "What was the deadliest war?",
+   "How many people died in #2?",
+   "Is #3 greater than #1?"
+  ],
+  "facts": [
+   "The deadliest war in history was World War II.",
+   "Over 56 million people died during World War II.",
+   "The population of France as of 2019 is 66 million."
+  ],
+  "term": "War",
+  "description": "Intense violent conflict between states",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9a48326a1e2daeb57c42",
+  "question": "Is Christmas always celebrated on a Sunday?",
+  "gold": "no",
+  "gsm8k_answer": "Christmas is always celebrated on December 25.\nA specific date on the calendar rotates to the following day of the week each year.\nChristmas can therefore be any day of the week.\n#### no",
+  "decomposition": [
+   "What date does Christmas fall on each year?",
+   "Does #1 always fall on a Sunday?"
+  ],
+  "facts": [
+   "Christmas is always celebrated on December 25.",
+   "A specific date on the calendar rotates to the following day of the week each year.",
+   "Christmas can therefore be any day of the week."
+  ],
+  "term": "Sunday",
+  "description": "day of the week",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9a864b47343afdd1e4d7",
+  "question": "Do Flat Earthers doubt the existence of Earth's magnetic field?",
+  "gold": "yes",
+  "gsm8k_answer": "Theories about the Earth's magnetic field depend on the globe model of the Earth.\nFlat Earthers are skeptical of most science related to the Earth and space, believing it to be part of a conspiracy coverup.\n#### yes",
+  "decomposition": [
+   "Which theory about the earth do the Flat-Earthers believe?",
+   "Which earth theory supports the existence of the earth's magnetic field?",
+   "Does #1 contradict #2?"
+  ],
+  "facts": [
+   "Theories about the Earth's magnetic field depend on the globe model of the Earth.",
+   "Flat Earthers are skeptical of most science related to the Earth and space, believing it to be part of a conspiracy coverup."
+  ],
+  "term": "Earth's magnetic field",
+  "description": "Magnetic field that extends from the Earth’s inner core to where it meets the solar wind",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9b5249e314f785a34749",
+  "question": "Are LinkedIn and LeafedIn related companies?",
+  "gold": "no",
+  "gsm8k_answer": "LinkedIn successfully sued LeafedIn for their choice of name.\nLeafedIn changed their company name to LeafedOut\n#### no",
+  "decomposition": [
+   "Who owns LinkedIn?",
+   "Who owns LeafedIn?",
+   "IS #1 the same as #2?"
+  ],
+  "facts": [
+   "LinkedIn successfully sued LeafedIn for their choice of name.",
+   "LeafedIn changed their company name to LeafedOut"
+  ],
+  "term": "LinkedIn",
+  "description": "Social networking website for people in professional occupations",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9b96677775f89d81e6b4",
+  "question": "Did The Who have to cancel tours due to World War II?",
+  "gold": "no",
+  "gsm8k_answer": "The Who was formed in 1964\nWorld War II ended in 1945\n#### no",
+  "decomposition": [
+   "When was The Who formed?",
+   "In what year did World War II end?",
+   "Is #1 before #2?"
+  ],
+  "facts": [
+   "The Who was formed in 1964",
+   "World War II ended in 1945"
+  ],
+  "term": "The Who",
+  "description": "English rock band",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9bfc9f076e6cb7ffddf7",
+  "question": "Do Sweet Potatoes prevent other plants from growing in their place?",
+  "gold": "yes",
+  "gsm8k_answer": "When sweet potato plants decompose, they release a chemical that prevents germination in their soil.\nFarmers will work to ensure that all parts of a sweet potato plant are out of the field before trying to grow in it again.\n#### yes",
+  "decomposition": [
+   "What chemical is released when sweet potatoes decompose?",
+   "Where is #1 released into?",
+   "Does #1 prevent other plants from growing in #2?"
+  ],
+  "facts": [
+   "When sweet potato plants decompose, they release a chemical that prevents germination in their soil.",
+   "Farmers will work to ensure that all parts of a sweet potato plant are out of the field before trying to grow in it again."
+  ],
+  "term": "Sweet potato",
+  "description": "species of plant",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9d583c21fc259514105c",
+  "question": "Do the telescopes at Goldstone Deep Space Communications Complex work the night shift?",
+  "gold": "yes",
+  "gsm8k_answer": "The night shift is considered to be the hours of 11pm - 7am.\nThe telescopes at Goldstone Deep Space Communications Complex are running 24 hours a day.\n#### yes",
+  "decomposition": [
+   "What hours are typically considered the night shift?",
+   "What hours do the telescopes at Goldstone Deep Space Communications Complex run?",
+   "Is there any overlap between #1 and #2?"
+  ],
+  "facts": [
+   "The night shift is considered to be the hours of 11pm - 7am.",
+   "The telescopes at Goldstone Deep Space Communications Complex are running 24 hours a day."
+  ],
+  "term": "Goldstone Deep Space Communications Complex",
+  "description": "United States historic place",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9db098aea8bab57bb47d",
+  "question": "Does Biochemistry study gluons?",
+  "gold": "no",
+  "gsm8k_answer": "Biochemistry studies role, function, and structure of biomolecules.\nGluon, the so-called messenger particle of the strong nuclear force, which binds sub-atomic particles known as quarks within the protons and neutrons of stable matter as well as within heavier, short-lived particles created at high energies.\nbiomolecules are comprised of atoms. \n#### no",
+  "decomposition": [
+   "What are gluons?",
+   "What things are studied in biochemistry?",
+   "Is #1 included in #2?"
+  ],
+  "facts": [
+   "Biochemistry studies role, function, and structure of biomolecules.",
+   "Gluon, the so-called messenger particle of the strong nuclear force, which binds sub-atomic particles known as quarks within the protons and neutrons of stable matter as well as within heavier, short-lived particles created at high energies.",
+   "biomolecules are comprised of atoms. "
+  ],
+  "term": "Biochemistry",
+  "description": "study of chemical processes in living organisms",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_9fd6e38891dccf8ab5d3",
+  "question": "Would the trees in Auburn, New York be changing colors in September?",
+  "gold": "yes",
+  "gsm8k_answer": "In New York, fall begins during the month of September. \nWhen the weather gets cooler in the fall, leaves begin to change colors. \n#### yes",
+  "decomposition": [
+   "In the month of September, what season would it be in New York?",
+   "Do trees change color during #1?"
+  ],
+  "facts": [
+   "In New York, fall begins during the month of September. ",
+   "When the weather gets cooler in the fall, leaves begin to change colors. "
+  ],
+  "term": "Auburn, New York",
+  "description": "City in New York, United States",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_a2613af1019057ed2885",
+  "question": "Are black and white prison uniforms made to resemble a zebra?",
+  "gold": "no",
+  "gsm8k_answer": "Prison stripes are made of parallel lines.\nZebra stripes are jagged in appearance. \n#### no",
+  "decomposition": [
+   "What is the design on a prison uniform?",
+   "What is the pattern on a zebra?",
+   "Is #1 the same as #2?"
+  ],
+  "facts": [
+   "Prison stripes are made of parallel lines.",
+   "Zebra stripes are jagged in appearance. "
+  ],
+  "term": "Zebra",
+  "description": "Black and white striped animals in the horse family",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_a473ecf3711c63185440",
+  "question": "Could Larry King's marriages be counted on two feet?",
+  "gold": "yes",
+  "gsm8k_answer": "The typical person has 10 toes spread across their two feet.\nLarry King has been married 8 times.\nYou can count each marriage on each toe.\n#### yes",
+  "decomposition": [
+   "How many times has Larry King been married?",
+   "How many toes do most people have?",
+   "Is #2 at least as much as #1?"
+  ],
+  "facts": [
+   "The typical person has 10 toes spread across their two feet.",
+   "Larry King has been married 8 times.",
+   "You can count each marriage on each toe."
+  ],
+  "term": "Larry King",
+  "description": "American television and radio host",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_a58989dc59eeb11d38af",
+  "question": "Can numerologists become members of Royal Society?",
+  "gold": "no",
+  "gsm8k_answer": "The royal society fulfills a number of roles: promoting science and its benefits, recognizing excellence in science, supporting outstanding science, providing scientific advice for policy.\nNumerology is a superstition and a pseudoscience that uses numbers to give the subject a veneer of scientific authority.\n#### no",
+  "decomposition": [
+   "What is the primary basis for being selected as a member of the Royal Society?",
+   "What do numerologists do?",
+   "Is #2 included in #1?"
+  ],
+  "facts": [
+   "The royal society fulfills a number of roles: promoting science and its benefits, recognizing excellence in science, supporting outstanding science, providing scientific advice for policy.",
+   "Numerology is a superstition and a pseudoscience that uses numbers to give the subject a veneer of scientific authority."
+  ],
+  "term": "Royal Society",
+  "description": "National academy of science in the United Kingdom",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_a6a9efa56b587c1b586c",
+  "question": "Does Ronda Rousey avoid BBQ restaraunts?",
+  "gold": "yes",
+  "gsm8k_answer": "Ronda Rousey is a professional athlete in MMA.\nRonda Rousey is a vegan.\nBBQ is a style of restaurant that predominantly serves cooked meat.\nMeat consumption is opposed and avoided by vegans.\nVegans don't eat meat.\n#### yes",
+  "decomposition": [
+   "What kind of food is served at BBQ restaurants?",
+   "What dietary restrictions does Ronda Rousey follow?",
+   "Would #2 avoid #1?"
+  ],
+  "facts": [
+   "Ronda Rousey is a professional athlete in MMA.",
+   "Ronda Rousey is a vegan.",
+   "BBQ is a style of restaurant that predominantly serves cooked meat.",
+   "Meat consumption is opposed and avoided by vegans.",
+   "Vegans don't eat meat."
+  ],
+  "term": "Ronda Rousey",
+  "description": "American professional wrestler, actress, author, mixed martial artist and judoka",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_a78ea1c8d106b33c5935",
+  "question": "Will the Stanford Linear Accelerator fit on the Golden Gate Bridge?",
+  "gold": "no",
+  "gsm8k_answer": "The Golden Gate Bridge is a famous suspension bridge in the San Francisco bay area.\nThe Golden Gate Bridge is 1.7miles long.\nThe Stanford Linear Accelerator is part of a particle physics lab in Menlo Park, California. \nThe Sanford Linear Accelerator is 2miles long.\n#### no",
+  "decomposition": [
+   "What is the length of the Golden Gate Bridge?",
+   "How long is the Stanford Linear Accelerator?",
+   "Is #1 greater than or equal to #2?"
+  ],
+  "facts": [
+   "The Golden Gate Bridge is a famous suspension bridge in the San Francisco bay area.",
+   "The Golden Gate Bridge is 1.7miles long.",
+   "The Stanford Linear Accelerator is part of a particle physics lab in Menlo Park, California. ",
+   "The Sanford Linear Accelerator is 2miles long."
+  ],
+  "term": "Golden Gate Bridge",
+  "description": "suspension bridge on the San Francisco Bay",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_adbc3577cb5f63a18fdd",
+  "question": "Will you see peach blossoms and Andromeda at the same time?",
+  "gold": "no",
+  "gsm8k_answer": "Peach trees bloom in the spring.\nAndromeda is visible in the fall.\n#### no",
+  "decomposition": [
+   "When do peach trees bloom?",
+   "When can you see Andromeda?",
+   "Is #1 the same as #2?"
+  ],
+  "facts": [
+   "Peach trees bloom in the spring.",
+   "Andromeda is visible in the fall."
+  ],
+  "term": "Peach",
+  "description": "species of fruit tree (for the fruit use Q13411121)",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_ae8b7dd28ebef8c07779",
+  "question": "Can a snow leopard swim?",
+  "gold": "yes",
+  "gsm8k_answer": "except for giraffes and apes, all four legged mammals can swim\na snow leopard is a mammal\nsnow leopards have four legs\n#### yes",
+  "decomposition": [
+   "Is a snow leopard a four legged mammal?"
+  ],
+  "facts": [
+   "except for giraffes and apes, all four legged mammals can swim",
+   "a snow leopard is a mammal",
+   "snow leopards have four legs"
+  ],
+  "term": "Snow leopard",
+  "description": "species of mammal",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_b06f0eb16fe78e6a057f",
+  "question": "Was The Little Prince's titular character allergic to flowers?",
+  "gold": "no",
+  "gsm8k_answer": "The Little Prince tends to and cares for a rose.\nThe Little Prince falls in love with a rose. \n#### no",
+  "decomposition": [
+   "Who is the titular character of The Little Prince?",
+   "Does #1 avoid interacting with flowers?"
+  ],
+  "facts": [
+   "The Little Prince tends to and cares for a rose.",
+   "The Little Prince falls in love with a rose. "
+  ],
+  "term": "The Little Prince",
+  "description": "Novella by Antoine de Saint-Exupéry",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_b1fc0daa3010d9c6f360",
+  "question": "Do you need a farmer to make a circuit board?",
+  "gold": "no",
+  "gsm8k_answer": "Farmers cultivate and produce crops and/or livestock for sale or consumption\nCircuit boards contain various man made materials as well as metals\nMetals are produced from the earth by miners\n#### no",
+  "decomposition": [
+   "What do farmers produce?",
+   "What are the things needed to make a circuit board?",
+   "Is any of #1 part of #2?"
+  ],
+  "facts": [
+   "Farmers cultivate and produce crops and/or livestock for sale or consumption",
+   "Circuit boards contain various man made materials as well as metals",
+   "Metals are produced from the earth by miners"
+  ],
+  "term": "Farmer",
+  "description": "person that works in agriculture",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_b28a377ad4264c7393aa",
+  "question": "Can a dolphin keep a diary?",
+  "gold": "no",
+  "gsm8k_answer": "A diary is a written record.\nDolphins cannot write.\n#### no",
+  "decomposition": [
+   "What is a diary?",
+   "What does one need to do in order to keep #1?",
+   "Can a dolphin do #2?"
+  ],
+  "facts": [
+   "A diary is a written record.",
+   "Dolphins cannot write."
+  ],
+  "term": "Diary",
+  "description": "Written record with discrete entries arranged by date",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_b30421b6b1c8bd490f81",
+  "question": "Has Burger King  contributed to a decrease in need for snowshoes?",
+  "gold": "yes",
+  "gsm8k_answer": "Burger king serves beef\nBeef farming is associated with increased global temperatures and decreased snowfall\n#### yes",
+  "decomposition": [
+   "What is the main food item that burger king sells?",
+   "What kind of meat is in #1?",
+   "What does farming for #2 do to the global temperature?",
+   "If #3 occurs, are people less lilely to need snowshoes?"
+  ],
+  "facts": [
+   "Burger king serves beef",
+   "Beef farming is associated with increased global temperatures and decreased snowfall"
+  ],
+  "term": "Snowshoe",
+  "description": "Footwear for walking easily across snow",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_b6ff7e5872626e418f9c",
+  "question": "Could Charlie Bucket be a hotel manager?",
+  "gold": "no",
+  "gsm8k_answer": "Charlie Bucket is a fictional character from \"Charlie and the Chocolate Factory\", portrayed as a child.\nChildren cannot be hotel managers.\n#### no",
+  "decomposition": [
+   "How was Charlie Bucket portrayed in Charlie and the Chocolate Factory?",
+   "Is #1 as an adult?"
+  ],
+  "facts": [
+   "Charlie Bucket is a fictional character from \"Charlie and the Chocolate Factory\", portrayed as a child.",
+   "Children cannot be hotel managers."
+  ],
+  "term": "Hotel manager",
+  "description": "person managing a hotel",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_ba88d843b3572d9171c7",
+  "question": "Do you find glutamic acid in a severed finger?",
+  "gold": "yes",
+  "gsm8k_answer": "Glutamic acid is an amino acid and neurotransmitter\nAs a neurotransmitter, glutamic acid is the most abundant in the vertebrate nervous system\nA severed finger contains parts of a vertebrate's nervous system\n#### yes",
+  "decomposition": [
+   "What kind of transmitter is glutamic acid?",
+   "In which bodily system is #1 the most abundant?",
+   "Does a severed finger contain #2?"
+  ],
+  "facts": [
+   "Glutamic acid is an amino acid and neurotransmitter",
+   "As a neurotransmitter, glutamic acid is the most abundant in the vertebrate nervous system",
+   "A severed finger contains parts of a vertebrate's nervous system"
+  ],
+  "term": "Glutamic acid",
+  "description": "amino acid",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_bb1b48ac196cd4b7e591",
+  "question": "Did Dale Jr hug his dad after their last Daytona 500 together?",
+  "gold": "no",
+  "gsm8k_answer": "Dale Jr. and his father Dale Sr. last raced together at the Daytona 500 in 2001.\nDuring the 2001 Daytona 500 Dale Sr. suffered a basilar skull fracture and died. \n#### no",
+  "decomposition": [
+   "Which race did Dale Jr and his father participate in last together?",
+   "Which notable incident took place during #1?",
+   "Was Dale Jr.'s father well enough to hug his son after #2?"
+  ],
+  "facts": [
+   "Dale Jr. and his father Dale Sr. last raced together at the Daytona 500 in 2001.",
+   "During the 2001 Daytona 500 Dale Sr. suffered a basilar skull fracture and died. "
+  ],
+  "term": "Daytona 500",
+  "description": "Auto race held in Daytona, Florida, United States",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_bb803e47318e09ddf4e2",
+  "question": "Can printing books in kanji instead of the Roman alphabet save trees?",
+  "gold": "yes",
+  "gsm8k_answer": "The Kanji writing system uses less space to communicate ideas than an alphabet system.\nTrees are killed to make pages for books.\n#### yes",
+  "decomposition": [
+   "What type of writing system is kanji?",
+   "Does #1 take up less space than an alphabet?"
+  ],
+  "facts": [
+   "The Kanji writing system uses less space to communicate ideas than an alphabet system.",
+   "Trees are killed to make pages for books."
+  ],
+  "term": "Kanji",
+  "description": "adopted logographic Chinese characters used in the modern Japanese writing system",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_bd39921a01edc4897e35",
+  "question": "Does Steven Spielberg's 1998 film take place in a period after War Horse setting?",
+  "gold": "yes",
+  "gsm8k_answer": "Steven Spielberg's 1998 film, Saving Private Ryan, takes place during World War II.\nWorld War II took place from 1939-1945.\nThe 2011 movie War Horse takes place during World War I.\nWorld War I took place from 1914-1918.\n#### yes",
+  "decomposition": [
+   "What time period does War Horse take place in?",
+   "What years did #1 take place in?",
+   "What time period does Steven Spielberg's 1998 film take place in?",
+   "When years did #3 take place in?",
+   "Did #4 happen after #2?"
+  ],
+  "facts": [
+   "Steven Spielberg's 1998 film, Saving Private Ryan, takes place during World War II.",
+   "World War II took place from 1939-1945.",
+   "The 2011 movie War Horse takes place during World War I.",
+   "World War I took place from 1914-1918."
+  ],
+  "term": "Steven Spielberg",
+  "description": "American film director and screenwriter",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_c23b892b2ce50d0582d1",
+  "question": "Could Carl Friedrich Gauss speak to someone 100 miles away?",
+  "gold": "no",
+  "gsm8k_answer": "Carl Friedrich Gauss was born in 1777.\nSpeaking to someone 100 miles away requires a telephone.\nThe telephone was invented in 1876.\n#### no",
+  "decomposition": [
+   "What device allows people to speak to each other even if they are 100 miles apart?",
+   "When was #1 invented?",
+   "When did Carl Friedrich Gauss die?",
+   "Is #2 before #3?"
+  ],
+  "facts": [
+   "Carl Friedrich Gauss was born in 1777.",
+   "Speaking to someone 100 miles away requires a telephone.",
+   "The telephone was invented in 1876."
+  ],
+  "term": "Carl Friedrich Gauss",
+  "description": "German mathematician and physicist",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_c44aebb62354b76e5f68",
+  "question": "Was Iggy Pop named after his father?",
+  "gold": "yes",
+  "gsm8k_answer": "Iggy Pop's birth name was James Newell Osterberg Jr.\nThe father of Iggy Pop was James Newell Osterberg Sr.\n#### yes",
+  "decomposition": [
+   "What is Iggy Pop's real name?",
+   "What is Iggy Pop's father's name?",
+   "Is #1 the same as #2?"
+  ],
+  "facts": [
+   "Iggy Pop's birth name was James Newell Osterberg Jr.",
+   "The father of Iggy Pop was James Newell Osterberg Sr."
+  ],
+  "term": "Iggy Pop",
+  "description": "American rock singer-songwriter, musician, and actor",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_c5209b3594b4e36252b1",
+  "question": "Could Scooby Doo fit in a kangaroo pouch?",
+  "gold": "no",
+  "gsm8k_answer": "Scooby Doo is a fictional cartoon Great Dane.\nGreat Danes can be 30-34 inches in height.\nKangaroo babies can fit in their mother's pouch until they're 10 weeks of age.\nA 10 week old kangaroo is much smaller than a Great Dane.\n#### no",
+  "decomposition": [
+   "What type of creature was Scooby-Doo?",
+   "How large are #1?",
+   "What resides in a kangaroo pouch?",
+   "How large are #3?",
+   "Is #2 approximately equal to #4?"
+  ],
+  "facts": [
+   "Scooby Doo is a fictional cartoon Great Dane.",
+   "Great Danes can be 30-34 inches in height.",
+   "Kangaroo babies can fit in their mother's pouch until they're 10 weeks of age.",
+   "A 10 week old kangaroo is much smaller than a Great Dane."
+  ],
+  "term": "Kangaroo",
+  "description": "сommon name of family of marsupials",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_c5e130e153c93e692833",
+  "question": "Would members of Blue Lives Matter support every element of Grand Theft Auto III?",
+  "gold": "no",
+  "gsm8k_answer": "Blue Lives Matter is a countermovement in the United States that supports police officers and law enforcement personnel.\nGrand Theft Auto III allows for gratuitous violence against police officers in the game.\n#### no",
+  "decomposition": [
+   "Which action against cops are allowed in GTA III?",
+   "What does the Blue Lives Matter movement advocate for?",
+   "Is all of #1 in accordance with #2?"
+  ],
+  "facts": [
+   "Blue Lives Matter is a countermovement in the United States that supports police officers and law enforcement personnel.",
+   "Grand Theft Auto III allows for gratuitous violence against police officers in the game."
+  ],
+  "term": "Grand Theft Auto III",
+  "description": "Open world action-adventure video game",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_c7cb1e3fc112e8f924fe",
+  "question": "Are lengths measured in metres in the UK?",
+  "gold": "yes",
+  "gsm8k_answer": "Metres are part of the metric system.\nThe UK uses the metric system for measurements.\n#### yes",
+  "decomposition": [
+   "What system of measurement does the UK use?",
+   "Are meters a unit of measure in #1?"
+  ],
+  "facts": [
+   "Metres are part of the metric system.",
+   "The UK uses the metric system for measurements."
+  ],
+  "term": "Metre",
+  "description": "SI unit of length",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_c85ba37e0f04159ecd2d",
+  "question": "Would James Cotton's instrument be too strident for a smooth jazz band?",
+  "gold": "yes",
+  "gsm8k_answer": "Smooth jazz is an offshoot of jazz music that relies on a more melodic form.\nSmooth jazz employs the following instruments: saxophone. guitar. piano. trumpet. synthesizer. electric bass. and drums.\nJames Cotton was a famous blues harmonica player.\n#### yes",
+  "decomposition": [
+   "What instument is James Cotton known for?",
+   "What instuments are used to play Smooth Jazz?",
+   "Is #1 not  one of #2?"
+  ],
+  "facts": [
+   "Smooth jazz is an offshoot of jazz music that relies on a more melodic form.",
+   "Smooth jazz employs the following instruments: saxophone. guitar. piano. trumpet. synthesizer. electric bass. and drums.",
+   "James Cotton was a famous blues harmonica player."
+  ],
+  "term": "Smooth jazz",
+  "description": "category of music",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_c8eac5cc49c449e28e6e",
+  "question": "Does the history of Europe include the age of dinosaurs?",
+  "gold": "no",
+  "gsm8k_answer": "Dinosaurs went extinct many millions of years ago.\nIn contrast, ancient humans only started recording history several thousand years ago.\n#### no",
+  "decomposition": [
+   "When did the dinosaurs exist?",
+   "When did humans first colonize Europe?",
+   "Is #2 contained within the range of #1?"
+  ],
+  "facts": [
+   "Dinosaurs went extinct many millions of years ago.",
+   "In contrast, ancient humans only started recording history several thousand years ago."
+  ],
+  "term": "History of Europe",
+  "description": "History of Europe from the beginnings of recorded history",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_c9c2791c6278853c6a5a",
+  "question": "Are Citizens of Bern Switzerland are descendants of Genghis Khan?",
+  "gold": "yes",
+  "gsm8k_answer": "Genghis Khan had sixteen children.\n1 in 200 men are direct descendants of Genghis Khan.\nSwitzerland has a large Asian immigration population which was around 19,000 in 2018.\n#### yes",
+  "decomposition": [
+   "What ethnic groups contain much of Genghis Khan's descendants?",
+   "Is there a large population of any of #1 in Bern?"
+  ],
+  "facts": [
+   "Genghis Khan had sixteen children.",
+   "1 in 200 men are direct descendants of Genghis Khan.",
+   "Switzerland has a large Asian immigration population which was around 19,000 in 2018."
+  ],
+  "term": "Bern",
+  "description": "Place in Switzerland",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_cad1c70b6b22b7515868",
+  "question": "Would dual-energy X-ray absorptiometry be useful if performed on a crab?",
+  "gold": "no",
+  "gsm8k_answer": "Dual-energy X-ray absorptiometry is typically used to diagnose and follow osteoporosis.\nOsteoporosis is a disease in which bone weakening increases the risk of a broken bone.\nCrabs are invertebrates.\nInvertebrates do not have bones.\n#### no",
+  "decomposition": [
+   "What condition is diagnosed with dual-energy X-ray absorptiometry?",
+   "What body parts are affected by #1?",
+   "Do crabs have #2?"
+  ],
+  "facts": [
+   "Dual-energy X-ray absorptiometry is typically used to diagnose and follow osteoporosis.",
+   "Osteoporosis is a disease in which bone weakening increases the risk of a broken bone.",
+   "Crabs are invertebrates.",
+   "Invertebrates do not have bones."
+  ],
+  "term": "Dual-energy X-ray absorptiometry",
+  "description": "diagnostic test for bone mineral density testing",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_cbbf10bda48e6c36fde1",
+  "question": "Did Demi Lovato's ancestors help turn maize into popcorn?",
+  "gold": "yes",
+  "gsm8k_answer": "Demi Lovato's father is Mexican.\nMaize is another word for corn.\nCorn was first domesticated in southern Mexico about 10,000 years ago.\nPopcorn is made from kernels of corn.\n#### yes",
+  "decomposition": [
+   "Where is popcorn from originally?",
+   "Where is Demi Lovato's ancestors from?",
+   "Are #1 and #2 the same?"
+  ],
+  "facts": [
+   "Demi Lovato's father is Mexican.",
+   "Maize is another word for corn.",
+   "Corn was first domesticated in southern Mexico about 10,000 years ago.",
+   "Popcorn is made from kernels of corn."
+  ],
+  "term": "Maize",
+  "description": "Cereal grain",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_cbd0d8c9a00478dadd25",
+  "question": "Is Thanksgiving sometimes considered a day of mourning?",
+  "gold": "yes",
+  "gsm8k_answer": "The Native American People in the United States were brutalized during the colonization period.\nNative Americans in the US often choose to mourn the genocide of their people on Thanksgiving.\n#### yes",
+  "decomposition": [
+   "When do Native Americans often choose to mourn the genocide of their people?",
+   "Is Thanksgiving included in #1?"
+  ],
+  "facts": [
+   "The Native American People in the United States were brutalized during the colonization period.",
+   "Native Americans in the US often choose to mourn the genocide of their people on Thanksgiving."
+  ],
+  "term": "Thanksgiving (United States)",
+  "description": "holiday celebrated in the United States on the fourth Thursday in November",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_cd06afe78198e22d3fa6",
+  "question": "Can an anchovy born in 2020 survive 25th US census?",
+  "gold": "no",
+  "gsm8k_answer": "The US Census takes place every ten years.\nThe 24th US Census took place in 2020.\nThe 25th US Census will take place in 2030.\nThe average lifespan of an anchovy is five years.\n#### no",
+  "decomposition": [
+   "What is the ordinal number of the 2020 U.S. Census?",
+   "How many years after #1 wll the 25th census occur?",
+   "What is the maximum life span of an anchovy?",
+   "Is #3 greater than #2?"
+  ],
+  "facts": [
+   "The US Census takes place every ten years.",
+   "The 24th US Census took place in 2020.",
+   "The 25th US Census will take place in 2030.",
+   "The average lifespan of an anchovy is five years."
+  ],
+  "term": "Anchovy",
+  "description": "Family of fishes",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_d1affe92c8e86edc5ae0",
+  "question": "Can an elite runner circle the Pyrenees in one day?",
+  "gold": "no",
+  "gsm8k_answer": "The Pyrenees mountains are 305 miles wide.\nAn elite runner can cover 100 miles in around 12 hours.\n#### no",
+  "decomposition": [
+   "How many miles can an elite runner cover in one day?",
+   "How far around in miles are The Pyrenees mountains?",
+   "Is #1 more than #2?"
+  ],
+  "facts": [
+   "The Pyrenees mountains are 305 miles wide.",
+   "An elite runner can cover 100 miles in around 12 hours."
+  ],
+  "term": "Pyrenees",
+  "description": "Range of mountains in southwest Europe",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_d319de6df716b83b5e58",
+  "question": "Do spider wasps have eight legs?",
+  "gold": "no",
+  "gsm8k_answer": "A spider wasp is a kind of wasp, which is an insect.\nInsects all have six legs.\n#### no",
+  "decomposition": [
+   "What kind of animal is a spider wasp?",
+   "Do #1's have eight legs?"
+  ],
+  "facts": [
+   "A spider wasp is a kind of wasp, which is an insect.",
+   "Insects all have six legs."
+  ],
+  "term": "Spider wasp",
+  "description": "family of insects",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_d4f4d22b298fcae3097c",
+  "question": "Gandalf hypothetically defeats Rincewind in a wizard battle?",
+  "gold": "yes",
+  "gsm8k_answer": "Gandalf is a 2000 plus year old wizard that has fought orcs and spirits in Middle Earth.\nRincewind is the protagonist of the Discworld series.\nRincewind is a failed student at the Unseen University for wizards in Ankh-Morpork.\nRincewind is described by other wizards as the magical equivalent to the number zero.\n#### yes",
+  "decomposition": [
+   "How powerful is Gandalf as portrayed in LOTR?",
+   "How powerful is Rincewind as portrayed at the Unseen University for wizards?",
+   "Does #1 include far more experience and accomplishments than #2?"
+  ],
+  "facts": [
+   "Gandalf is a 2000 plus year old wizard that has fought orcs and spirits in Middle Earth.",
+   "Rincewind is the protagonist of the Discworld series.",
+   "Rincewind is a failed student at the Unseen University for wizards in Ankh-Morpork.",
+   "Rincewind is described by other wizards as the magical equivalent to the number zero."
+  ],
+  "term": "Gandalf",
+  "description": "Fictional character created by J. R. R. Tolkien",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_d6a79d3a2465a47ae176",
+  "question": "Are grapes essential to winemaking?",
+  "gold": "no",
+  "gsm8k_answer": "Winemaking involves a process known as fermentation where energy is extracted from carbohydrates.\nA cup of cherries has about 19 grams of carbohydrates.\nCherry wine does not contain any grapes.\n#### no",
+  "decomposition": [
+   "In winemaking, what is the process in which energy is drawn?",
+   "In #1, where does the energy come from?",
+   "Are grapes the only thing that contains #2?"
+  ],
+  "facts": [
+   "Winemaking involves a process known as fermentation where energy is extracted from carbohydrates.",
+   "A cup of cherries has about 19 grams of carbohydrates.",
+   "Cherry wine does not contain any grapes."
+  ],
+  "term": "Winemaking",
+  "description": "the production of wine, starting with the selection of the fruit, its fermentation into alcohol, and the bottling of the finished liquid",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_d6c3b640d265b973bfa9",
+  "question": "Would a crocodile survive longer in Great Salt Lake than alligator?",
+  "gold": "yes",
+  "gsm8k_answer": "The Great Salt Lake is a Utah lake composed of salt water.\nCrocodiles natural habitat is salt water and they can breathe underwater for hours.\nAlligators have a natural habitat of fresh water.\n#### yes",
+  "decomposition": [
+   "What kind of water habitat is the Great Salt Lake?",
+   "Which water habitats are crocodiles adapted to survive in?",
+   "Which water habitats are alligators adapted to survive in?",
+   "Is #1 included in #2 and excluded from #3?"
+  ],
+  "facts": [
+   "The Great Salt Lake is a Utah lake composed of salt water.",
+   "Crocodiles natural habitat is salt water and they can breathe underwater for hours.",
+   "Alligators have a natural habitat of fresh water."
+  ],
+  "term": "Alligator",
+  "description": "Genus of large reptiles",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_d7cff70a52ae5816b161",
+  "question": "Could a newborn look over the top of a fully grown horseradish plant?",
+  "gold": "no",
+  "gsm8k_answer": "A fully grown horseradish plant can reach a height of 4.9 feet.\nNewborn children are typically between 14-20 inches tall in first world countries.\n#### no",
+  "decomposition": [
+   "How tall are newborn babies on average?",
+   "How tall is the average horseradish plant?",
+   "Is #1 greater than #2?"
+  ],
+  "facts": [
+   "A fully grown horseradish plant can reach a height of 4.9 feet.",
+   "Newborn children are typically between 14-20 inches tall in first world countries."
+  ],
+  "term": "Horseradish",
+  "description": "species of plant",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_d917725da423544eca7b",
+  "question": "Would stargazers prefer binoculars over a telescope?",
+  "gold": "no",
+  "gsm8k_answer": "Depending on a stargazer's goal, the scope of view necessary can change. \nCompanies produce both telescopes and binoculars for stargazing. \n#### no",
+  "decomposition": [
+   "How does the scope of a stargazer's observation vary?",
+   "Does #1 stay the same?"
+  ],
+  "facts": [
+   "Depending on a stargazer's goal, the scope of view necessary can change. ",
+   "Companies produce both telescopes and binoculars for stargazing. "
+  ],
+  "term": "Telescope",
+  "description": "Optical instrument that makes distant objects appear magnified",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_d9a48dd737e3a57da2a8",
+  "question": "Has categories of Nobel prizes remained same since Alfred Nobel established them?",
+  "gold": "no",
+  "gsm8k_answer": "Alfred Nobel established the Nobel prize in his will in 1895.\nAlfred Nobel established 5 Nobel prize categories: Chemistry, Literature, Peace, Physics, and Physiology or Medicine.\nThe Nobel prize evolved to include a sixth category of Economic Sciences in 1968.\n#### no",
+  "decomposition": [
+   "When did Alfred Nobel establish the Nobel prize?",
+   "Has the Nobel Prize remained unchanged in all respects since #1?"
+  ],
+  "facts": [
+   "Alfred Nobel established the Nobel prize in his will in 1895.",
+   "Alfred Nobel established 5 Nobel prize categories: Chemistry, Literature, Peace, Physics, and Physiology or Medicine.",
+   "The Nobel prize evolved to include a sixth category of Economic Sciences in 1968."
+  ],
+  "term": "Alfred Nobel",
+  "description": "Swedish chemist, innovator, and armaments manufacturer (1833–1896)",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_db33b4830b7e86c0e61c",
+  "question": "Can you see Stonehenge from a window in Dusseldorf?",
+  "gold": "no",
+  "gsm8k_answer": "Dusseldorf is a city in Germany.\nStonehenge is a prehistoric monument in Wiltshire, England.\nWiltshire England is around seven hours away from Dusseldorf Germany by car.\n#### no",
+  "decomposition": [
+   "Where is Stonehenge located?",
+   "Where is Düsseldorf located?",
+   "Is #1 geographically close to #2?"
+  ],
+  "facts": [
+   "Dusseldorf is a city in Germany.",
+   "Stonehenge is a prehistoric monument in Wiltshire, England.",
+   "Wiltshire England is around seven hours away from Dusseldorf Germany by car."
+  ],
+  "term": "Düsseldorf",
+  "description": "Place in North Rhine-Westphalia, Germany",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_dbade87c32442c7f7c7b",
+  "question": "Is Krishna similar to Holy Spirit?",
+  "gold": "yes",
+  "gsm8k_answer": "The Holy Spirit is a Christian concept of a spirit that is an aspect or agent of God that does good in the world.\nKrishna, from Hinduism, is a manifestation of the God Vishnu.\nKrishna brings compassion, tenderness, and love into the world.\n#### yes",
+  "decomposition": [
+   "What are the characteristics of the Christian Holy Spirit?",
+   "What are the characteristics of Krishna?",
+   "Are many characteristics in #2 also found in #1?"
+  ],
+  "facts": [
+   "The Holy Spirit is a Christian concept of a spirit that is an aspect or agent of God that does good in the world.",
+   "Krishna, from Hinduism, is a manifestation of the God Vishnu.",
+   "Krishna brings compassion, tenderness, and love into the world."
+  ],
+  "term": "Holy Spirit",
+  "description": "Religious concept with varied meanings",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_dca3c4acc079bb11689b",
+  "question": "Does the New York Public Library sell Alpo products?",
+  "gold": "no",
+  "gsm8k_answer": "The New York Public Library is a public lending library system in New York City\nAlpo produces pet food and related products\n#### no",
+  "decomposition": [
+   "What does The New York Public Library offer for customers?",
+   "What kinds of products does Alpo make?",
+   "Is there any overlap between #1 and #2?"
+  ],
+  "facts": [
+   "The New York Public Library is a public lending library system in New York City",
+   "Alpo produces pet food and related products"
+  ],
+  "term": "New York Public Library",
+  "description": "Public library system in New York City",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e0970560c2a3a59a874d",
+  "question": "Can you find Depala's race in World of Warcraft?",
+  "gold": "yes",
+  "gsm8k_answer": "World of Warcraft has several races including humans, night elves, and dwarves.\nDepala is a character in the Magic the Gathering card game that is a dwarf.\n#### yes",
+  "decomposition": [
+   "What are the different races found in World of Warcraft?",
+   "What race is Depala?",
+   "Is #2 listed in #1?"
+  ],
+  "facts": [
+   "World of Warcraft has several races including humans, night elves, and dwarves.",
+   "Depala is a character in the Magic the Gathering card game that is a dwarf."
+  ],
+  "term": "World of Warcraft",
+  "description": "video game by Blizzard Entertainment",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e1f9a6b9fbba8d014643",
+  "question": "Will a rock float in the atmosphere of Earth?",
+  "gold": "no",
+  "gsm8k_answer": "Things only float if they are less dense than the surrounding material.\nRocks are denser than air.\nThe atmosphere of Earth is made up of air.\n#### no",
+  "decomposition": [
+   "Which substance does the earth's atmosphere contain?",
+   "What is the average density of #1?",
+   "What is the average density of rocks?",
+   "Is #3 less than #2?"
+  ],
+  "facts": [
+   "Things only float if they are less dense than the surrounding material.",
+   "Rocks are denser than air.",
+   "The atmosphere of Earth is made up of air."
+  ],
+  "term": "Atmosphere of Earth",
+  "description": "Layer of gases surrounding the planet Earth",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e258ef3e92f88d653e01",
+  "question": "Is growing seedless cucumber good for a gardener with entomophobia?",
+  "gold": "yes",
+  "gsm8k_answer": "Seedless cucumber fruit does not require pollination\nCucumber plants need insects to pollinate them\nEntomophobia is a fear of insects\n#### yes",
+  "decomposition": [
+   "What are people with Entomophobia fearful of?",
+   "How do #1's usually help in the process of gardening?",
+   "Do seedless cucumbers not require #2?"
+  ],
+  "facts": [
+   "Seedless cucumber fruit does not require pollination",
+   "Cucumber plants need insects to pollinate them",
+   "Entomophobia is a fear of insects"
+  ],
+  "term": "Cucumber",
+  "description": "species of plant",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e36fd3baeb35963cca95",
+  "question": "Would an adherent of Zoroastrianism consult the Quran for religious guidance?",
+  "gold": "no",
+  "gsm8k_answer": "The Quran is the central religious text of Islam\nZoroastrianism is an ancient religion predating Islam by several centuries\n#### no",
+  "decomposition": [
+   "Which religious group mainly uses the Quran for their consultation?",
+   "Is Zoroastrianism closely related to #1?"
+  ],
+  "facts": [
+   "The Quran is the central religious text of Islam",
+   "Zoroastrianism is an ancient religion predating Islam by several centuries"
+  ],
+  "term": "Quran",
+  "description": "The central religious text of Islam",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e45dd0b92d16cd22ea02",
+  "question": "Could two newborn American Black Bear cubs fit on a king size bed?",
+  "gold": "yes",
+  "gsm8k_answer": "The average size of an American Black Bear cub is only 8 inches at birth.\nKing size beds are 76\"x80\" in size.\n#### yes",
+  "decomposition": [
+   "What is the average length of an American Black Bear cub?",
+   "What is the size of a king bed?",
+   "Is two times #1 smaller than #2?"
+  ],
+  "facts": [
+   "The average size of an American Black Bear cub is only 8 inches at birth.",
+   "King size beds are 76\"x80\" in size."
+  ],
+  "term": "American black bear",
+  "description": "species of bear",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e584397a3163734e7468",
+  "question": "Would a vegan eat a traditional Paella dish?",
+  "gold": "no",
+  "gsm8k_answer": "Vegans do not consume animals or products derived from animals.\nThe traditional Paella recipe includes rabbit and chicken as two of the ingredients.\n#### no",
+  "decomposition": [
+   "What kind of products are forbidden in a vegan diet?",
+   "What are the main ingredients of Paella?",
+   "Are all of #2 totally excluded from #1?"
+  ],
+  "facts": [
+   "Vegans do not consume animals or products derived from animals.",
+   "The traditional Paella recipe includes rabbit and chicken as two of the ingredients."
+  ],
+  "term": "Paella",
+  "description": "Valencian rice dish",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e5e5d825ae2a11ea01b6",
+  "question": "Is it normal for people to sing when the YMCA is mentioned?",
+  "gold": "yes",
+  "gsm8k_answer": "The YMCA was written about in a widely popular song by \"The Village People\"\nThe Village People's song \"YMCA\" had an easy to do and very popular dance routine that went with it. \nThe song \"YMCA\" is extremely well known.\n#### yes",
+  "decomposition": [
+   "In what song was the YMCA written about?",
+   "Is #1 a very popular song?"
+  ],
+  "facts": [
+   "The YMCA was written about in a widely popular song by \"The Village People\"",
+   "The Village People's song \"YMCA\" had an easy to do and very popular dance routine that went with it. ",
+   "The song \"YMCA\" is extremely well known."
+  ],
+  "term": "YMCA",
+  "description": "Worldwide organization founded in 1844 on principles of muscular Christianity",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e800338edbe1d78ce911",
+  "question": "Did polio medicine save the life of polio vaccine creator?",
+  "gold": "no",
+  "gsm8k_answer": "Jonas Salk developed the first polio vaccine.\nJonas Salk died of a heart attack in 1995.\nHeart attacks are commonly treated with beta blockers.\n#### no",
+  "decomposition": [
+   "Who created polio vaccine?",
+   "Did #1 have his life saved by the use of polio vaccine?"
+  ],
+  "facts": [
+   "Jonas Salk developed the first polio vaccine.",
+   "Jonas Salk died of a heart attack in 1995.",
+   "Heart attacks are commonly treated with beta blockers."
+  ],
+  "term": "Medicine",
+  "description": "The science and practice of the diagnosis, treatment, and prevention of physical and mental illnesses",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e88a9d2174f77dba7899",
+  "question": "Would an Alfa Romeo vehicle fit inside a barn?",
+  "gold": "yes",
+  "gsm8k_answer": "Alfa Romeo makes cars.\nBarns are large enough to hold a car.\n#### yes",
+  "decomposition": [
+   "What is the average length of an Alfa Romeo?",
+   "What is the average size of a barn?",
+   "Is #1 smaller than #2?"
+  ],
+  "facts": [
+   "Alfa Romeo makes cars.",
+   "Barns are large enough to hold a car."
+  ],
+  "term": "Alfa Romeo",
+  "description": "Italian automotive manufacturer",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e894ba2ad678ee5ada1e",
+  "question": "Did Al Capone carry a smartphone?",
+  "gold": "no",
+  "gsm8k_answer": "Al Capone died in 1947.\nSmartphones were invented in 1992.\n#### no",
+  "decomposition": [
+   "In what year did Al Capone die?",
+   "What year was the first smartphone invented?",
+   "Is #1 after #2?"
+  ],
+  "facts": [
+   "Al Capone died in 1947.",
+   "Smartphones were invented in 1992."
+  ],
+  "term": "Al Capone",
+  "description": "American gangster and businessman",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e8d245781a7fd9e38701",
+  "question": "Can Paprika be made without a dehydrator?",
+  "gold": "yes",
+  "gsm8k_answer": "Peppers can be dehydrated in the oven in lieu of a dehydrator.\nSunlight and heat have been used for centuries to dry peppers and other foods.\n#### yes",
+  "decomposition": [
+   "What is paprika made from?",
+   "Can #1 be dehydrated without using a dehydrator?"
+  ],
+  "facts": [
+   "Peppers can be dehydrated in the oven in lieu of a dehydrator.",
+   "Sunlight and heat have been used for centuries to dry peppers and other foods."
+  ],
+  "term": "Paprika",
+  "description": "spice made from dried fruits of Capsicum annuum",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_e925a2cf42b2a6f440ce",
+  "question": "Do gorillas fight with panda bears?",
+  "gold": "no",
+  "gsm8k_answer": "Gorilla distribution is limited to areas of the continent of Africa\nPanda bears are found in the wild only in China\n#### no",
+  "decomposition": [
+   "What is the range for Gorillas?",
+   "What is the range for pandas?",
+   "Does #1 overlap #2?"
+  ],
+  "facts": [
+   "Gorilla distribution is limited to areas of the continent of Africa",
+   "Panda bears are found in the wild only in China"
+  ],
+  "term": "Gorilla",
+  "description": "Genus of mammals",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_eb09b7d29e48319b2f89",
+  "question": "Is menthol associated with Christmas?",
+  "gold": "yes",
+  "gsm8k_answer": "Menthol is the chemical in mint products that give mint its characteristic cool and tangy taste.\nPeppermint is a popular candy flavor during Christmas season.\n#### yes",
+  "decomposition": [
+   "What is a popular candy flavor during Christmas?",
+   "Is menthol an ingredient in #1?"
+  ],
+  "facts": [
+   "Menthol is the chemical in mint products that give mint its characteristic cool and tangy taste.",
+   "Peppermint is a popular candy flavor during Christmas season."
+  ],
+  "term": "Menthol",
+  "description": "chemical compound",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_eb324efb728182a2faa9",
+  "question": "Does Canada have a relationship with a monarch?",
+  "gold": "yes",
+  "gsm8k_answer": "Canada is a constitutional monarchy.\nThe head of the monarchy that rules Canada is Queen Elizabeth.\n#### yes",
+  "decomposition": [
+   "What system of government does Canada follow?",
+   "Who is the head of #1?",
+   "Is #2 a monarch?"
+  ],
+  "facts": [
+   "Canada is a constitutional monarchy.",
+   "The head of the monarchy that rules Canada is Queen Elizabeth."
+  ],
+  "term": "Monarch",
+  "description": "Person at the head of a monarchy",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_ebd6f9b3225d079b7cf9",
+  "question": "Do Youtube viewers get unsolicited audiobook advice often?",
+  "gold": "yes",
+  "gsm8k_answer": "Audible is one of the most common sponsors for Youtubers to have.\nAudible is an audiobook subscription service. \nAudible ads typically involve discussing a book that the speaker has recently listened to.\n#### yes",
+  "decomposition": [
+   "What company is one of the most common sponsors for Youtubers to have?",
+   "What do the ads for #1 typically involve?",
+   "Does #2 involve someone giving audiobook advice?"
+  ],
+  "facts": [
+   "Audible is one of the most common sponsors for Youtubers to have.",
+   "Audible is an audiobook subscription service. ",
+   "Audible ads typically involve discussing a book that the speaker has recently listened to."
+  ],
+  "term": "Audiobook",
+  "description": "recording of a text being read",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_ed17a0408fb1ebdb40d0",
+  "question": "Is RoboCop director from same country as Gaite Jansen?",
+  "gold": "yes",
+  "gsm8k_answer": "Robocop was directed by Paul Verhoeven.\nPaul Verhoeven was born in Amsterdam, Netherlands.\nGaite Jansen is an actress known for Jett and Peaky Blinders and was born in Rotterdam, Netherlands.\n#### yes",
+  "decomposition": [
+   "Who is the director of the movie RoboCop?",
+   "Where was #1 born?",
+   "Where was Gaite Jansen born?",
+   "Are #2 and #3 the same?"
+  ],
+  "facts": [
+   "Robocop was directed by Paul Verhoeven.",
+   "Paul Verhoeven was born in Amsterdam, Netherlands.",
+   "Gaite Jansen is an actress known for Jett and Peaky Blinders and was born in Rotterdam, Netherlands."
+  ],
+  "term": "RoboCop",
+  "description": "1987 science fiction film directed by Paul Verhoeven",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_ed5adee30bcf8df0bcd5",
+  "question": "Was Saint Vincent and the Grenadines named by an Italian explorer?",
+  "gold": "yes",
+  "gsm8k_answer": "Christopher Columbus, an Italian explorer, was the first European to discover the islands.\nHe named them after St. Vincent because he first saw the island on the saint's feast day, and the Spanish city of Granada.\n#### yes",
+  "decomposition": [
+   "Who discovered Saint Vincent and the Grenadines?",
+   "Was #1 from Italy?"
+  ],
+  "facts": [
+   "Christopher Columbus, an Italian explorer, was the first European to discover the islands.",
+   "He named them after St. Vincent because he first saw the island on the saint's feast day, and the Spanish city of Granada."
+  ],
+  "term": "Saint Vincent and the Grenadines",
+  "description": "Country in the Caribbean",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_edc975a00a21e20afad9",
+  "question": "Do most religious people in Quebec refer to the Quran?",
+  "gold": "no",
+  "gsm8k_answer": "Christianity is the major religion in Quebec.\nChristians refer to the Bible as their book of reference.\n#### no",
+  "decomposition": [
+   "What is the dominant religion in Quebec?",
+   "Do adherents of #1 commonly refer to the Quran?"
+  ],
+  "facts": [
+   "Christianity is the major religion in Quebec.",
+   "Christians refer to the Bible as their book of reference."
+  ],
+  "term": "Quran",
+  "description": "The central religious text of Islam",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_ef1be70be91463681734",
+  "question": "Did number of Imams Reza Shah believed in exceed number of Jesus's disciples?",
+  "gold": "no",
+  "gsm8k_answer": "Reza Shah, the founder of the Imperial state of Iran, was a Twelver Shia Muslim.\nTwelver Shia Muslims believe that there are 12 Imams.\nJesus is typically represented as having 12 disciples.\n#### no",
+  "decomposition": [
+   "What was the religion signature of Reza Shah?",
+   "How many Imams do adherents of #1 believe in?",
+   "How many disciples did Jesus have?",
+   "Is #2 greater than #3?"
+  ],
+  "facts": [
+   "Reza Shah, the founder of the Imperial state of Iran, was a Twelver Shia Muslim.",
+   "Twelver Shia Muslims believe that there are 12 Imams.",
+   "Jesus is typically represented as having 12 disciples."
+  ],
+  "term": "Reza Shah",
+  "description": "Shah of Iran, Founder of the Imperial state of iran",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_efe44afdf54069124386",
+  "question": "Can the city of Miami fit inside Uppsala?",
+  "gold": "no",
+  "gsm8k_answer": "Miami measures 55.25 mi².\nUppsala has an area of 18.83 mi². \n#### no",
+  "decomposition": [
+   "What is the area of Miami?",
+   "What is the area of Uppsala?",
+   "Is #1 less than or equal to #2?"
+  ],
+  "facts": [
+   "Miami measures 55.25 mi².",
+   "Uppsala has an area of 18.83 mi². "
+  ],
+  "term": "Uppsala",
+  "description": "Place in Uppland, Sweden",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_f054715965a77c3e2654",
+  "question": "Did Terry Pratchett write about quantum mechanics?",
+  "gold": "yes",
+  "gsm8k_answer": "“What're quantum mechanics?\"  \"I don't know. People who repair quantums, I suppose.”\n\"Granny Weatherwax wouldn’t know what a pattern of quantum inevitability was if she found it eating her dinner. If you mentioned the words ‘paradigm of space-time’ to her she’d just say ‘What?’ But that didn’t mean she was ignorant. It just meant that she didn’t have truck with words, especially gibberish.\"\n#### yes",
+  "decomposition": [
+   "What was Terry Pratchett's occupation?",
+   "Which subject deals with the study of quantum mechanics?",
+   "Is #2 a part of #1's job?"
+  ],
+  "facts": [
+   "“What're quantum mechanics?\"  \"I don't know. People who repair quantums, I suppose.”",
+   "\"Granny Weatherwax wouldn’t know what a pattern of quantum inevitability was if she found it eating her dinner. If you mentioned the words ‘paradigm of space-time’ to her she’d just say ‘What?’ But that didn’t mean she was ignorant. It just meant that she didn’t have truck with words, especially gibberish.\""
+  ],
+  "term": "Quantum mechanics",
+  "description": "Branch of physics that acts as an abstract framework formulating all the laws of nature",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_f1026caeb6713448b49c",
+  "question": "Would it be impossible to get to Burning Man on the Mayflower?",
+  "gold": "yes",
+  "gsm8k_answer": "The Mayflower was a seafaring vessel\nBurning Man is held in Black Rock Desert\nThere are no bodies of water flowing into the Black Rock Desert\n#### yes",
+  "decomposition": [
+   "What was the Mayflower?",
+   "What environment does #1 work in?",
+   "What kind of environment is The Burning Man?",
+   "Is #2 different from #3?"
+  ],
+  "facts": [
+   "The Mayflower was a seafaring vessel",
+   "Burning Man is held in Black Rock Desert",
+   "There are no bodies of water flowing into the Black Rock Desert"
+  ],
+  "term": "Burning Man",
+  "description": "annual experimental festival based in Nevada, United States",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_f4205a8e99db7b502528",
+  "question": "Could Rhode Island sink into the Bohai Sea?",
+  "gold": "yes",
+  "gsm8k_answer": "The Bohai Sea is 30,000 square miles\nRhode Island is 1,214 square miles\n#### yes",
+  "decomposition": [
+   "How many square miles is the Bohai Sea?",
+   "How many square miles is Rhode Island?",
+   "Is #1 greater than or equal to #2?"
+  ],
+  "facts": [
+   "The Bohai Sea is 30,000 square miles",
+   "Rhode Island is 1,214 square miles"
+  ],
+  "term": "Bohai Sea",
+  "description": "The innermost gulf of the Yellow Sea and Korea Bay on the coast of Northeastern and North China",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_f705abefaf0d869bc13b",
+  "question": "Can oysters be used in guitar manufacturing?",
+  "gold": "yes",
+  "gsm8k_answer": "Oysters produce nacre\nNacre is also known as mother of pearl\nMother of pearl is commonly used as an inlay on guitar fretboards, headstocks, and soundboards\n#### yes",
+  "decomposition": [
+   "What non-food products are derived from oysters?",
+   "Which of #1 are used for decoration?",
+   "What materials are used to decorate a guitar?",
+   "Is there overlap between #2 and #3?"
+  ],
+  "facts": [
+   "Oysters produce nacre",
+   "Nacre is also known as mother of pearl",
+   "Mother of pearl is commonly used as an inlay on guitar fretboards, headstocks, and soundboards"
+  ],
+  "term": "Oyster",
+  "description": "salt-water bivalve mollusc",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_f805d0218d81c8f31b0d",
+  "question": "Could a monolingual American read Lenovo's native name?",
+  "gold": "no",
+  "gsm8k_answer": "Lenovo's native name is 联想集团有限公司.\nSomeone who is monolingual only speaks one language.\nThe typical monolingual American would only be able to read English.\nSomeone who can only read English is therefore unable to read Chinese.\n#### no",
+  "decomposition": [
+   "What is Lenovo's native name?",
+   "What language is #1 in?",
+   "What language does a monolingual American speak?",
+   "Is #3 the same as #2?"
+  ],
+  "facts": [
+   "Lenovo's native name is 联想集团有限公司.",
+   "Someone who is monolingual only speaks one language.",
+   "The typical monolingual American would only be able to read English.",
+   "Someone who can only read English is therefore unable to read Chinese."
+  ],
+  "term": "Lenovo",
+  "description": "Chinese multinational technology company",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_f8a8780a0b9173f43e5c",
+  "question": "Would someone on Venus be unlikely to experience hypothermia?",
+  "gold": "yes",
+  "gsm8k_answer": "Hypothermia typically occurs from exposure to extreme cold.\nThe average surface temperature on Venus is 863°F.\nA warmer surface temperature on the planet will result in a higher body temperature for people on that planet.\n#### yes",
+  "decomposition": [
+   "What is the average surface temperature on Venus?",
+   "In order for the human body to experience hypothermia, it would have to be exposed to temperature that are what in relation to body temp?",
+   "What is human body temperature?",
+   "Does #1 meet the condition of #2 relative to #3?"
+  ],
+  "facts": [
+   "Hypothermia typically occurs from exposure to extreme cold.",
+   "The average surface temperature on Venus is 863°F.",
+   "A warmer surface temperature on the planet will result in a higher body temperature for people on that planet."
+  ],
+  "term": "Hypothermia",
+  "description": "A human body core temperature below 35.0°C",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_f90f095bb094fc6caff3",
+  "question": "Does having lip piercings lead to more expensive dental bills?",
+  "gold": "yes",
+  "gsm8k_answer": "Lip piercings can rub the enamel on your teeth and can cause tissue damage to the gums.\nTooth enamel protects the teeth from decay.\n#### yes",
+  "decomposition": [
+   "What is the function of Tooth Enamel?",
+   "Can Lip piercing cause damage to #1",
+   "Will #2 cost you more expensive dental bills?"
+  ],
+  "facts": [
+   "Lip piercings can rub the enamel on your teeth and can cause tissue damage to the gums.",
+   "Tooth enamel protects the teeth from decay."
+  ],
+  "term": "Lip",
+  "description": "Visible body part at the mouth",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_fb8b656051c742f5bd27",
+  "question": "Was Lil Jon's top ranked Billboard song a collaboration with a member of The Lox?",
+  "gold": "no",
+  "gsm8k_answer": "Lil Jon's highest ranked billboard song was Yeah.\nYeah was a collaboration between Lil Jon, Usher, and Ludacris.\nThe Lox is a rap trio consisting of: Styles P, Sheek Louch, and Jadakiss.\n#### no",
+  "decomposition": [
+   "What is Lil Jon's top ranked Billboard song?",
+   "What artists contributed to #1?",
+   "Who makes up the group The Lox?",
+   "Is any element of #3 also an element of #2?"
+  ],
+  "facts": [
+   "Lil Jon's highest ranked billboard song was Yeah.",
+   "Yeah was a collaboration between Lil Jon, Usher, and Ludacris.",
+   "The Lox is a rap trio consisting of: Styles P, Sheek Louch, and Jadakiss."
+  ],
+  "term": "Lil Jon",
+  "description": "American rapper, record producer and DJ from Georgia",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_fbf4b7e4de60b95c5427",
+  "question": "Has Aretha Franklin ever collaborated with a suicidal person?",
+  "gold": "yes",
+  "gsm8k_answer": "Donny Hathaway was a singer and session musician that worked with Staple Singers, Jerry Butler, Aretha Franklin, the Impressions  and Curtis Mayfield.\nDonny Hathaway jumped from his 15th floor room and his death was ruled a suicide.\n#### yes",
+  "decomposition": [
+   "What music artists has Aretha Franklin done collaborations with?",
+   "Did any of the artists listed in #1 commit suicide?"
+  ],
+  "facts": [
+   "Donny Hathaway was a singer and session musician that worked with Staple Singers, Jerry Butler, Aretha Franklin, the Impressions  and Curtis Mayfield.",
+   "Donny Hathaway jumped from his 15th floor room and his death was ruled a suicide."
+  ],
+  "term": "Aretha Franklin",
+  "description": "American singer, songwriter, and pianist",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_fd3286892e0ee533838a",
+  "question": "Did Snoop Dogg refuse to make music with rival gang members?",
+  "gold": "no",
+  "gsm8k_answer": "American rapper Snoop Dogg is a member of the Crips gang.\nThe Crips are enemies of their rival gang, The Bloods.\nRapper, The Game is a member of The Bloods gang.\nTha Blue Carpet Treatment was a Snoop Dogg mixtape featuring the song California Vacation.\nSnoop Dogg collaborates with Xzibit and The Game on the song California Vacation.\n#### no",
+  "decomposition": [
+   "What is the name of the gang that Snoop Dogg is part of?",
+   "Which gang is the rival of #1?",
+   "In Snoop Dogg's song California Vacation, which rapper did he collaborate with?",
+   "Is #3 not associated with #2?"
+  ],
+  "facts": [
+   "American rapper Snoop Dogg is a member of the Crips gang.",
+   "The Crips are enemies of their rival gang, The Bloods.",
+   "Rapper, The Game is a member of The Bloods gang.",
+   "Tha Blue Carpet Treatment was a Snoop Dogg mixtape featuring the song California Vacation.",
+   "Snoop Dogg collaborates with Xzibit and The Game on the song California Vacation."
+  ],
+  "term": "Snoop Dogg",
+  "description": "American rapper",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_febc65867089ac6a79e7",
+  "question": "Could Johnny Carson's children fill out a water polo team?",
+  "gold": "no",
+  "gsm8k_answer": "Johnny Carson had 3 children.\nWater polo teams consist of 7 players.\n#### no",
+  "decomposition": [
+   "How many children does Johnny Carson have?",
+   "How many people are needed to fill out a water polo team?",
+   "Is #1 greater than or equal to #2?"
+  ],
+  "facts": [
+   "Johnny Carson had 3 children.",
+   "Water polo teams consist of 7 players."
+  ],
+  "term": "Johnny Carson",
+  "description": "American talk show host and comedian",
+  "source": "StrategyQA train (dev sample)"
+ },
+ {
+  "id": "sqa_ff21df087958bda81be8",
+  "question": "Does table tennis use prime numbers?",
+  "gold": "yes",
+  "gsm8k_answer": "A table tennis game is won by the player first scoring 11 points.\n11 is a prime number.\n#### yes",
+  "decomposition": [
+   "What are the scores that can be awarded in a game of table tennis?",
+   "Is any of #1 a prime number?"
+  ],
+  "facts": [
+   "A table tennis game is won by the player first scoring 11 points.",
+   "11 is a prime number."
+  ],
+  "term": "Table tennis",
+  "description": "Racket sport",
+  "source": "StrategyQA train (dev sample)"
+ }
+]

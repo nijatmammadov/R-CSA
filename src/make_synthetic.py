@@ -208,9 +208,9 @@ def h_up_then_down(r):
 
 
 def h_tiles_two_fractions(r):
-    a, b = r.choice([(4, 3), (3, 2), (4, 2), (6, 3), (5, 2)])
-    c = r.choice([8, 10, 12])
     while True:
+        a, b = r.choice([(4, 3), (3, 2), (4, 2), (6, 3), (5, 2)])
+        c = r.choice([8, 10, 12])
         T = a * b * r.randint(3, 20)
         u1 = T // a
         l1 = T - u1
@@ -349,19 +349,21 @@ def h_schedule_exceptions(r):
 
 HARD = [h_two_rate_journey, h_up_then_down, h_tiles_two_fractions, h_backwards_three, h_week_closed_day,
         h_ratio_difference, h_unit_price_cents, h_midnight_shift, h_border_area, h_schedule_exceptions]
-SETS = {'v1': TEMPLATES, 'v2': HARD}
+SETS = {'v1': TEMPLATES, 'v2': HARD, 'both': TEMPLATES + HARD}
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--out', default='synth_questions.json')
+    ap.add_argument('--out', required=True)
     ap.add_argument('--set', choices=sorted(SETS), default='v1',
-                    help="v1 = the first set; v2 = the harder set (traps in the middle or at the end)")
+                    help="v1 = the first set; v2 = the harder set; both = all 20 templates")
     ap.add_argument('--per-template', type=int, default=10)
-    ap.add_argument('--seed', type=int, default=7)
+    ap.add_argument('--seed', type=int, default=2026, help='7 and the v2 seed were the development sets')
+    ap.add_argument('--avoid', nargs='*', default=[], help='question files whose questions must not repeat')
     a = ap.parse_args()
     out = []
-    seen = set()
+    seen = {x['question'] for f in a.avoid for x in json.load(open(f, encoding='utf-8'))}
+    n_avoid = len(seen)
     for ti, tmpl in enumerate(SETS[a.set]):
         for j in range(a.per_template):
             for salt in range(50):
@@ -370,15 +372,18 @@ def main():
                 q, ref = tmpl(r)
                 if q not in seen:
                     break
+            else:
+                raise SystemExit('template %s: no new question after 50 draws' % tmpl.__name__)
             seen.add(q)
             ans = ref[-1][1]
-            assert isinstance(ans, int) and ans > 0, (tmpl.__name__, ans)
-            out.append({'id': ('syn_%02d%02d' if a.set == 'v1' else 'sy2_%02d%02d') % (ti, j), 'template': tmpl.__name__[2:], 'question': q,
+            if not (isinstance(ans, int) and ans > 0):
+                raise SystemExit('template %s gave a non-positive or non-integer answer %r' % (tmpl.__name__, ans))
+            out.append({'id': 'sya_%02d%02d' % (ti, j), 'template': tmpl.__name__[2:], 'question': q,
                         'reference': [{'step': s, 'value': v} for s, v in ref],
                         'gsm8k_answer': '\n'.join('%s = %s' % (s, v) for s, v in ref) + '\n#### %d' % ans,
                         'source': 'synthetic'})
     json.dump(out, open(a.out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    print('%d questions -> %s' % (len(out), a.out))
+    print('%d questions -> %s (none of the %d questions in --avoid)' % (len(out), a.out, n_avoid))
 
 
 if __name__ == '__main__':

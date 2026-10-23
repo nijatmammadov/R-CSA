@@ -16,10 +16,20 @@ score falls below a threshold is reported as the error.
 |---|---|---|---|
 | GSM8K | 200 questions from the GSM8K train split | 400 questions from GSM8K-Platinum | Llama-3.1-8B-Instruct, Mistral-7B-Instruct-v0.3 |
 | MATH Level 5 | 200 Level 5 questions from the MATH train split | 400 Level 5 questions from the MATH test split, excluding MATH-500 | Qwen2.5-7B-Instruct |
+| StrategyQA (yes/no) | 200 questions from the StrategyQA train split, threshold by 5-fold cross-validation | - | all three |
+| Track A (injected errors) | - | 200 correct chains on new template questions, 100 with one injected error | Llama-3.1-8B-Instruct |
+| TruthfulQA (Feng's setting) | - | 200 standalone statements, 100 truthful and 100 misleading | Llama-3.1-8B-Instruct |
 
 Early method choices (step shortening, probe types) were made on two code-generated sets of 100
 word problems each, built from templates with known answers and reference steps
 (`src/make_synthetic.py`, `data/synthetic`). They were used only for development, not for testing.
+Track A draws new questions from the same templates with a new seed (`data/tracka`); the model's
+correct chains get one error of a known type at a known step (`src/inject_errors.py`), so the
+labels are known by construction.
+
+StrategyQA chains have no arithmetic, so `src/css_fact.py` takes the place of `src/css.py` there:
+each step is rewritten as a claim and probed with Feng's probe types; there are no re-derivations
+and no question probes.
 
 Each model solves the questions itself and judges its own steps. First-error labels were proposed
 by a script and an LLM assistant, then confirmed by hand. The question files are in `data/dev` and
@@ -43,6 +53,20 @@ locates the first error better than the same model used as a ProcessBench critic
 GSM8K, not on MATH Level 5). SelfCheckGPT detects better but cannot locate the error and needs about
 twice as many calls per chain.
 
+| Setting | R-CSA PB F1 | P(TRUE) PB F1 | Critic PB F1 | R-CSA AUROC | SelfCheckGPT AUROC |
+|---|---|---|---|---|---|
+| StrategyQA, Llama | 0.29 | 0.27 | 0.02 | 0.66 | 0.76 |
+| StrategyQA, Mistral | 0.16 | 0.15 | 0.00 | 0.50 | 0.71 |
+| StrategyQA, Qwen | 0.26 | 0.24 | 0.32 | 0.58 | 0.80 |
+| Track A, Llama | 0.70 | 0.52 | 0.30 | 0.94 | 0.99 |
+
+On StrategyQA R-CSA transfers weakly; for Mistral and Qwen almost half of the steps get
+P(TRUE) >= 0.999, and R-CSA is close to chance. On Track A it locates 68 of 100 injected errors
+exactly with 27 false alarms on 100 clean chains (P(TRUE) alone: 65 and 57). Injected errors are
+easier to find than natural ones, so these numbers are upper bounds. Feng's method on 196
+TruthfulQA statements reaches F1 0.68 (0.816 in his paper), with AUROC 0.61 against 0.67 for verbal
+confidence.
+
 ## Usage
 
 ```bash
@@ -62,4 +86,21 @@ python src/css_eval.py --labels data/dev/dev_llama31-8b_solved.json \
 
 Pipeline: `pb_solve.py` (solve) → `css.py`, `css_cfq.py`, `pb_ptrue_full.py` (R-CSA stages) →
 `css_eval.py` (score). Baselines: `pb_feng.py`, `pb_critic.py`, `pb_selfcheck.py`.
-`notebooks/kaggle_vllm_run.ipynb` runs everything with an open model on Kaggle.
+`notebooks/kaggle_vllm_run.ipynb` runs everything with an open model on Kaggle,
+`notebooks/kaggle_vllm_strategyqa.ipynb` the StrategyQA runs.
+
+```bash
+# StrategyQA (TAG = llama31-8b, mistral7b, qwen25-7b)
+D=results/dev/dev_${TAG}_sqa
+python src/css_eval.py --labels data/dev/dev_${TAG}_sqa2_solved.json --css ${D}_css.json --feng ${D}_feng.json \
+    --critic ${D}_critic.json --selfcheck ${D}_selfcheck.json --ptrue-full ${D}_ptrue_full.json \
+    --weights-from results/dev/css_frozen_llama31-8b.json --rule recall:0.8 --cv 5
+# Track A
+S=results/tracka/tracka_llama31-8b
+python src/css_eval.py --labels data/tracka/tracka_llama31-8b_inj.json --css ${S}_css.json --feng ${S}_feng.json \
+    --critic ${S}_critic.json --selfcheck ${S}_selfcheck.json --ptrue-full ${S}_ptrue_full.json --cfq ${S}_cfq.json \
+    --frozen results/dev/css_frozen_llama31-8b.json
+# TruthfulQA, and the analyses from the research plan
+python src/score_statements.py results/truthfulqa/truthfulqa_llama31-8b_feng.json
+python src/plan_analyses.py
+```
