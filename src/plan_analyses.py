@@ -38,17 +38,24 @@ def s_conf(row, _p=None):
 METHODS = [('R-CSA', s_css_full), ('P(TRUE)', s_ptrue_full), ('RS (plan)', s_rs), ('Conf(step) alone', s_conf)]
 
 
-def load_math(labels, prefix, css_suffix):
-    chains, _, _ = load(labels, prefix + css_suffix, None, None, ptrue_full_path=prefix + '_ptrue_full.json',
-                        cfq_path=prefix + '_cfq.json')
+def opt(path):
+    return path if os.path.exists(path) else None
+
+
+def load_with(labels, prefix, css_path, selfcheck=True):
+    chains, _, _ = load(labels, css_path, opt(prefix + '_feng.json'), opt(prefix + '_critic.json'),
+                        opt(prefix + '_selfcheck.json') if selfcheck else None,
+                        ptrue_full_path=prefix + '_ptrue_full.json', cfq_path=opt(prefix + '_cfq.json'))
     return chains
+
+
+def load_math(labels, prefix, css_suffix, selfcheck=True):
+    return load_with(labels, prefix, prefix + css_suffix, selfcheck)
 
 
 def load_sqa(tag):
     p = D + 'dev_%s_sqa' % tag
-    chains, _, _ = load('data/dev/dev_%s_sqa2_solved.json' % tag, p + '_css.json', None, None,
-                        ptrue_full_path=p + '_ptrue_full.json')
-    return chains
+    return load_with('data/dev/dev_%s_sqa2_solved.json' % tag, p, p + '_css.json')
 
 
 def scope(chains, fn, param=None):
@@ -256,7 +263,7 @@ def main():
     a = ap.parse_args()
     rows = []
     for name, tag, dev_labels, dev_prefix, test_labels, test_prefix in MATH:
-        dev = load_math(dev_labels, dev_prefix, '_css2.json')
+        dev = load_math(dev_labels, dev_prefix, '_css2.json', selfcheck=False)
         test = load_math(test_labels, test_prefix, '_css.json')
         frozen = json.load(open(D + 'css_frozen_%s.json' % tag, encoding='utf-8'))
         rows.append((name + ' (test)', test, thresholded(name, test, dev, frozen, cv=False)))
@@ -267,10 +274,8 @@ def main():
     for sec in (section_a, section_b, section_c, section_d):
         L += sec(rows) + ['']
     if os.path.exists(SYN[1]) and os.path.exists(SYN[2] + '_css.json'):
-        cfq = SYN[2] + '_cfq.json'
-        syn, _, _ = load(SYN[1], SYN[2] + '_css.json', None, None, ptrue_full_path=SYN[2] + '_ptrue_full.json',
-                         cfq_path=cfq if os.path.exists(cfq) else None)
-        dev = load_math(MATH[0][2], MATH[0][3], '_css2.json')
+        syn = load_with(SYN[1], SYN[2], SYN[2] + '_css.json')
+        dev = load_math(MATH[0][2], MATH[0][3], '_css2.json', selfcheck=False)
         th = thresholded(SYN[0], syn, dev, json.load(open(D + 'css_frozen_llama31-8b.json', encoding='utf-8')), cv=False)
         sa = section_a([(SYN[0], syn, th)])
         sa[0] = '## (a) on Track A: RS beside R-CSA'
